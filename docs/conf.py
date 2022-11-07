@@ -38,29 +38,28 @@ html_css_files = [
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
 ]
 html_title = 'jwcook\'s home page'
-html_logo = '_static/logo.png'
+# html_logo = '_static/logo.png'
 html_show_copyright = False
 html_show_sphinx = False
-html_theme = 'gruvboxsphinx'
 
-
-# Alternative settings for Furo theme
 # notfound_default_version = 'stable'
-# pygments_style = 'friendly'
-# pygments_dark_style = 'material'
+pygments_style = 'gruvbox-light'
+pygments_dark_style = 'gruvbox-dark'
 
 # HTML theme settings
-# html_theme = 'furo'
-# html_theme_options = {
-#     'light_logo': 'requests-cache-logo-light.webp',
-#     'dark_logo': 'requests-cache-logo-dark.webp',
-#     'sidebar_hide_name': True,
-#     'light_css_variables': {
-#         'color-brand-primary': '#0288d1',
-#         'color-brand-content': '#2a5adf',
-#     },
-#     'dark_css_variables': {
-#         'color-brand-primary': '#5eb8ff',
-#         'color-brand-content': '#368ce2',
-#     },
-# }
+html_theme = 'furo'
+html_theme_options = {
+    # 'light_logo': 'logo-light.webp',
+    # 'dark_logo': 'logo-dark.webp',
+    'sidebar_hide_name': True,
+    'light_css_variables': {
+        'font-stack': 'JetBrainsMono',
+        'color-brand-primary': '#b57614',
+        'color-brand-content': '#79740e',
+    },
+    'dark_css_variables': {
+        'font-stack': 'JetBrainsMono',
+        'color-brand-primary': '#fabd2f',
+        'color-brand-content': '#b8bb26',
+    },
+}
