@@ -1,12 +1,12 @@
 # Test
 
-* plain test
+* plain text
 * `inline code`
 * _italic text_
 * **bold text**
 * **_bold italic text_**
 
-# Contents
+## Contents
 ```{toctree}
 subpage_1
 subpage_2
@@ -33,7 +33,19 @@ wow look at this cat
 
 ![](../assets/cat.png)
 
+
+### Important status update
+how else will people know this is a work in progress
+
+oh man this is going to look so cool when it's done
+
+![](../assets/underconstruction_2.gif)
+
+![](../assets/underconstruction_1.gif) ![](../assets/underconstruction_1.gif) ![](../assets/underconstruction_1.gif) ![](../assets/underconstruction_1.gif) ![](../assets/underconstruction_1.gif)
+
+
 ## Lorem ipsum
+![](../assets/underconstruction_3.gif)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae aliquet nec ullamcorper sit amet risus nullam. Pretium fusce id velit ut tortor pretium viverra. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Morbi non arcu risus quis varius quam quisque id. Turpis massa tincidunt dui ut ornare lectus sit amet. Congue eu consequat ac felis donec. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Ipsum a arcu cursus vitae congue mauris rhoncus. Egestas dui id ornare arcu odio ut sem. Vel pharetra vel turpis nunc eget lorem dolor. Congue eu consequat ac felis.
 
