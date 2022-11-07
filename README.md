@@ -1,5 +1,5 @@
-# Test
-Placeholder Sphinx doc outline
+# jwcook's tilde.team page
+Markdown-based static site generated with Sphinx and MyST
 
 Prerequisites:
 * python 3.8+

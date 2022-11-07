@@ -1,12 +1,12 @@
 .PHONY: clean docs livedocs
 
 clean:
-	rm -rf docs/_build
+	rm -rf _build
 
 docs:
-	sphinx-build docs docs/_build/html
+	sphinx-build pages _build/html
 
 livedocs:
-	sphinx-autobuild docs docs/_build/html -a \
+	sphinx-autobuild pages _build/html -a \
 		--ignore '*.tmp' \
 		--port 8181
