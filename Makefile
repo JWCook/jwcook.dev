@@ -8,5 +8,7 @@ docs:
 
 livedocs:
 	sphinx-autobuild pages _build/html -a \
+		--watch assets \
+		--watch pages/conf.py \
 		--ignore '*.tmp' \
 		--port 8181
