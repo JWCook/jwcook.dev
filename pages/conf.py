@@ -16,6 +16,7 @@ templates_path = ['_templates']
 extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.extlinks',
+    'sphinx_copybutton',
     'sphinx_design',
     'myst_parser',
     'notfound.extension',
@@ -29,6 +30,10 @@ myst_enable_extensions = [
     'replacements',
     'smartquotes',
 ]
+
+# Strip prompt text when copying code blocks with copy button
+copybutton_prompt_text = r'>>> |\.\.\. |\$ '
+copybutton_prompt_is_regexp = True
 
 # HTML general settings
 # html_favicon = join('../assets', 'favicon.ico')
@@ -89,4 +94,3 @@ html_theme_options = {
 # bg3 #665c54
 # bg4 #7c6f64
 # gray #928374
-
