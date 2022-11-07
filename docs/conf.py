@@ -30,25 +30,26 @@ myst_enable_extensions = [
     'smartquotes',
 ]
 
-# Strip prompt text when copying code blocks with copy button
-copybutton_prompt_text = r'>>> |\.\.\. |\$ '
-copybutton_prompt_is_regexp = True
-
 # HTML general settings
 # html_favicon = join('_static', 'favicon.ico')
 html_css_files = [
+    'fonts.css',
+    'style.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
 ]
 html_title = 'jwcook\'s home page'
 html_logo = '_static/logo.png'
 html_show_copyright = False
 html_show_sphinx = False
+html_theme = 'gruvboxsphinx'
+
+
+# Alternative settings for Furo theme
 # notfound_default_version = 'stable'
 # pygments_style = 'friendly'
 # pygments_dark_style = 'material'
 
 # HTML theme settings
-html_theme = 'gruvboxsphinx'
 # html_theme = 'furo'
 # html_theme_options = {
 #     'light_logo': 'requests-cache-logo-light.webp',

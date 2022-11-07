@@ -4,21 +4,24 @@
 * `test_2`
 * **bold text**
 
-
-## Code blocks
-
-```python
-print('Hello, world!')
-```
-
-```bash
-echo 'Hello, world!'
-```
-
 # Contents
 ```{toctree}
 subpage_1
 subpage_2
+```
+
+## Code blocks
+
+```python
+import requests
+
+print('Hello, world!')
+response = requests.get('https://httpbin.org/get', params={'foo': 'bar'})
+print(response.text)
+```
+
+```bash
+echo 'Hello, world!'
 ```
 
 ## Lorem ipsum
