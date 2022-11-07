@@ -1,8 +1,10 @@
 # Test
 
-* test1
-* `test_2`
+* plain test
+* `inline code`
+* _italic text_
 * **bold text**
+* **_bold italic text_**
 
 # Contents
 ```{toctree}
@@ -15,14 +17,21 @@ subpage_2
 ```python
 import requests
 
-print('Hello, world!')
-response = requests.get('https://httpbin.org/get', params={'foo': 'bar'})
+response = requests.get('https://httpbin.org/get', params={'page': '1'})
 print(response.text)
+print(response.headers)
 ```
 
 ```bash
-echo 'Hello, world!'
+for i in {1..10}; do
+    echo "Hello, world $i!"
+done
 ```
+
+## Images
+wow look at this cat
+
+![](../assets/cat.png)
 
 ## Lorem ipsum
 
