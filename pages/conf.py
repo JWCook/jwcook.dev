@@ -8,7 +8,10 @@ needs_sphinx = '4.0'
 master_doc = 'index'
 source_suffix = ['.md', '.rst']
 version = release = '0.0.1'
-html_static_path = ['../assets']
+html_static_path = [
+    '../assets/css',
+    '../assets/js',
+]  # Exclude assets/images (automatically copied)
 exclude_patterns = ['_build', 'README.md']
 templates_path = ['_templates']
 
@@ -42,6 +45,7 @@ html_css_files = [
     'style.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
 ]
+html_js_files = []
 html_title = "jwcook's home page"
 # html_logo = '../assets/logo.png'
 html_show_copyright = False
