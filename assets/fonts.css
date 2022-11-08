@@ -3,49 +3,57 @@
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 100;
-  src: url("fonts/JetBrainsMono-Thin.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-Thin.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 200;
-  src: url("fonts/JetBrainsMono-ExtraLight.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-ExtraLight.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 300;
-  src: url("fonts/JetBrainsMono-Light.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-Light.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 500;
-  src: url("fonts/JetBrainsMono-Medium.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-Medium.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 600;
-  src: url("fonts/JetBrainsMono-SemiBold.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/JetBrainsMono-Bold.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-Bold.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: normal;
   font-weight: 800;
-  src: url("fonts/JetBrainsMono-ExtraBold.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+  font-display: fallback;
 }
 
 /* Italic fonts */
@@ -53,47 +61,55 @@
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 100;
-  src: url("fonts/JetBrainsMono-ThinItalic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-ThinItalic.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 200;
-  src: url("fonts/JetBrainsMono-ExtraLightItalic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-ExtraLightItalic.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 300;
-  src: url("fonts/JetBrainsMono-LightItalic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-LightItalic.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 400;
-  src: url("fonts/JetBrainsMono-Italic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-Italic.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 500;
-  src: url("fonts/JetBrainsMono-MediumItalic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-MediumItalic.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 600;
-  src: url("fonts/JetBrainsMono-SemiBoldItalic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-SemiBoldItalic.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 700;
-  src: url("fonts/JetBrainsMono-BoldItalic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-BoldItalic.woff2') format('woff2');
+  font-display: fallback;
 }
 @font-face {
   font-family: JetBrainsMono;
   font-style: italic;
   font-weight: 800;
-  src: url("fonts/JetBrainsMono-ExtraBoldItalic.ttf") format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.242/fonts/webfonts/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
+  font-display: fallback;
 }
