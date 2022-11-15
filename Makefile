@@ -14,7 +14,9 @@ livedocs: clean
 		--port 8181
 
 publish:
-	rsync -a _build/html/* tilde:~/public_html/
-	scp .ring tilde:~/
-	scp assets/images/avatar.png tilde:~/public_html/
-	ssh tilde 'touch ~/public_html/index.html'
+	rsync -a _build/html/*                  tilde.team:~/public_html/
+	rsync -a assets/dotfiles/tagline.txt    tilde.team:~/public_html/
+	rsync -a assets/images/avatar.png       tilde.team:~/public_html/
+	rsync -a assets/dotfiles/.project       tilde.team:~/
+	ssh tilde.team 'cp ~/public_html/tagline.txt ~/.ring'
+	ssh tilde.team 'touch ~/public_html/index.html'
