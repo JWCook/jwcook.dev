@@ -1,4 +1,4 @@
-# jwcook's home page
+# ~jwcook
 
 ## Contents
 ```{toctree}

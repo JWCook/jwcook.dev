@@ -1,7 +1,3 @@
-from os.path import join
-from pathlib import Path
-from shutil import copy
-
 # General information about the project.
 project = 'jwcook'
 needs_sphinx = '4.0'
@@ -46,7 +42,7 @@ html_css_files = [
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
 ]
 html_js_files = []
-html_title = "jwcook's home page"
+html_title = '~jwcook'
 # html_logo = '../assets/logo.png'
 html_show_copyright = False
 html_show_sphinx = False
