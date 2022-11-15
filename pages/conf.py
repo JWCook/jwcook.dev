@@ -44,8 +44,10 @@ html_css_files = [
 html_js_files = []
 html_title = '~jwcook'
 # html_logo = '../assets/logo.png'
+html_last_updated_fmt = '%Y-%m-%d'
 html_show_copyright = False
 html_show_sphinx = False
+
 # HTML theme settings
 pygments_style = 'gruvbox-light'
 pygments_dark_style = 'gruvbox-dark'

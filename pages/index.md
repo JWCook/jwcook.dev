@@ -57,15 +57,3 @@ Urna id volutpat lacus laoreet non. Mi tempus imperdiet nulla malesuada pellente
 Tincidunt nunc pulvinar sapien et. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Sed velit dignissim sodales ut. Quam viverra orci sagittis eu volutpat odio facilisis. Laoreet non curabitur gravida arcu ac tortor dignissim. Auctor elit sed vulputate mi sit amet mauris. Egestas dui id ornare arcu odio ut. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Lacinia quis vel eros donec ac odio tempor. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Dapibus ultrices in iaculis nunc sed augue lacus. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna.
 
 Ipsum dolor sit amet consectetur adipiscing. Libero justo laoreet sit amet cursus sit amet dictum sit. Sed velit dignissim sodales ut. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Ac placerat vestibulum lectus mauris. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Risus pretium quam vulputate dignissim suspendisse in est ante in. Sit amet mauris commodo quis imperdiet massa. Et sollicitudin ac orci phasellus egestas tellus. Volutpat commodo sed egestas egestas fringilla. Sit amet consectetur adipiscing elit. Morbi enim nunc faucibus a pellentesque sit amet porttitor. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Lectus quam id leo in vitae turpis massa sed. Morbi quis commodo odio aenean sed adipiscing diam donec. Ipsum faucibus vitae aliquet nec.
-
-<!-- TODO: add this to page footer automatically -->
-<!-- tilde.team ring fragment-->
-<div id="newring">
-<div style="text-align: center;">
-[<a href="https://tilde.team/ring/?action=prev&me=USERNAME">previous</a>]
-[<a href="https://tilde.team/ring/?action=random&me=USERNAME">random</a>]
-[<a href="https://tilde.team/ring/?action=next&me=USERNAME">next</a>]
-<br>
-<a href="https://tilde.team/ring/">how to join this webring</a>
-</div>
-</div>
