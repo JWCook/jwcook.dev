@@ -46,8 +46,16 @@
         {%- for sidebar_section in sidebars %}
           {%- include sidebar_section %}
         {%- endfor %}
+        <!-- TODO: insert via template variables -->
+        <div align="center">
+          <a title="Source" href="https://tildegit.org/jwcook/jwcook.tilde.team"><i class="fa-brands
+          fa-git-alt" style="color: var(--color-brand-primary)"></i></a>
+          <a title="GitHub" href="https://github.com/JWCook"><i class="fa-brands fa-github" style="color: var(--color-brand-primary)"></i></a>
+          <a title="Flickr" href="https://flickr.com/photos/jcook83/"><i class="fa-brands fa-flickr" style="color: var(--color-brand-primary)"></i></a>
+          <a title="iNaturalist" href="https://www.inaturalist.org/observations?place_id=any&user_id=jkcook"><i class="fa-solid fa-spider" style="color: var(--color-brand-primary)"></i></a>
+        </div>
+        <br>
       </div>
-
       {% endblock left_sidebar %}
     </div>
   </aside>
@@ -73,13 +81,15 @@
       <footer>
         {% block footer %}
         <div class="bottom-of-page">
+            <!-- TODO: insert via template variables -->
             <div id="newring">
               <div style="text-align: center;">
                 <a href="https://tilde.team/ring/">tilde.team webring</a>
                 <br>
-              [<a href="https://tilde.team/ring/?action=prev&me=jwcook">previous</a>]
-              [<a href="https://tilde.team/ring/?action=random&me=jwcook">random</a>]
-              [<a href="https://tilde.team/ring/?action=next&me=jwcook">next</a>]
+              <a title="previous tilde" href="https://tilde.team/ring/?action=prev&me=jwcook"><i class="fa-solid fa-arrow-left-long"></i> prev</a>
+              | <a title="random tilde" href="https://tilde.team/ring/?action=random&me=jwcook"><i class="fa-solid fa-shuffle"></i></a> |
+              <a title="next tilde" href="https://tilde.team/ring/?action=next&me=jwcook">next <i class="fa-solid fa-right-long"></i></a>
+
               </div>
             </div>
             {%- if last_updated -%}

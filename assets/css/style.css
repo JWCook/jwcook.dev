@@ -1,5 +1,3 @@
-/*
- * body {
- *     font-family:"JetBrainsMono";
- * }
- */
+.sidebar-extlink {
+    color: var(--color-brand-primary);
+}
