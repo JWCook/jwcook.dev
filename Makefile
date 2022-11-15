@@ -15,3 +15,4 @@ livedocs: clean
 
 publish:
 	rsync -a _build/html/* tilde:~/public_html/
+	rsync -a .ring tilde:~/
