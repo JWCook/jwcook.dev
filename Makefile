@@ -15,5 +15,6 @@ livedocs: clean
 
 publish:
 	rsync -a _build/html/* tilde:~/public_html/
-	rsync -a .ring tilde:~/
+	scp .ring tilde:~/
+	scp assets/images/avatar.png tilde:~/public_html/
 	ssh tilde 'touch ~/public_html/index.html'
