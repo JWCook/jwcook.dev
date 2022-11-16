@@ -90,6 +90,7 @@
               <a title="next tilde" href="https://tilde.team/ring/?action=next&me=jwcook">next <i class="fa-solid fa-right-long"></i></a>
               </div>
             </div>
+            <div align="right">
             {%- if last_updated -%}
             <div class="last-updated">
               {% trans last_updated=last_updated|e -%}
@@ -97,6 +98,10 @@
               {%- endtrans -%}
             </div>
             {%- endif %}
+
+            <a href="https://hits.sh/tilde.team/~jwcook/">
+              <img alt="Hits" src="https://hits.sh/tilde.team/~jwcook.svg?style=flat-square&label=views%3A&color=83a598&labelColor=504945"/></a>
+          </div>
         </div>
         {% endblock footer %}
       </footer>
