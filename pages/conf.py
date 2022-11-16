@@ -9,7 +9,7 @@ html_static_path = [
     '../assets/js',
 ]  # Exclude assets/images (automatically copied)
 exclude_patterns = ['_build', 'README.md']
-templates_path = ['../assets/templates']
+templates_path = ['../templates']
 
 # Sphinx extensions
 extensions = [

@@ -1,3 +1,6 @@
-.sidebar-extlink {
+.md-primary {
     color: var(--color-brand-primary);
+}
+.md-secondary {
+    color: var(--color-brand-content);
 }

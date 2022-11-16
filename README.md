@@ -1,17 +1,21 @@
 # jwcook's tilde.team page
 Markdown-based static site generated with [Sphinx](docs.readthedocs.io) and [MyST](https://myst-parser.readthedocs.io).
 
-## Usage
+## Setup
 Prerequisites:
 * python 3.8+
 
-To build:
 ```bash
 pip install -U -r requirements.txt
+```
+
+## Usage
+Build:
+```bash
 make docs
 ```
 
-Or build with live reload:
+Build with live reload:
 ```bash
 make livedocs
 ```

@@ -38,6 +38,8 @@
       </label>
     </div>
   </header>
+
+  <!-- Left sidebar -->
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       {% block left_sidebar %}
@@ -45,19 +47,12 @@
         {%- for sidebar_section in sidebars %}
           {%- include sidebar_section %}
         {%- endfor %}
-        <!-- TODO: insert via template variables -->
-        <div align="center">
-          <a title="Source" href="https://tildegit.org/jwcook/jwcook.tilde.team"><i class="fa-brands
-          fa-git-alt" style="color: var(--color-brand-primary)"></i></a>
-          <a title="GitHub" href="https://github.com/JWCook"><i class="fa-brands fa-github" style="color: var(--color-brand-primary)"></i></a>
-          <a title="Flickr" href="https://flickr.com/photos/jcook83/"><i class="fa-brands fa-flickr" style="color: var(--color-brand-primary)"></i></a>
-          <a title="iNaturalist" href="https://www.inaturalist.org/observations?place_id=any&user_id=jkcook"><i class="fa-solid fa-spider" style="color: var(--color-brand-primary)"></i></a>
-        </div>
-        <br>
       </div>
       {% endblock left_sidebar %}
     </div>
   </aside>
+
+  <!-- Main content -->
   <div class="main">
     <div class="content">
       <div class="article-container">
@@ -77,6 +72,8 @@
           {% block content %}{{ body }}{% endblock %}
         </article>
       </div>
+
+      <!-- Footer: Webring links, last updated, view counter -->
       <footer>
         {% block footer %}
         <div class="bottom-of-page">
@@ -92,20 +89,18 @@
             </div>
             <div align="right">
             {%- if last_updated -%}
-            <div class="last-updated">
-              {% trans last_updated=last_updated|e -%}
-                Last updated on {{ last_updated }}
-              {%- endtrans -%}
-            </div>
+            <div class="last-updated">Last updated on {{ last_updated }}</div>
             {%- endif %}
-
-            <a href="https://hits.sh/tilde.team/~jwcook/">
-              <img alt="Hits" src="https://hits.sh/tilde.team/~jwcook.svg?style=flat-square&label=views%3A&color=83a598&labelColor=504945"/></a>
+            <img alt="Page views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftilde.team%2F%7Ejwcook%2F&title=views&count_bg=%2383A598&title_bg=%23504945&title=hits&edge_flat=false"/>
+            <!-- <img alt="Page views" src="https://hits.sh/tilde.team/~jwcook.svg?style=flat-square&label=views%3A&color=83a598&labelColor=504945"/> -->
+            <img src="https://tilde.team/~steph/cgi-bin/pixel.sh" />
           </div>
         </div>
         {% endblock footer %}
       </footer>
     </div>
+
+    <!-- Right sidebar -->
     <aside class="toc-drawer{% if furo_hide_toc %} no-toc{% endif %}">
       {% block right_sidebar %}
       {% if not furo_hide_toc %}
