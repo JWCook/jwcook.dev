@@ -15,8 +15,9 @@ Right now I'm just playing around and getting this page set up. Meanwhile, you c
 ```{toctree}
 :hidden:
 
-projects
-lorem_ipsum
-md_test
-Source <https://tildegit.org/jwcook/jwcook.tilde.team>
+open_source
+succulents
+photography
+about_site
+asdf
 ```
