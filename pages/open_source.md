@@ -1,7 +1,8 @@
 # {fab}`python` Open Source Projects
 {bdg-secondary}`In Progress`
 
-I develop and maintain a few open source projects, mainly python libraries. Here are a few of them:
+I develop and maintain a few open source projects, mainly python libraries. Here are a few of the
+most interesting ones:
 
 ## requests-cache
 ![](../assets/images/logo_requests_cache.png)
@@ -35,9 +36,8 @@ that no other tools (that I know of) currently fill.
 * {fas}`book` Docs: https://naturtag.readthedocs.io
 
 ## Other
-A number of other small projects can be found [on my GitHub profile](https://github.com/jwcook).
-
-This site and any other tilde-specific repos will be on [tildegit](https://tildegit.org/jwcook).
+* A number of other small projects can be found [on my GitHub profile](https://github.com/jwcook)
+* This site and any other tilde-specific repos will be on [tildegit](https://tildegit.org/jwcook)
 
 ## Getting involved
 If you are a python developer looking for ways to get involved in open source, I am willing to
