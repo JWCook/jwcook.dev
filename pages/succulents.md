@@ -2,7 +2,7 @@
 {bdg-primary}`Draft`
 
 One of my interests is gardening, particularly cactus and succulents plants.
-I participate in the [Cactus and Succulent Society](http://cactusandsucculensociety.org), and grow
+I participate in the [Cactus and Succulent Society](https://cactusandsucculentsociety.org), and grow
 and photograph some plants in a small indoor garden.
 
 <br /><br />

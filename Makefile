@@ -1,15 +1,20 @@
-.PHONY: all clean docs livedocs publish size
+.PHONY: all clean docs linkcheck livedocs publish size
+SOURCE_DIR = pages
+BUILD_DIR  = _build/html
 
-all: clean docs size publish
+all: clean docs linkcheck size publish
 
 clean:
-	rm -rf _build
+	rm -rf $(BUILD_DIR)
 
 docs:
-	sphinx-build pages _build/html
+	sphinx-build $(SOURCE_DIR) $(BUILD_DIR)
+
+linkcheck:
+	sphinx-build -b linkcheck $(SOURCE_DIR) $(BUILD_DIR)
 
 livedocs: clean
-	sphinx-autobuild pages _build/html -a \
+	sphinx-autobuild $(SOURCE_DIR) $(BUILD_DIR) -a \
 		--watch assets \
 		--watch templates \
 		--watch pages/conf.py \
