@@ -1,4 +1,6 @@
-.PHONY: clean docs livedocs
+.PHONY: all clean docs livedocs publish size
+
+all: clean docs size publish
 
 clean:
 	rm -rf _build
@@ -21,3 +23,6 @@ publish:
 	rsync -pt assets/dotfiles/.project             tilde.team:~/
 	ssh tilde.team 'cp ~/public_html/tagline.txt ~/.ring'
 	ssh tilde.team 'touch ~/public_html/index.html'
+
+size:
+	/bin/du -h -d 1 _build/html/ | sort -h
