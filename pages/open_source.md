@@ -15,7 +15,7 @@ My largest project is currently **requests-cache**, which is an HTTP caching lib
 ## pyinaturalist
 ![](../assets/images/logo_pyinaturalist.png)
 
-I also work on a number of projects related to biodiversity data, mainly related to [iNaturalist](https://www.inaturalist.org/). The most mature of these is **pyinaturalist**, which is a python library for interacting with the iNaturalist API.
+I also work on a number of projects related to biodiversity data. The most mature of these is **pyinaturalist**, which is a python library for interacting with [iNaturalist](https://www.inaturalist.org/).
 
 * {fas}`code` Source: https://github.com/pyinat/pyinaturalist
 * {fas}`book` Docs: https://pyinaturalist.readthedocs.io
@@ -28,9 +28,8 @@ application and CLI tool for nature photographers. Its goal is to simplify photo
 organization by embedding useful biodiversity metadata into image files using
 [XMP](https://exiftool.org/TagNames/XMP.html) and [Darwin Core](https://www.tdwg.org/standards/dwc).
 
-Yeah, that's kind of a mouthful... I need to work on my elevator pitch. It's a really fun project to
-work on, though, because I'm primarily making it for myself, and it's in a relatively small niche
-that no other tools (that I know of) currently fill.
+It's a really fun project to work on, because I'm primarily making it for myself, and it's in a
+relatively small niche that no other tools (that I know of) currently fill.
 
 * {fas}`code` Source:  https://github.com/pyinat/naturtag
 * {fas}`book` Docs: https://naturtag.readthedocs.io
