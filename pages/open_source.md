@@ -1,6 +1,9 @@
 # {fab}`python` Open Source Projects
 {bdg-secondary}`In Progress`
 
+```{tags} coding, python
+```
+
 I develop and maintain a few open source projects, mainly python libraries. Here are a few of the
 most interesting ones:
 

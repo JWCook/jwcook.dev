@@ -14,6 +14,7 @@ Other places you can find me:
 <!-- Hidden ToC tree to populate sidebar -->
 ```{toctree}
 :hidden:
+:maxdepth: 1
 
 open_source
 succulents
