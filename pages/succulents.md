@@ -9,7 +9,7 @@ and photograph some plants in a small indoor garden.
 :::{figure-md} echeveria_lilacina.png
 
 ```{image} ../assets/images/echeveria_lilacina.png
-:scale: 150%
+:width: 750px
 ```
 [Echeveria 'Lilacina'](https://www.flickr.com/photos/jcook83/49354200627)
 :::
@@ -18,7 +18,7 @@ and photograph some plants in a small indoor garden.
 :::{figure-md} haworthia_mirrorball.png
 
 ```{image} ../assets/images/haworthia_mirrorball.png
-:scale: 150%
+:width: 750px
 ```
 [Haworthia cv. 'Mirrorball'](https://www.flickr.com/photos/jcook83/49803674026)
 :::
@@ -27,7 +27,7 @@ and photograph some plants in a small indoor garden.
 :::{figure-md} mammillaria_plumosa.png
 
 ```{image} ../assets/images/mammillaria_plumosa.png
-:scale: 150%
+:width: 750px
 ```
 [_Mammillaria plumosa_](https://www.flickr.com/photos/jcook83/50912864207)
 :::
@@ -36,7 +36,7 @@ and photograph some plants in a small indoor garden.
 :::{figure-md} epithelantha_greggi.png
 
 ```{image} ../assets/images/epithelantha_greggi.png
-:scale: 150%
+:width: 750px
 ```
 [_Epithelantha greggi_](https://www.flickr.com/photos/jcook83/51963988280)
 :::
