@@ -45,7 +45,7 @@ tags_create_badges = True
 tags_badge_colors = {
     'python': 'primary',
     'coding': 'secondary',
-    'status:': 'info',
+    'status:*': 'info',
     '*': 'dark',
 }
 

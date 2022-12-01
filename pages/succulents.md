@@ -1,7 +1,5 @@
 # {fas}`seedling` Cactus and Succulent Plants
-{bdg-primary}`Draft`
-
-```{tags} photography, plants
+```{tags} status:draft, photography, plants
 ```
 
 One of my interests is gardening, particularly cactus and succulents plants.
