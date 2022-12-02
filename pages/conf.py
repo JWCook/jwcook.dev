@@ -13,6 +13,7 @@ templates_path = ['../templates']
 
 # Sphinx extensions
 extensions = [
+    "sphinx.ext.autosectionlabel",
     'sphinx.ext.autosummary',
     'sphinx.ext.extlinks',
     'sphinx_copybutton',
@@ -34,6 +35,8 @@ myst_enable_extensions = [
 # Strip prompt text when copying code blocks with copy button
 copybutton_prompt_text = r'>>> |\.\.\. |\$ '
 copybutton_prompt_is_regexp = True
+
+# autosectionlabel_prefix_document = True
 
 # Sphinx-tags settings
 tags_create_tags = True
