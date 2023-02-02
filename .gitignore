@@ -13,4 +13,5 @@ __pycache__/
 _build/
 dist/
 downloads/
+pages/tags/
 test-reports/

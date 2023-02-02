@@ -1,5 +1,6 @@
 # {fas}`code` About this site
-{bdg-primary}`Draft`
+```{tags} status:draft, docs
+```
 
 This is a markdown-based static site generated with [Sphinx](https://www.sphinx-doc.org) and
 [MyST](https://myst-parser.readthedocs.io). The theme is modified from

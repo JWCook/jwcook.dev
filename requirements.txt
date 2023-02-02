@@ -6,3 +6,4 @@ sphinx-autobuild>=2021.3
 sphinx-copybutton>=0.5
 sphinx-design>=0.2
 sphinx-notfound-page>=0.8
+sphinx-tags>=0.2

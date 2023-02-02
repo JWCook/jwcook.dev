@@ -1,5 +1,6 @@
 # {fas}`seedling` Cactus and Succulent Plants
-{bdg-primary}`Draft`
+```{tags} status:draft, photography, plants
+```
 
 One of my interests is gardening, particularly cactus and succulents plants.
 I participate in the [Cactus and Succulent Society](https://cactusandsucculentsociety.org), and grow

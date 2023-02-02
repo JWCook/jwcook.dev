@@ -1,11 +1,12 @@
 .PHONY: all clean docs linkcheck livedocs publish size
 SOURCE_DIR = pages
 BUILD_DIR  = _build/html
+TAGS_DIR   = pages/tags
 
 all: clean docs linkcheck size publish
 
 clean:
-	rm -rf $(BUILD_DIR)
+	rm -rf $(BUILD_DIR) $(TAGS_DIR)
 
 docs:
 	sphinx-build $(SOURCE_DIR) $(BUILD_DIR)
@@ -19,6 +20,7 @@ livedocs: clean
 		--watch templates \
 		--watch pages/conf.py \
 		--ignore '*.tmp' \
+		--ignore '**/tags/*' \
 		--port 8181
 
 publish:

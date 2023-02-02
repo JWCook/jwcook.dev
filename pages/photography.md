@@ -1,5 +1,6 @@
 # {fas}`camera` Photography
-{bdg-primary}`Draft`
+```{tags} status:draft, photography
+```
 
 I dabble in [nature photography](https://flickr.com/photos/jcook83), mostly macro photography of
 insects, spiders, and other tiny curiosities.
