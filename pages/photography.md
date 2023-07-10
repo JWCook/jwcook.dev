@@ -5,6 +5,8 @@
 I dabble in [nature photography](https://flickr.com/photos/jcook83), mostly macro photography of
 insects, spiders, and other tiny curiosities.
 
+## Bugs
+
 <br /><br />
 :::{figure-md} celithemis_eponina.png
 
@@ -67,3 +69,51 @@ insects, spiders, and other tiny curiosities.
 ```
 [_Neoscona arabesca_ (Arabesque Orbweaver)](https://flickr.com/photos/jcook83/51700759651)
 :::
+
+## Not Bugs
+
+<br /><br />
+:::{figure-md} cathartes_aura.png
+
+```{image} ../assets/images/cathartes_aura.png
+:width: 750px
+```
+[_Cathartes aura_ (Turkey Vulture)](https://flickr.com/photos/jcook83/51128116302)
+:::
+
+<br /><br />
+:::{figure-md} colaptes_auratus.png
+
+```{image} ../assets/images/colaptes_auratus.png
+:width: 750px
+```
+[_Colaptes auratus_ (Northern Flicker)](https://flickr.com/photos/jcook83/49210580743)
+:::
+
+<br /><br />
+:::{figure-md} odocoileus_virginianus.png
+
+```{image} ../assets/images/odocoileus_virginianus.png
+:width: 750px
+```
+[_Odocoileus virginianus_ (Whitetail Deer)](https://flickr.com/photos/jcook83/48849034436)
+:::
+
+<br /><br />
+:::{figure-md} pleurotus_citrinopileatus.png
+
+```{image} ../assets/images/pleurotus_citrinopileatus.png
+:width: 750px
+```
+[_Pleurotus citrinopileatus_ (Golden Oyster Mushroom)](https://flickr.com/photos/jcook83/50557238522)
+:::
+
+<br /><br />
+:::{figure-md} artomyces_pyxidatus.png
+
+```{image} ../assets/images/artomyces_pyxidatus.png
+:width: 750px
+```
+[_Artomyces pyxidatus_ (Crown-tipped Coral Fungus)](https://flickr.com/photos/jcook83/48921844066)
+:::
+
