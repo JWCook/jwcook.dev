@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Default settings for dithering
+# Uses the didder CLI tool: https://github.com/makew0rld/didder
+set -e
 
 OUT_FILE="assets/images/${1%.*}.png"
 PALETTE='#1d2021 #3c3836 #665c54
