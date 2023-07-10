@@ -13,7 +13,7 @@ templates_path = ['../templates']
 
 # Sphinx extensions
 extensions = [
-    "sphinx.ext.autosectionlabel",
+    'sphinx.ext.autosectionlabel',
     'sphinx.ext.autosummary',
     'sphinx.ext.extlinks',
     'sphinx_copybutton',

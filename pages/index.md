@@ -8,7 +8,7 @@ Other places you can find me:
 * [{fab}`flickr` Flickr](https://flickr.com/photos/jcook83)
 * [{fas}`dove` iNaturalist](https://www.inaturalist.org/observations?place_id=any&user_id=jkcook)
 * [{fas}`envelope` Contact](mailto:jwcook@tilde.team)
-* <a rel="me" href="https://tilde.zone/@jwcook"><i class="fa-brands fa-mastodon"></i> Mastodon</a> (maybe?)
+<!-- * <a rel="me" href="https://tilde.zone/@jwcook"><i class="fa-brands fa-mastodon"></i> Mastodon</a> (maybe?) -->
 
 
 <!-- Hidden ToC tree to populate sidebar -->

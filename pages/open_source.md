@@ -1,9 +1,9 @@
 # {fab}`python` Open Source Projects
-```{tags} status:in-progress, coding, python
+```{tags} status:done, coding, python
 ```
 
-I develop and maintain a few open source projects, mainly python libraries. Here are a few of the
-most interesting ones:
+I develop and maintain a few open source projects, mainly python libraries.
+Here are a few of the most interesting ones:
 
 ## requests-cache
 ![](../assets/images/logo_requests_cache.png)

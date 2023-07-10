@@ -1,5 +1,5 @@
 # {fas}`camera` Photography
-```{tags} status:draft, photography
+```{tags} status:draft, nature, photography
 ```
 
 I dabble in [nature photography](https://flickr.com/photos/jcook83), mostly macro photography of
