@@ -12,7 +12,16 @@ and photograph some plants in a small indoor garden.
 ```{image} ../assets/images/echeveria_lilacina.png
 :width: 750px
 ```
-[Echeveria 'Lilacina'](https://www.flickr.com/photos/jcook83/49354200627)
+[_Echeveria_ 'Lilacina'](https://www.flickr.com/photos/jcook83/49354200627)
+:::
+
+<br /><br />
+:::{figure-md} echeveria_mazarine.png
+
+```{image} ../assets/images/echeveria_mazarine.png
+:width: 750px
+```
+[_Echeveria_ 'Mazarine'](https://flickr.com/photos/jcook83/49354200647)
 :::
 
 <br /><br />
@@ -21,7 +30,16 @@ and photograph some plants in a small indoor garden.
 ```{image} ../assets/images/haworthia_mirrorball.png
 :width: 750px
 ```
-[Haworthia cv. 'Mirrorball'](https://www.flickr.com/photos/jcook83/49803674026)
+[_Haworthia_ cv. 'Mirrorball'](https://www.flickr.com/photos/jcook83/49803674026)
+:::
+
+<br /><br />
+:::{figure-md} haworthia_turgida.png
+
+```{image} ../assets/images/haworthia_turgida.png
+:width: 750px
+```
+[_Haworthia turgida_](https://flickr.com/photos/jcook83/49803122608)
 :::
 
 <br /><br />
@@ -41,3 +59,31 @@ and photograph some plants in a small indoor garden.
 ```
 [_Epithelantha greggi_](https://www.flickr.com/photos/jcook83/51963988280)
 :::
+
+<br /><br />
+:::{figure-md} echinocereus_rigidissimus.png
+
+```{image} ../assets/images/echinocereus_rigidissimus.png
+:width: 750px
+```
+[_Echinocereus rigidissimus_ subsp. _rubispinus_](https://flickr.com/photos/jcook83/50552436137)
+:::
+
+<br /><br />
+:::{figure-md} agave_potatorum.png
+
+```{image} ../assets/images/agave_potatorum.png
+:width: 750px
+```
+[_Agave potatorum_](https://flickr.com/photos/jcook83/50696823537)
+:::
+
+<br /><br />
+:::{figure-md} dioscorea_elephantipes.png
+
+```{image} ../assets/images/dioscorea_elephantipes.png
+:width: 750px
+```
+[_Dioscorea elephantipes_ (Elephant's Foot)](https://flickr.com/photos/jcook83/50552435987)
+:::
+
