@@ -86,4 +86,3 @@ and photograph some plants in a small indoor garden.
 ```
 [_Dioscorea elephantipes_ (Elephant's Foot)](https://flickr.com/photos/jcook83/50552435987)
 :::
-

@@ -7,3 +7,6 @@ sphinx-copybutton>=0.5
 sphinx-design>=0.4
 sphinx-notfound-page>=0.8
 sphinx-tags>=0.2
+
+# dev tools; not required for doc builds
+pre-commit~=3.0

@@ -3,13 +3,16 @@ SOURCE_DIR = pages
 BUILD_DIR  = _build/html
 TAGS_DIR   = pages/tags
 
-all: clean docs linkcheck size publish
+all: clean lint docs linkcheck size publish
 
 clean:
 	rm -rf $(BUILD_DIR) $(TAGS_DIR)
 
 docs:
 	sphinx-build $(SOURCE_DIR) $(BUILD_DIR)
+
+lint:
+	pre-commit run --all
 
 linkcheck:
 	sphinx-build -b linkcheck $(SOURCE_DIR) $(BUILD_DIR)

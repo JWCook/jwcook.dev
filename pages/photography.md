@@ -116,4 +116,3 @@ insects, spiders, and other tiny curiosities.
 ```
 [_Artomyces pyxidatus_ (Crown-tipped Coral Fungus)](https://flickr.com/photos/jcook83/48921844066)
 :::
-
