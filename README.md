@@ -17,12 +17,12 @@ Build:
 make docs
 ```
 
-Build with live reload:
+Build with live browser reload:
 ```bash
 make livedocs
 ```
 
-Publish to tilde.team:
+Build and publish to tilde.team:
 ```bash
-make publish
+make all
 ```

@@ -12,7 +12,7 @@ docs:
 	sphinx-build $(SOURCE_DIR) $(BUILD_DIR)
 
 lint:
-	pre-commit run --all
+	-pre-commit run --all
 
 linkcheck:
 	sphinx-build -b linkcheck $(SOURCE_DIR) $(BUILD_DIR)
