@@ -18,6 +18,7 @@ linkcheck:
 	sphinx-build -b linkcheck $(SOURCE_DIR) $(BUILD_DIR)
 
 livedocs: clean
+	( sleep 2; python -m webbrowser http://localhost:8181 ) &  # Open browser after delay
 	sphinx-autobuild $(SOURCE_DIR) $(BUILD_DIR) -a \
 		--watch assets \
 		--watch templates \
