@@ -1,3 +1,24 @@
+[project]
+name = 'jwcook.tilde.team'
+requires-python = '>=3.8'
+version = "0.1.0"
+dependencies = [
+    'furo~=2023.5',
+    'linkify-it-py>=2.0',
+    'myst-parser~=2.0',
+    'pre-commit~=3.0',
+    'sphinx~=6.2',
+    'sphinx-autobuild>=2021.3',
+    'sphinx-copybutton>=0.5',
+    'sphinx-design>=0.4',
+    'sphinx-notfound-page>=0.8',
+    'sphinx-tags>=0.2',
+]
+
+# Placeholder to allow installing dependencies as if it were a package
+[tool.setuptools]
+packages = ['pages']
+
 [tool.black]
 skip-string-normalization = true
 line-length = 100

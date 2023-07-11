@@ -6,9 +6,9 @@ Markdown-based static site generated with [Sphinx](docs.readthedocs.io) and [MyS
 ## Setup
 Prerequisites:
 * python 3.8+
-
+* Install dependencies:
 ```bash
-pip install -U -r requirements.txt
+pip install -Ue "."
 ```
 
 ## Usage
