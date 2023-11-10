@@ -2,6 +2,8 @@
 *.py[cod]
 *.egg-info
 .cache
+*.egg
+*.egg-info
 .idea/
 .mypy_cache/
 .nox/
