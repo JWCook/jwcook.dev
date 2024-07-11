@@ -54,6 +54,9 @@ tags_badge_colors = {
     '*': 'dark',
 }
 
+# Since we're not on readthedocs, don't insert `/<language>/<version>/` into relpaths on 404 page
+notfound_urls_prefix = ''
+
 # HTML general settings
 # html_favicon = join('../assets', 'favicon.ico')
 html_css_files = [
