@@ -1,4 +1,8 @@
 # Config for Sphinx and its extensions
+from pathlib import Path
+
+PROJECT_DIR = Path('.').resolve()
+TAGS_DIR = PROJECT_DIR / 'tags'
 
 # General information about the project.
 project = 'jwcook'
@@ -127,6 +131,7 @@ SIDEBAR_MAXDEPTH = 2
 def setup(app):
     """Run some additional steps after the Sphinx builder is initialized"""
     app.connect('builder-inited', patch_furo_sidebar_toctree)
+    app.connect('builder-inited', rename_tags_index)
 
 
 def patch_furo_sidebar_toctree(app):
@@ -154,3 +159,8 @@ def patch_furo_sidebar_toctree(app):
         return _compute_navigation_tree(context)
 
     furo._compute_navigation_tree = mod_compute_navigation_tree
+
+
+def rename_tags_index(*args):
+    """Rename tags index created by sphinx-tags"""
+    (TAGS_DIR / 'tagsindex.md').rename(TAGS_DIR / 'index.md')

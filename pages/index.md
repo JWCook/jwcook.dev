@@ -20,6 +20,6 @@ open_source
 succulents
 photography
 about_site
-tags/tagsindex
+tags/index
 asdf
 ```
