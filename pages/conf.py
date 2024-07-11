@@ -1,3 +1,5 @@
+# Config for Sphinx and its extensions
+
 # General information about the project.
 project = 'jwcook'
 needs_sphinx = '4.0'

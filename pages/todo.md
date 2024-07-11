@@ -1,6 +1,33 @@
 # {fas}`list` TODO
-* Embed tag list in home page without redundant toctrees in sidebar
-* Generate gemini site with [gemgen](https://sr.ht/~kota/gemgen)
+
+## Main features:
+* ✅ Search
+* ✅ Sidebar with collapsible sections
+* ✅ Basic theme/styling
+    * ✅ Fonts, palette, dark/light mode, etc.
+* ✅ Tags
+    * ✅ tag index
+    * ✅ tag badges
+    * ✅ Embed tag list in home page without redundant toctrees in sidebar
+* RSS feed
+* Sitemap
+* 404 page
+
+
+## Research/nice-to-have
+* Structured metadata for posts (e.g. YAML front matter)
+* Guestbook or comments
+* Generate minimal gemini site with [gemgen](https://sr.ht/~kota/gemgen)
+* [Webmentions](https://indieweb.org/Webmention)
+* [Microformats](https://indieweb.org/microformats2)
+* Other IndieWeb standards worth implementing?
 * Some more theme customization
+
+## Contents
+* /blogroll
+* /links
+* /log (generate from git commit messages?)
+* /uses
 * Some small articles about tech topics, nature, maybe photography
-  * Less blog-like, more like... wiki pages or [evergreen notes](https://notes.andymatuschak.org)?
+    * Blog-style, in chronological order?
+    * Or periodically updated by topic, like wiki pages or [evergreen notes](https://notes.andymatuschak.org)?
