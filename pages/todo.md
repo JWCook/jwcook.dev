@@ -9,9 +9,9 @@
     * ✅ tag index
     * ✅ tag badges
     * ✅ Embed tag list in home page without redundant toctrees in sidebar
+* ✅ 404 page
 * RSS feed
 * Sitemap
-* 404 page
 
 
 ## Research/nice-to-have
@@ -24,6 +24,8 @@
 * Some more theme customization
 
 ## Contents
+* ✅ Basic interests/projects pages
+* ✅ About this site
 * /blogroll
 * /links
 * /log (generate from git commit messages?)
