@@ -3,9 +3,10 @@ from pathlib import Path
 
 PROJECT_DIR = Path('.').resolve()
 TAGS_DIR = PROJECT_DIR / 'tags'
+BASE_URL = 'https://jwcook.tilde.team/'
 
 # General information about the project.
-project = 'jwcook'
+project = '~jwcook'
 needs_sphinx = '4.0'
 master_doc = 'index'
 source_suffix = ['.md', '.rst']
@@ -26,6 +27,7 @@ extensions = [
     'sphinx_design',
     'sphinx_sitemap',
     'sphinx_tags',
+    'sphinxext.opengraph',
     'myst_parser',
     'notfound.extension',
 ]
@@ -61,12 +63,22 @@ tags_badge_colors = {
 
 # Since we're not on readthedocs, don't insert `/<language>/<version>/`
 notfound_urls_prefix = ''
-sitemap_url_scheme = '{link}'
+
+# Sitemap config
+html_baseurl = f'{BASE_URL}/'
 sitemap_excludes = ['search.html', 'genindex.html', 'asdf.html']
+sitemap_url_scheme = '{link}'
+
+# OpenGraph settings
+# TODO: custom meta tags
+ogp_site_url = BASE_URL
+ogp_image = f'{BASE_URL}/_static/avatar.png'
+ogp_use_first_image = True
+ogp_social_cards = {'font': 'JetBrainsMono'}
+ogp_custom_meta_tags = []
 
 # HTML general settings
 # html_favicon = join('../assets', 'favicon.ico')
-html_baseurl = 'https://jwcook.tilde.team/'
 html_css_files = [
     'fonts.css',
     'style.css',

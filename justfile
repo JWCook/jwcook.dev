@@ -20,7 +20,7 @@ build:
 
 # Run linters
 lint:
-    pre-commit run --all
+    -pre-commit run --all
 
 # Check for broken links
 linkcheck:

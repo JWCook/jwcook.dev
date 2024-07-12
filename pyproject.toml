@@ -5,6 +5,7 @@ version = "0.1.0"
 dependencies = [
     'furo~=2024.5',
     'linkify-it-py>=2.0',
+    'matplotlib>=3.9',
     'myst-parser~=2.0',
     'pre-commit~=3.0',
     'sphinx~=6.2',
@@ -14,6 +15,7 @@ dependencies = [
     'sphinx-notfound-page>=1.0',
     'sphinx-sitemap>=2.6',
     'sphinx-tags>=0.3',
+    'sphinxext-opengraph>=0.9',
 ]
 
 # Placeholder to allow installing dependencies as if it were a package
