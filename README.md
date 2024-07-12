@@ -5,7 +5,8 @@ Markdown-based static site generated with [Sphinx](docs.readthedocs.io) and [MyS
 
 ## Setup
 Prerequisites:
-* python 3.8+
+* python 3.10+
+* [`just`](https://github.com/casey/just#packages)
 * Install dependencies:
 ```bash
 pip install -Ue "."
@@ -14,15 +15,15 @@ pip install -Ue "."
 ## Usage
 Build:
 ```bash
-make docs
+just build
 ```
 
 Build with live browser reload:
 ```bash
-make livedocs
+just live
 ```
 
-Build and publish to tilde.team:
+Publish to tilde.team:
 ```bash
-make all
+just publish
 ```
