@@ -1,5 +1,5 @@
 # {fab}`python` Open Source Projects
-```{tags} status:done, coding, python
+```{tags} coding, python
 ```
 
 I develop and maintain a few open source projects, mainly python libraries.
