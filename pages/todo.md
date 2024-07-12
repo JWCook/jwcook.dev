@@ -10,8 +10,8 @@
     * ✅ tag badges
     * ✅ Embed tag list in home page without redundant toctrees in sidebar
 * ✅ 404 page
+* ✅ Sitemap
 * RSS feed
-* Sitemap
 
 
 ## Research/nice-to-have

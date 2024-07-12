@@ -24,6 +24,7 @@ extensions = [
     'sphinx.ext.extlinks',
     'sphinx_copybutton',
     'sphinx_design',
+    'sphinx_sitemap',
     'sphinx_tags',
     'myst_parser',
     'notfound.extension',
@@ -58,16 +59,20 @@ tags_badge_colors = {
     '*': 'dark',
 }
 
-# Since we're not on readthedocs, don't insert `/<language>/<version>/` into relpaths on 404 page
+# Since we're not on readthedocs, don't insert `/<language>/<version>/`
 notfound_urls_prefix = ''
+sitemap_url_scheme = '{link}'
+sitemap_excludes = ['search.html', 'genindex.html', 'asdf.html']
 
 # HTML general settings
 # html_favicon = join('../assets', 'favicon.ico')
+html_baseurl = 'https://jwcook.tilde.team/'
 html_css_files = [
     'fonts.css',
     'style.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
 ]
+html_extra_path = ['robots.txt']
 html_js_files = ['style.js']
 html_title = '~jwcook'
 html_logo = '../assets/images/avatar.png'
