@@ -1,6 +1,7 @@
 SOURCE_DIR := "pages"
 BUILD_DIR := "_build"
 TAGS_DIR := "pages/tags"
+LIVE_PORT := "8181"
 
 # List available recipes
 default:
@@ -8,7 +9,7 @@ default:
 
 # Run all steps
 all:
-    just clean lint build linkcheck size publish
+    just clean lint build linkcheck size publish-site publish-tilde
 
 # Clean build and tags directories
 clean:
@@ -29,7 +30,7 @@ linkcheck:
 # Serve site with live reloading
 live:
     just clean
-    ( sleep 2; python -m webbrowser http://localhost:8181 ) &  # Open browser after delay
+    ( sleep 2; python -m webbrowser http://localhost:{{LIVE_PORT}} ) &  # Open browser after delay
     sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}}/html -a \
         --doctree-dir {{BUILD_DIR}}/doctrees \
         --watch assets \
@@ -37,16 +38,28 @@ live:
         --watch pages/conf.py \
         --ignore '*.tmp' \
         --ignore '**/tags/*' \
-        --port 8181
+        --port {{LIVE_PORT}}
+
+# Publish all files
+publish:
+    just publish-site publish-tilde
 
 # Publish site to tilde.team
-publish:
+publish-site:
     rsync -rlpt --delete --progress _build/html/*  tilde.team:~/public_html/
-    rsync -pt assets/dotfiles/tagline.txt          tilde.team:~/public_html/
-    rsync -pt assets/images/avatar.png             tilde.team:~/public_html/
-    rsync -pt assets/dotfiles/.project             tilde.team:~/
-    ssh tilde.team 'cp ~/public_html/tagline.txt ~/.ring'
     ssh tilde.team 'touch ~/public_html/index.html'
+
+# Publish tilde-specific files
+publish-tilde:
+    rsync --perms --times \
+        assets/dotfiles/tagline.txt \
+        assets/images/avatar.png \
+        tilde.team:~/public_html/
+    rsync --perms --times \
+        assets/dotfiles/.project \
+        tilde.team:~/
+    ssh tilde.team 'cp ~/public_html/tagline.txt ~/.ring'
+
 
 # Get total site size
 size:
