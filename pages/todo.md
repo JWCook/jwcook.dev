@@ -11,10 +11,12 @@
     * ✅ tag index
     * ✅ tag badges
     * ✅ Embed tag list in home page without redundant toctrees in sidebar
-* ✅ 404 page
-* ✅ Sitemap
 * RSS feed
 
+## Minor features:
+* ✅ 404 page
+* ✅ Sitemap (XML)
+* ✅ Sitemap (HTML)
 
 ## Research/nice-to-have
 * Structured metadata for posts (e.g. YAML front matter)
@@ -31,7 +33,7 @@
 * /blogroll
 * /links
 * /log (generate from git commit messages?)
-* /uses
+* ✅ /uses
 * Some small articles about tech topics, nature, maybe photography
     * Blog-style, in chronological order?
     * Or periodically updated by topic, like wiki pages or [evergreen notes](https://notes.andymatuschak.org)?

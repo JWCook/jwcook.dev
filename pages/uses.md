@@ -1,53 +1,61 @@
-# {fas}`toolbox` Favorite Tools
+# {fas}`toolbox` Tools
 ```{tags} status:draft
 ```
 
-Here are some favorite tools I use on a regular basis! I love tools of all kinds, so a full list would be much too long, so this is limited to things I find especially enjoyable or noteworthy.
+Here are some favorite tools I use on a regular basis! I love tools of all kinds, so a full list would be much too long, so this is limited to things I find especially fun or noteworthy.
 
 ## Software
 
 ### Editors
-* Neovim
-* Sublime Text
-* Obsidian
+* [Neovim](https://neovim.io)
+* [Sublime Text](https://www.sublimetext.com)
+* [Obsidian](https://obsidian.md)
+* [Nextcloud Notes](https://github.com/nextcloud/notes)
 
 ### Web
-* Sphinx + MyST
+* [Sphinx](https://www.sphinx-doc.org) + [MyST](https://myst-parser.readthedocs.io)
+* [htmx](https://htmx.org)
 * Plain old HTML + CSS + JS
-* (Flask or Litestar) + SQLAlchemy
 
 ### Storage
-* PostgreSQL
-* Redis
-* SQLite
-* InfluxDB
+* [PostgreSQL](https://postgresql.org)
+  * [PostGIS](https://postgis.net)
+* [Redis](https://redis.io)
+* [SQLite](https://www.sqlite.org)
+  * [FTS5](https://www.sqlite.org/fts5.html)
+* [InfluxDB](https://influxdata.com)
 
 ### CLI
-* Terminal emulators: `kitty`, `guake`
-* Shell: `fish`
-* `ag` (Silver Searcher)
-* `difftastic`
-* `just`
-* `mosh`
-* `ranger`
-* `rsync`
-* `tig`
-* `tmux`
+* Terminal emulators: [`kitty`](https://github.com/kovidgoyal/kitty), [`guake`](https://github.com/Guake/guake)
+* Shell: [`fish`](https://fishshell.com)
+* [`ag`](https://github.com/ggreer/the_silver_searcher)
+* [`difftastic`](https://github.com/Wilfred/difftastic)
+* [`just`](https://github.com/casey/just)
+* [`harlequin`](https://github.com/tconbeer/harlequin)
+* [`mosh`](https://github.com/mobile-shell/mosh)
+* [`ranger`](https://github.com/ranger/ranger)
+* [`rsync`](https://github.com/RsyncProject/rsync)
+* [`tig`](https://github.com/jonas/tig)
+* [`tmux`](https://github.com/tmux/tmux/wiki)
+* [`zoxide`](https://github.com/ajeetdsouza/zoxide)
 
 ### Python libraries & frameworks
-* `attrs`
-* `click`
-* `pillow`
-* `pyexiv2`
-* `pyside6` (Qt)
+* [`attrs`](https://attrs.org)
+* [`click`](https://click.palletsprojects.com)
+* [`litestar`](https://litestar.dev)
+* [`pandas`](https://pandas.pydata.org)
+* [`pillow`](https://pillow.readthedocs.io)
+* [`pyexiv2`](https://exiv2.org)
+* [`pyside6`](https://doc.qt.io/qtforpython-6)
+* [`sqlalchemy`](https://www.sqlalchemy.org)
 
 ### Media
-* GIMP
-* Inkscape
-* XnView MP
-* Aseprite
-* exiftool
-* ffmpeg
+* [GIMP](https://www.gimp.org)
+* [Inkscape](https://inkscape.org)
+* [XnView MP](https://www.xnview.com)
+* [Aseprite](https://www.aseprite.org)
+* [`exiftool`](https://exiftool.org)
+* [`ffmpeg`](https://ffmpeg.org)
 
 ## Hardware
 
