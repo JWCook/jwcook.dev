@@ -1,5 +1,5 @@
-# {fab}`python` Open Source Projects
-```{tags} coding, python
+# {fab}`python` Open Source
+```{tags} code, python
 ```
 
 I develop and maintain a few open source projects, mainly python libraries.

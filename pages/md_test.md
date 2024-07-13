@@ -1,4 +1,7 @@
 # Markdown test
+```{tags} status:hidden
+```
+
 * plain text
 * `inline code`
 * _italic text_

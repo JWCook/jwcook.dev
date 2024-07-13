@@ -1,5 +1,5 @@
 # {fas}`code` About this site
-```{tags} status:draft, docs
+```{tags} docs, code
 ```
 
 This is a markdown-based static site generated with [Sphinx](https://www.sphinx-doc.org) and

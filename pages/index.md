@@ -16,10 +16,8 @@ Other places you can find me:
 :hidden:
 :maxdepth: 1
 
-open_source
-succulents
-photography
-about_site
+projects
+slashpages
+posts
 tags/index
-asdf
 ```
