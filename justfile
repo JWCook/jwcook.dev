@@ -1,5 +1,5 @@
 SOURCE_DIR := "pages"
-BUILD_DIR := "_build/html"
+BUILD_DIR := "_build"
 TAGS_DIR := "pages/tags"
 
 # List available recipes
@@ -16,7 +16,7 @@ clean:
 
 # Build documentation
 build:
-    sphinx-build {{SOURCE_DIR}} {{BUILD_DIR}}
+    sphinx-build --doctree-dir {{BUILD_DIR}}/doctrees {{SOURCE_DIR}} {{BUILD_DIR}}/html
 
 # Run linters
 lint:
@@ -24,13 +24,14 @@ lint:
 
 # Check for broken links
 linkcheck:
-    sphinx-build -b linkcheck {{SOURCE_DIR}} {{BUILD_DIR}}
+    sphinx-build -b linkcheck {{SOURCE_DIR}} {{BUILD_DIR}}/html
 
 # Serve site with live reloading
 live:
     just clean
     ( sleep 2; python -m webbrowser http://localhost:8181 ) &  # Open browser after delay
-    sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}} -a \
+    sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}}/html -a \
+        --doctree-dir {{BUILD_DIR}}/doctrees \
         --watch assets \
         --watch templates \
         --watch pages/conf.py \
