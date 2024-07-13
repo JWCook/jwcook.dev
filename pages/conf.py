@@ -66,7 +66,7 @@ notfound_urls_prefix = ''
 
 # Sitemap config
 html_baseurl = f'{BASE_URL}/'
-sitemap_excludes = ['search.html', 'genindex.html', 'asdf.html']
+sitemap_excludes = ['404.html', 'asdf.html', 'genindex.html', 'search.html']
 sitemap_url_scheme = '{link}'
 
 # OpenGraph settings
