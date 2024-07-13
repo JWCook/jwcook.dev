@@ -4,23 +4,25 @@
 
 Here are some favorite tools I use on a regular basis! I love tools of all kinds, so a full list would be much too long, so this is limited to things I find especially enjoyable or noteworthy.
 
-## Editors
+## Software
+
+### Editors
 * Neovim
 * Sublime Text
 * Obsidian
 
-## Storage
+### Web
+* Sphinx + MyST
+* Plain old HTML + CSS + JS
+* (Flask or Litestar) + SQLAlchemy
+
+### Storage
 * PostgreSQL
 * Redis
 * SQLite
 * InfluxDB
 
-## Web
-* Sphinx + MyST
-* Plain old HTML + CSS + JS
-* (Flask or Litestar) + SQLAlchemy
-
-## CLI
+### CLI
 * Terminal emulators: `kitty`, `guake`
 * Shell: `fish`
 * `ag` (Silver Searcher)
@@ -32,15 +34,14 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * `tig`
 * `tmux`
 
-## Python libraries & frameworks
+### Python libraries & frameworks
 * `attrs`
 * `click`
 * `pillow`
 * `pyexiv2`
 * `pyside6` (Qt)
 
-
-## Media
+### Media
 * GIMP
 * Inkscape
 * XnView MP
@@ -48,24 +49,24 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * exiftool
 * ffmpeg
 
-# Hardware
+## Hardware
 
-## Computing
+### Computing
 * ESP32
 * Raspberry, Orange, and other flavors of Pi
 * MiniPCs
 
-### Input devices
+#### Input devices
 * Mechanical keyboards
 * Trackballs
 * Extra crunchy toggle switches
 
-## Photography
+### Photography
 * Olympus OM-D E-M10 MkII
 * Olympus STF-8 macro flash
 * M.Zuiko 60mm macro lens
 
-## Physical tools
+### Physical tools
 * Rotary tool
 * Impact driver
 * Reciprocating saw
