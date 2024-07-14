@@ -2,7 +2,7 @@
 ```{tags} status:placeholder
 ```
 ```{image} ../assets/images/blogroll.png
-:width: 750px
+:width: 900px
 ```
 <!--
 TODO: A list of interesting blogs and websites to recommend
