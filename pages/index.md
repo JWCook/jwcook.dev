@@ -19,5 +19,5 @@ Other places you can find me:
 projects
 slashpages
 posts
-tags/index
+tags
 ```

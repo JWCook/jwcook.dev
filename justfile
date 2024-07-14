@@ -30,7 +30,6 @@ linkcheck:
 # Serve site with live reloading
 live:
     just clean
-    ( sleep 2; python -m webbrowser http://localhost:{{LIVE_PORT}} ) &  # Open browser after delay
     sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}}/html -a \
         --doctree-dir {{BUILD_DIR}}/doctrees \
         --watch assets \
@@ -38,7 +37,10 @@ live:
         --watch pages/conf.py \
         --ignore '*.tmp' \
         --ignore '**/tags/*' \
-        --port {{LIVE_PORT}}
+        --port {{LIVE_PORT}} \
+        --open-browser \
+        --delay 1 \
+        -v
 
 # Publish all files
 publish:

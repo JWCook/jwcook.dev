@@ -1,3 +1,4 @@
+(about-this-site)=
 # {fas}`code` About this site
 ```{tags} docs, code
 ```
