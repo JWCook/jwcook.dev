@@ -1,23 +1,21 @@
 # ~jwcook
-Hi there, my name is Jordan. I'm a software engineer with interests in open source software, macro
-photography, biodiversity, and growing cactus and succulent plants.
 
-Other places you can find me:
+Hi there! My name is Jordan, and this my personal site on the tilde network.
+I plan to write about some of my projects and serial obsessions here. My main purpose is organizing
+my thoughts on things I'm learning about, and sharing info about some fun niches I'm into. I'm also
+interested in exploring the indie web as a more enjoyable alternative to social media.
 
-* [{fab}`github` GitHub](https://github.com/JWCook)
-* [{fab}`flickr` Flickr](https://flickr.com/photos/jcook83)
-* [{fas}`dove` iNaturalist](https://www.inaturalist.org/observations?user_id=jkcook&place_id=any&subview=grid)
-* [{fas}`envelope` Contact](mailto:jwcook@tilde.team)
-<!-- * <a rel="me" href="https://tilde.zone/@jwcook"><i class="fa-brands fa-mastodon"></i> Mastodon</a> (maybe?) -->
+I don't have any articles up yet, but on the pages below I've summarized a few of my main hobbies:
 
 
-<!-- Hidden ToC tree to populate sidebar -->
 ```{toctree}
-:hidden:
-:maxdepth: 1
-
+:maxdepth: 2
 projects
 slashpages
+```
+```{toctree}
+:maxdepth: 1
+
 posts
 tags
 ```

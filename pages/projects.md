@@ -1,3 +1,4 @@
+(projects)=
 # {fas}`flask-vial` Projects
 ```{toctree}
 open-source

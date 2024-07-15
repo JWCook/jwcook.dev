@@ -40,7 +40,7 @@ Small web search engines and directories:
 * [Posy](https://www.youtube.com/@PosyMusic)
 
 ### {fab}`youtube` Appropriately popular but still great channels
-* [Astrum](https://www.youtube.com/@Astrum)
+* [Astrum](https://www.youtube.com/@astrumspace)
 * [Basically Homeless](https://www.youtube.com/@BasicallyHomeless)
 * [Bible Project](https://www.youtube.com/@bibleproject)
 * [Glarses](https://www.youtube.com/@Glarses)

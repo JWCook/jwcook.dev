@@ -41,6 +41,20 @@ oh man this is going to look so cool when it's done
 
 ![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif)
 
+## Cards
+::::{grid} 1 2 2 2
+:::{grid-item-card} Computing
+* Microcontrollers: ESP32
+* SBCs: Raspberry Pi, Orange Pi
+* MiniPCs
+:::
+:::{grid-item-card} Input devices
+* Mechanical keyboards
+* Trackballs
+* Toggle switches
+:::
+::::
+
 ## Xrefs
 <!-- https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html -->
 Cross-reference formats:

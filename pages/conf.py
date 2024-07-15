@@ -167,6 +167,8 @@ def setup(app: Sphinx):
 def combine_static_dirs(*args):
     """Move/deduplicate static files from Sphinx extensions"""
     src = BUILD_DIR / '_sphinx_design_static'
+    if not src.exists():
+        return
     dst = BUILD_DIR / '_static'
     for item in src.iterdir():
         item.rename(dst / item.name)

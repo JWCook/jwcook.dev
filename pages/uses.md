@@ -64,7 +64,7 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * Raspberry, Orange, and other flavors of Pi
 * MiniPCs
 
-#### Input devices
+### Input devices
 * Mechanical keyboards
 * Trackballs
 * Extra crunchy toggle switches

@@ -38,7 +38,3 @@ relatively small niche that no other tools (that I know of) currently fill.
 ## Other
 * A number of other small projects can be found [on my GitHub profile](https://github.com/jwcook)
 * This site and any other tilde-specific repos will be on [tildegit](https://tildegit.org/jwcook)
-
-## Getting involved
-If you are a python developer looking for ways to get involved in open source, I am willing to
-mentor new contributors on any of these projects. Feel free to reach out either here or on GitHub.

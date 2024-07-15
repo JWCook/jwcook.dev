@@ -42,7 +42,7 @@ printf "Using palette:\n%s\n" "$PALETTE"
 
 # Process image
 didder -i $1 -o $OUT_FILE \
---width 450 \
+--width 500 \
 --palette "$PALETTE" \
 edm --serpentine FloydSteinberg
 

@@ -25,7 +25,7 @@ lint:
 
 # Check for broken links
 linkcheck:
-    sphinx-build -b linkcheck {{SOURCE_DIR}} {{BUILD_DIR}}/html
+    -sphinx-build -b linkcheck {{SOURCE_DIR}} {{BUILD_DIR}}/html
 
 # Serve site with live reloading
 live:
@@ -48,16 +48,24 @@ publish:
 
 # Publish site to tilde.team
 publish-site:
-    rsync -rlpt --delete --progress _build/html/*  tilde.team:~/public_html/
+    rsync -r \
+        --perms --times \
+        --copy-links \
+        --delete \
+        --progress \
+        _build/html/* \
+        tilde.team:~/public_html/
     ssh tilde.team 'touch ~/public_html/index.html'
 
 # Publish tilde-specific files
 publish-tilde:
-    rsync --perms --times \
+    rsync \
+        --perms --times \
         assets/dotfiles/tagline.txt \
         assets/images/avatar.png \
         tilde.team:~/public_html/
-    rsync --perms --times \
+    rsync \
+        --perms --times \
         assets/dotfiles/.project \
         tilde.team:~/
     ssh tilde.team 'cp ~/public_html/tagline.txt ~/.ring'

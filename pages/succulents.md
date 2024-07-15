@@ -1,4 +1,4 @@
-# {fas}`seedling` Cactus & Succulents
+# {fas}`seedling` Cactus & succulents
 ```{tags} photography, plants
 ```
 
