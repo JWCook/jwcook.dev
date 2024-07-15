@@ -33,6 +33,7 @@ extensions = [
     'sphinx_sitemap',
     'sphinx_tags',
     'sphinxext.opengraph',
+    'sphinxext.rediraffe',
     'myst_parser',
     'notfound.extension',
 ]
@@ -89,6 +90,12 @@ ogp_image = f'{BASE_URL}/_static/avatar.png'
 ogp_use_first_image = True
 ogp_social_cards = {'font': 'JetBrainsMono'}
 ogp_custom_meta_tags = []
+
+# Redirects
+rediraffe_redirects = {
+    "open_source.md": "open-source.md",
+    "about_site.md": "about-site.md",
+}
 
 # HTML general settings
 # html_favicon = join('../assets', 'favicon.ico')
@@ -177,4 +184,7 @@ def combine_static_dirs(*args):
 
 def rm_txt_sources(*args):
     """Remove _sources dir used by Sphinx for unused 'show source' button"""
-    rmtree(BUILD_DIR / '_sources')
+    try:
+        rmtree(BUILD_DIR / '_sources')
+    except FileNotFoundError:
+        pass

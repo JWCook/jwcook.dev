@@ -55,7 +55,6 @@ publish-site:
         --progress \
         _build/html/* \
         tilde.team:~/public_html/
-    ssh tilde.team 'touch ~/public_html/index.html'
 
 # Publish tilde-specific files
 publish-tilde:
@@ -69,6 +68,7 @@ publish-tilde:
         assets/dotfiles/.project \
         tilde.team:~/
     ssh tilde.team 'cp ~/public_html/tagline.txt ~/.ring'
+    ssh tilde.team 'touch ~/public_html/index.html'
 
 
 # Get total site size

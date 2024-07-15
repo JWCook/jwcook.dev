@@ -17,6 +17,7 @@ dependencies = [
     # 'sphinx-tags>=0.4',
     'sphinx-tags @ git+https://github.com/JWCook/sphinx-tags@mods',
     'sphinxext-opengraph>=0.9',
+    'sphinxext-rediraffe>=0.2',
 ]
 
 # Placeholder to allow installing dependencies as if it were a package
