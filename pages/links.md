@@ -31,22 +31,26 @@ Small web search engines and directories:
 * [OpenSet](https://www.twitch.tv/openset)
 * [SharpBalloons](https://twitch.tv/sharpballoons)
 
-### {fab}`youtube` Underappreciated channels (<100K)
-* [Worst Workshop](https://www.youtube.com/@worstworkshop)
-
-### {fab}`youtube` Underappreciated channels (<1M)
-* [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
-* [Life in Jars?](https://www.youtube.com/@LifeinJars)
-* [Posy](https://www.youtube.com/@PosyMusic)
-
-### {fab}`youtube` Appropriately popular but still great channels
-* [Astrum](https://www.youtube.com/@astrumspace)
+### {fab}`youtube` Misc
 * [Basically Homeless](https://www.youtube.com/@BasicallyHomeless)
 * [Bible Project](https://www.youtube.com/@bibleproject)
-* [Glarses](https://www.youtube.com/@Glarses)
 * [Please Bee](https://www.youtube.com/@pleasebee)
-* [Project Farm](https://www.youtube.com/@ProjectFarm)
-* [Steve Mould](https://www.youtube.com/@SteveMould)
-* [Tested](https://www.youtube.com/@tested)
-* [TierZoo](https://www.youtube.com/@TierZoo)
 * [Townsends](https://www.youtube.com/@townsends)
+
+### {fas}`laptop-code` Tech
+* [Dave's Garage](https://www.youtube.com/@DavesGarage)
+* [Glarses](https://www.youtube.com/@Glarses)
+* [Jeff Geerling](https://www.youtube.com/@JeffGeerling)
+* [Posy](https://www.youtube.com/@PosyMusic)
+
+### {fas}`microscope` Science
+* [Astrum](https://www.youtube.com/@astrumspace)
+* [Life in Jars?](https://www.youtube.com/@LifeinJars)
+* [Steve Mould](https://www.youtube.com/@SteveMould)
+* [TierZoo](https://www.youtube.com/@TierZoo)
+
+### {fas}`hammer` DIY
+* [Project Farm](https://www.youtube.com/@ProjectFarm)
+* [Honest Carpenter](https://www.youtube.com/@TheHonestCarpenter)
+* [Tested](https://www.youtube.com/@tested)
+* [Worst Workshop](https://www.youtube.com/@worstworkshop)

@@ -1,14 +1,16 @@
 # {fas}`user-astronaut` About me
 I'm a software engineer with a whole lot of hobbies and interests that I rotate between, including:
-* open source software
-* nature photography (especially macro)
-* biodiversity
-* cactus and succulent plants
-* video games
-* self-hosted/home server projects
-* hobby electronics
-* woodworking
-* other assorted DIY tinkerings
+* {fas}`code` open source software
+* {fas}`spider` nature photography (especially macro)
+* {fas}`crow` biodiversity
+* {fas}`seedling` cactus and succulent plants
+* {fas}`gamepad` video games
+* {fas}`terminal` command line tools
+* {fas}`server` self-hosted/home server projects
+* {fas}`microchip` hobby electronics
+* {fas}`chair` woodworking
+* {fas}`wrench` automotive
+* {fas}`gears` other assorted DIY tinkerings
 
 Other places you can find me:
 
