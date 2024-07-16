@@ -3,6 +3,7 @@ from pathlib import Path
 from shutil import rmtree
 
 from sphinx.application import Sphinx
+from tidylib import tidy_document
 
 ROOT_DIR = Path('.').resolve().parent
 BUILD_DIR = ROOT_DIR / '_build' / 'html'
@@ -107,6 +108,7 @@ rediraffe_redirects = {
 
 # HTML general settings
 # html_favicon = join('../assets', 'favicon.ico')
+# html_context = {}
 html_css_files = [
     'fonts.css',
     'style.css',
@@ -170,13 +172,17 @@ html_theme_options = {
 # gray #928374
 
 
-SIDEBAR_MAXDEPTH = 2
-
-
 def setup(app: Sphinx):
     """Run some additional steps after the Sphinx builder is initialized"""
     app.connect('build-finished', combine_static_dirs, priority=1000)
     app.connect('build-finished', rm_txt_sources, priority=1000)
+    app.connect('html-page-context', tidy_html, priority=1000)
+
+
+def tidy_html(app, pagename, templatename, context, doctree):
+    if html := context.get('body'):
+        html, _ = tidy_document(html, options={'output-xhtml': 1, 'show-body-only': 1, 'wrap': 1})
+        context['body'] = html
 
 
 def combine_static_dirs(*args):
