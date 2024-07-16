@@ -1,5 +1,5 @@
 SOURCE_DIR := "pages"
-BUILD_DIR := "_build"
+BUILD_DIR := "build"
 TAGS_DIR := "pages/tags"
 LIVE_PORT := "8181"
 
@@ -53,7 +53,7 @@ publish-site:
         --copy-links \
         --delete \
         --progress \
-        _build/html/* \
+        {{BUILD_DIR}}/html/* \
         tilde.team:~/public_html/
 
 # Publish tilde-specific files
@@ -73,4 +73,4 @@ publish-tilde:
 
 # Get total site size
 size:
-   /bin/du -h -d 1 _build/html/ | sort -h
+   /bin/du -h -d 1 {{BUILD_DIR}}/html/ | sort -h

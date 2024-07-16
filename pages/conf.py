@@ -5,9 +5,9 @@ from shutil import rmtree
 from sphinx.application import Sphinx
 
 ROOT_DIR = Path('.').resolve().parent
-BUILD_DIR = ROOT_DIR / '_build' / 'html'
+HTML_DIR = ROOT_DIR / 'build' / 'html'
 PAGES_DIR = ROOT_DIR / 'pages'
-TAGS_DIR = PAGES_DIR / 'tags'
+TAGS_DIR = ROOT_DIR / 'pages' / 'tags'
 BASE_URL = 'https://jwcook.tilde.team'
 
 # General information about the project.
@@ -20,7 +20,7 @@ html_static_path = [
     '../assets/css',
     '../assets/js',
 ]  # Exclude assets/images (automatically copied)
-exclude_patterns = ['_build', 'README.md']
+exclude_patterns = ['build', 'README.md']
 templates_path = ['../templates']
 
 # Sphinx extensions
@@ -182,10 +182,10 @@ def setup(app: Sphinx):
 
 def combine_static_dirs(*args):
     """Move/deduplicate static files from Sphinx extensions"""
-    src = BUILD_DIR / '_sphinx_design_static'
+    src = HTML_DIR / '_sphinx_design_static'
     if not src.exists():
         return
-    dst = BUILD_DIR / '_static'
+    dst = HTML_DIR / '_static'
     for item in src.iterdir():
         item.rename(dst / item.name)
     src.rmdir()
@@ -194,6 +194,6 @@ def combine_static_dirs(*args):
 def rm_txt_sources(*args):
     """Remove _sources dir used by Sphinx for unused 'show source' button"""
     try:
-        rmtree(BUILD_DIR / '_sources')
+        rmtree(HTML_DIR / '_sources')
     except FileNotFoundError:
         pass
