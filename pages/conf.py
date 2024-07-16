@@ -3,7 +3,6 @@ from pathlib import Path
 from shutil import rmtree
 
 from sphinx.application import Sphinx
-from tidylib import tidy_document
 
 ROOT_DIR = Path('.').resolve().parent
 BUILD_DIR = ROOT_DIR / '_build' / 'html'
@@ -38,6 +37,7 @@ extensions = [
     'sphinxfeed',
     'myst_parser',
     'notfound.extension',
+    'pages.sphinx_tidy',
 ]
 
 # MyST extensions
@@ -83,6 +83,8 @@ tags_badge_colors = {
     'status:*': 'info',
     '*': 'dark',
 }
+
+tidy_options = {'wrap': True}
 
 # Since we're not on readthedocs, don't insert `/<language>/<version>/`
 notfound_urls_prefix = ''
@@ -176,13 +178,6 @@ def setup(app: Sphinx):
     """Run some additional steps after the Sphinx builder is initialized"""
     app.connect('build-finished', combine_static_dirs, priority=1000)
     app.connect('build-finished', rm_txt_sources, priority=1000)
-    app.connect('html-page-context', tidy_html, priority=1000)
-
-
-def tidy_html(app, pagename, templatename, context, doctree):
-    if html := context.get('body'):
-        html, _ = tidy_document(html, options={'output-xhtml': 1, 'show-body-only': 1, 'wrap': 1})
-        context['body'] = html
 
 
 def combine_static_dirs(*args):
