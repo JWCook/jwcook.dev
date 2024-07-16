@@ -55,6 +55,21 @@ oh man this is going to look so cool when it's done
 :::
 ::::
 
+::::{grid} 1 2 3 3
+:::{grid-item-card} {fab}`python` Open Source
+:link: open-source
+:link-type: ref
+:::
+:::{grid-item-card} {fas}`seedling` Cactus & succulents
+:link: succulents
+:link-type: ref
+:::
+:::{grid-item-card} {fas}`camera` Photography
+:link: photography
+:link-type: ref
+:::
+::::
+
 ## Xrefs
 <!-- https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html -->
 Cross-reference formats:

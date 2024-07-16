@@ -1,3 +1,4 @@
+(succulents)=
 # {fas}`seedling` Cactus & succulents
 ```{tags} photography, plants
 ```

@@ -1,3 +1,4 @@
+(photography)=
 # {fas}`camera` Photography
 ```{tags} nature, photography
 ```

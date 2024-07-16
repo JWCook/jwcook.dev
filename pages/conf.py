@@ -51,7 +51,8 @@ myst_enable_extensions = [
 copybutton_prompt_text = r'>>> |\.\.\. |\$ '
 copybutton_prompt_is_regexp = True
 
-# autosectionlabel_prefix_document = True
+# Auto-generate section labels in the format `page-name:Plain Section Title`
+autosectionlabel_prefix_document = True
 
 # Sphinx-tags settings
 tags_create_tags = True

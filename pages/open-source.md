@@ -1,3 +1,4 @@
+(open-source)=
 # {fab}`python` Open Source
 ```{tags} code, python
 ```
