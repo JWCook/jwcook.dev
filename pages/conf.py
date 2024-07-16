@@ -70,7 +70,7 @@ tags_extension = ['md']
 tags_output_dir = 'tags'
 tags_overview_title = '{fas}`tags` Tags'
 tags_page_title = '{fas}`tag`'
-tags_page_header = "Pages with this tag"
+tags_page_header = 'Pages with this tag'
 tags_create_badges = True
 # Reference: https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html
 tags_badge_colors = {
@@ -104,8 +104,8 @@ ogp_custom_meta_tags = []
 
 # Redirects
 rediraffe_redirects = {
-    "open_source.md": "open-source.md",
-    "about_site.md": "about-site.md",
+    'open_source.md': 'open-source.md',
+    'about_site.md': 'about-site.md',
 }
 
 # HTML general settings

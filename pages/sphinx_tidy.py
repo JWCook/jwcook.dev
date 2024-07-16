@@ -12,6 +12,7 @@ extensions = ['sphinx-tidy']
 tidy_options = {'wrap': True}
 ```
 """
+
 from logging import getLogger
 
 from sphinx.application import Sphinx
