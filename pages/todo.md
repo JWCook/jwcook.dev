@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # {fas}`list` TODO
 ```{tags} status:hidden
 ```
@@ -11,15 +14,15 @@
     * ✅ tag index
     * ✅ tag badges
     * ✅ Embed tag list in home page without redundant toctrees in sidebar
-* RSS feed
+* ✅ RSS feed
 
 ## Minor features:
 * ✅ 404 page
 * ✅ Sitemap (XML)
-* ✅ Sitemap (HTML)
+* Sitemap (HTML)
+* Define/display structured metadata for posts (e.g. YAML front matter)
 
 ## Research/nice-to-have
-* Structured metadata for posts (e.g. YAML front matter)
 * Guestbook or comments
 * Generate minimal gemini site with [gemgen](https://sr.ht/~kota/gemgen)
 * [Webmentions](https://indieweb.org/Webmention)

@@ -17,7 +17,7 @@ clean:
 
 # Build documentation
 build:
-    sphinx-build --doctree-dir {{BUILD_DIR}}/doctrees {{SOURCE_DIR}} {{BUILD_DIR}}/html
+    sphinx-build -v --doctree-dir {{BUILD_DIR}}/doctrees {{SOURCE_DIR}} {{BUILD_DIR}}/html
 
 # Run linters
 lint:

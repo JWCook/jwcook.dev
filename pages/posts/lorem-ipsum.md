@@ -1,4 +1,10 @@
-# [2024-08-08] Lorem Ipsum
+---
+revision: 3
+status: placeholder
+date: 2024-04-04
+updated-date: 2024-07-07
+---
+# [2024-04-04] Lorem Ipsum
 ```{tags} status:placeholder
 ```
 

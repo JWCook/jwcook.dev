@@ -34,6 +34,7 @@ extensions = [
     'sphinx_tags',
     'sphinxext.opengraph',
     'sphinxext.rediraffe',
+    'sphinxfeed',
     'myst_parser',
     'notfound.extension',
 ]
@@ -53,6 +54,12 @@ copybutton_prompt_is_regexp = True
 
 # Auto-generate section labels in the format `page-name:Plain Section Title`
 autosectionlabel_prefix_document = True
+
+# RSS feed settings
+feed_base_url = BASE_URL
+feed_author = 'jwcook'
+feed_description = 'Personal site of jwcook'
+feed_field_name = 'date'
 
 # Sphinx-tags settings
 tags_create_tags = True

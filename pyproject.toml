@@ -16,6 +16,7 @@ dependencies = [
     'sphinx-sitemap>=2.6',
     # 'sphinx-tags>=0.4',
     'sphinx-tags @ git+https://github.com/JWCook/sphinx-tags@mods',
+    'sphinxfeed @ git+https://github.com/JWCook/sphinxfeed@main',
     'sphinxext-opengraph>=0.9',
     'sphinxext-rediraffe>=0.2',
 ]

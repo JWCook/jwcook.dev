@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # Markdown test
 ```{tags} status:hidden
 ```
