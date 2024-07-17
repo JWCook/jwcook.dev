@@ -20,6 +20,7 @@ orphan: true
 * ✅ 404 page
 * ✅ Sitemap (XML)
 * Sitemap (HTML)
+* 〰️Make link previews look decent (OpenGraph config)
 * Define/display structured metadata for posts (e.g. YAML front matter)
 
 ## Research/nice-to-have
@@ -32,11 +33,11 @@ orphan: true
 
 ## Contents
 * ✅ Basic interests/projects pages
-* ✅ About this site
+* ✅ /about
+* ✅ /about-site
 * /blogroll
-* /links
-* /log (generate from git commit messages?)
-* ✅ /uses
+* 〰️ /links
+* 〰️ /uses
 * Some small articles about tech topics, nature, maybe photography
     * Blog-style, in chronological order?
     * Or periodically updated by topic, like wiki pages or [evergreen notes](https://notes.andymatuschak.org)?
