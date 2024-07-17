@@ -122,6 +122,8 @@ def dither(input_path: str, output_path: str = OUTPUT_DIR, colors: int = 32, wid
         width,
         '--palette',
         ' '.join(palette),
+        '--compression',
+        'size',
         'edm',
         '--serpentine',
         'FloydSteinberg',
