@@ -38,6 +38,7 @@ extensions = [
     'myst_parser',
     'notfound.extension',
     'pages.sphinx_tidy',
+    'pages.grid_cards',
 ]
 
 # MyST extensions

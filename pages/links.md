@@ -47,35 +47,23 @@ Small web search engines and directories:
 ::::{grid} 1 2 2 2
 :gutter: 2
 
-:::{grid-item-card} Astrum
-:link: https://www.youtube.com/@astrumspace
-:class-img-top: md-profile
-:class-title: md-secondary
-:img-top: ../assets/images/profile_pics/astrumspace.png
+:::{profile-card} Astrum
+:yt-channel: astrumspace
 In-depth but accessible astronomy news
 :::
 
-:::{grid-item-card} ElectroBOOM
-:link: https://www.youtube.com/@ElectroBOOM
-:img-top: ../assets/images/profile_pics/electroboom.png
-:class-img-top: md-profile
-:class-title: md-secondary
+:::{profile-card} ElectroBOOM
+:yt-channel: ElectroBOOM
 Electrical engineer and safety violation achievement hunter
 :::
 
-:::{grid-item-card} SciShow Space
-:link: https://www.youtube.com/@scishowspace
-:img-top: ../assets/images/profile_pics/scishowspace.png
-:class-img-top: md-profile
-:class-title: md-secondary
+:::{profile-card} SciShow Space
+:yt-channel: scishowspace
 Concise, informative space news and science
 :::
 
-:::{grid-item-card} Steve Mould
-:link: https://www.youtube.com/@SteveMould
-:img-top: ../assets/images/profile_pics/stevemould.png
-:class-img-top: md-profile
-:class-title: md-secondary
+:::{profile-card} Steve Mould
+:yt-channel: SteveMould
 Thoughtful, well-presented pop sci
 :::
 

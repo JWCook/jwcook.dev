@@ -50,7 +50,10 @@ def dl_profile_pic(channel_name: str, overwrite: bool = False) -> Path:
 def get_channel_names():
     """Given a Markdown file containing YouTube channel links, get all channel names"""
     for line in LINKS_PAGE.read_text().splitlines():
+        # Look for both explicit links and yt-channel directives
         if match := re.search(r'\(https://www.youtube.com/@(.+?)\)', line):
+            yield match.group(1)
+        elif match := re.search(r':yt-channel:\s+(.+?)\s+', line):
             yield match.group(1)
 
 
