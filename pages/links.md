@@ -44,10 +44,49 @@ Small web search engines and directories:
 * [TierZoo](https://www.youtube.com/@TierZoo): Ecology as an interspecies PvP MMO
 
 ### {fas}`microscope` Science
+::::{grid} 1 2 2 2
+:gutter: 2
+
+:::{grid-item-card} Astrum
+:link: https://www.youtube.com/@astrumspace
+:class-img-top: md-profile
+:class-title: md-secondary
+:img-top: ../assets/images/profile_pics/astrumspace.png
+In-depth but accessible astronomy news
+:::
+
+:::{grid-item-card} ElectroBOOM
+:link: https://www.youtube.com/@ElectroBOOM
+:img-top: ../assets/images/profile_pics/electroboom.png
+:class-img-top: md-profile
+:class-title: md-secondary
+Electrical engineer and safety violation achievement hunter
+:::
+
+:::{grid-item-card} SciShow Space
+:link: https://www.youtube.com/@scishowspace
+:img-top: ../assets/images/profile_pics/scishowspace.png
+:class-img-top: md-profile
+:class-title: md-secondary
+Concise, informative space news and science
+:::
+
+:::{grid-item-card} Steve Mould
+:link: https://www.youtube.com/@SteveMould
+:img-top: ../assets/images/profile_pics/stevemould.png
+:class-img-top: md-profile
+:class-title: md-secondary
+Thoughtful, well-presented pop sci
+:::
+
+::::
+
+<!--
 * [Astrum](https://www.youtube.com/@astrumspace): In-depth but accessible astronomy news
 * [ElectroBOOM](https://www.youtube.com/@ElectroBOOM): Electrical engineer and safety violation achievement hunter
 * [SciShow Space](https://www.youtube.com/@scishowspace): Concise, informative space news and science
 * [Steve Mould](https://www.youtube.com/@SteveMould): Thoughtful, well-presented pop sci
+-->
 
 ### {fas}`laptop-code` Tech
 * [Dave's Garage](https://www.youtube.com/@DavesGarage): Software development, home networking, and retro computing

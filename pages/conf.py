@@ -129,7 +129,10 @@ pygments_style = 'gruvbox-light'
 pygments_dark_style = 'gruvbox-dark'
 html_theme = 'furo'
 
-# Color variable reference: https://github.com/pradyunsg/furo/blob/main/src/furo/assets/styles/variables/_colors.scss
+# Color variable reference:
+# * https://github.com/pradyunsg/furo/blob/main/src/furo/assets/styles/variables/_colors.scss
+# * https://github.com/pradyunsg/furo/blob/main/src/furo/assets/styles/extensions/_sphinx-design.sass
+# * https://sphinx-design.readthedocs.io/en/latest/css_variables.html
 html_theme_options = {
     # 'light_logo': 'logo-light.webp',
     # 'dark_logo': 'logo-dark.webp',
@@ -153,6 +156,9 @@ html_theme_options = {
         'font-stack': 'JetBrainsMono',
         'color-brand-primary': '#fabd2f',
         'color-brand-content': '#83a598',
+        'color-card-background': '#3c3836',
+        'color-card-border': '#928374',
+        'sd-color-card-border-hover': '#fabd2f',
         # 'color-foreground-primary': '#ffffffcc',  # for main text and headings
         # 'color-foreground-secondary': '#9ca0a5',  # for secondary text
         # 'color-foreground-muted': '#81868d',  # for muted text
@@ -163,6 +169,7 @@ html_theme_options = {
         # 'color-background-hover--transparent': '#1e212400',
         # 'color-background-border': '#3c3836',  # for UI borders
         # 'color-background-item': '#444',  # for 'background' items (eg': ' copybutton)
+        # 'sd-color-card-text': '',
     },
 }
 # Gruvbox colors:
