@@ -1,7 +1,10 @@
 #!/usr/bin/env python
-"""Script to download YouTube profile pics"""
+"""Script to download YouTube profile pics.
+This allows serving smaller compressed images along with the site, to limit external requests.
+"""
 
 import re
+from argparse import ArgumentParser
 from logging import getLogger
 from pathlib import Path
 
@@ -19,10 +22,10 @@ OUTPUT_DIR_PROCESSED = ROOT_DIR / 'assets' / 'images' / 'profile_pics'
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
 
-def dl_profile_pic(channel_name: str) -> Path:
+def dl_profile_pic(channel_name: str, overwrite: bool = False) -> Path:
     url = f'https://www.youtube.com/@{channel_name}'
     out_file = OUTPUT_DIR / f'{channel_name.lower()}.jpg'
-    if out_file.exists():
+    if out_file.exists() and not overwrite:
         logger.info(f'Image for {channel_name} already exists')
         return out_file
 
@@ -51,8 +54,16 @@ def get_channel_names():
             yield match.group(1)
 
 
-if __name__ == '__main__':
+def main():
+    parser = ArgumentParser(description='Download and process external thumbnails')
+    parser.add_argument('--force', '-f', action='store_true', help='Overwrite download images')
+    args = parser.parse_args()
+
     for channel_name in get_channel_names():
-        path = dl_profile_pic(channel_name)
+        path = dl_profile_pic(channel_name, overwrite=args.force)
         if path:
             dither(path, OUTPUT_DIR_PROCESSED, colors=32, width=128)
+
+
+if __name__ == '__main__':
+    main()
