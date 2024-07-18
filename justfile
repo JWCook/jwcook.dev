@@ -30,7 +30,7 @@ linkcheck:
 # Serve site with live reloading
 live:
     just clean
-    sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}}/html -a \
+    sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}}/html \
         --doctree-dir {{BUILD_DIR}}/doctrees \
         --watch assets \
         --watch templates \

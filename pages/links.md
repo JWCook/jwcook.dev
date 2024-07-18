@@ -1,7 +1,6 @@
 
 # {fas}`link` Links
-```{tags} status:draft
-```
+Links to some things I enjoy and think you might enjoy too!
 
 ## {fab}`searchengin` Search
 Favorite general-purpose search engine:
@@ -51,40 +50,9 @@ Fun, high-energy art show mainly in the medium of balloons
 
 ::::
 
-### {fas}`book-atlas` History and culture
+### {fas}`frog` Science: Nature
 ::::{grid} 1 2 2 2
 :gutter: 2
-
-:::{profile-card} Bible Project
-:yt-channel: bibleproject
-Thoughtful, artistic commentary on Bible topics in historical context
-:::
-
-:::{profile-card} Defunctland
-:yt-channel: Defunctland
-Fascinating tales of theme park and entertainment business history
-:::
-
-:::{profile-card} Peter Santenello
-:yt-channel: PeterSantenello
-Travel and cultural documentaries with a focus on lesser-known communities
-:::
-
-:::{profile-card} Townsends
-:yt-channel: townsends
-Warm and wholesome 18th-century cooking, crafting, history, and reenactment
-:::
-
-::::
-
-### {fas}`frog` Nature
-::::{grid} 1 2 2 2
-:gutter: 2
-
-:::{profile-card} Please Bee
-:yt-channel: pleasebee
-Raising and befriending tiny adorable invertebrates
-:::
 
 :::{profile-card} Journey to the Microcosmos
 :yt-channel: journeytomicro
@@ -96,30 +64,55 @@ High-quality footage of microscopic life narrated by Hank Green
 Peeping on tiny critters in jarrariums
 :::
 
+:::{profile-card} Please Bee
+:yt-channel: pleasebee
+Raising and befriending tiny adorable invertebrates
+:::
+
 :::{profile-card} TierZoo
 :yt-channel: TierZoo
 Ecology as an interspecies PvP MMO
 :::
 
 ::::
-
-### {fas}`microscope` Science
+### {fas}`meteor` Science: Astronomy
 ::::{grid} 1 2 2 2
 :gutter: 2
 
 :::{profile-card} Astrum
 :yt-channel: astrumspace
-In-depth but accessible astronomy news
+In-depth but accessible space info and news
 :::
 
-:::{profile-card} ElectroBOOM
-:yt-channel: ElectroBOOM
-Electrical engineer and safety violation achievement hunter
+:::{profile-card} ESA
+:yt-channel: EuropeanSpaceAgency
+Official channel of the European Space Agency
 :::
 
 :::{profile-card} SciShow Space
 :yt-channel: scishowspace
-Concise, informative space news and science
+Concise, bite-sized videos on space topics
+:::
+
+:::{profile-card} Deep Astronomy
+:yt-channel: deepastronomy
+Somewhat more technical astronomy content
+:::
+
+::::
+
+### {fas}`microscope` Science: General
+::::{grid} 1 2 2 2
+:gutter: 2
+
+:::{profile-card} ElectroBOOM
+:yt-channel: ElectroBOOM
+Mad scientist, electrical engineer, and safety violation achievement hunter
+:::
+
+:::{profile-card} Kyle Hill
+:yt-channel: kylehill
+Science communicator covering nuclear science, physics, and general science topics
 :::
 
 :::{profile-card} Steve Mould
@@ -127,10 +120,12 @@ Concise, informative space news and science
 Thoughtful, well-presented pop sci
 :::
 
+:::{profile-card} SmarterEveryDay
+:yt-channel: smartereveryday
+Broad range of science and engineering topics
 ::::
 
-
-### {fas}`laptop-code` Tech
+### {fas}`laptop-code` Tech: Software
 ::::{grid} 1 2 2 2
 :gutter: 2
 
@@ -138,6 +133,27 @@ Thoughtful, well-presented pop sci
 :yt-channel: DavesGarage
 Software development, home networking, and retro computing
 :::
+
+:::{profile-card} Programmers are also human
+:yt-channel: programmersarealsohuman5909
+Completely normal interviews with the greatest minds in software
+:::
+
+:::{profile-card} PyData
+:yt-channel: PyDataTV
+Presentations on data processing and analysis in Python
+:::
+
+:::{profile-card} Talk Python
+:yt-channel: talkpython
+Python dev podcast with news and interviews
+:::
+
+::::
+
+### {fas}`blender-phone` Tech: Hardware
+::::{grid} 1 2 2 2
+:gutter: 2
 
 :::{profile-card} Glarses
 :yt-channel: Glarses
@@ -154,10 +170,40 @@ Raspberry Pi, hobby electronics, and homelabbing aka systems administration cosp
 Expertly filmed & edited retro tech deep dives
 :::
 
+:::{profile-card} Technology Connections
+:yt-channel: TechnologyConnections
+Deep dives into the history and workings of everyday technology
+:::
+
 ::::
 
+### {fas}`hammer` DIY: Woodworking
+::::{grid} 1 2 2 2
+:gutter: 2
 
-### {fas}`hammer` DIY
+:::{profile-card} Fix This Build That
+:yt-channel: Fixthisbuildthat
+Woodworking and home improvement projects and tutorials
+:::
+
+:::{profile-card} Honest Carpenter
+:yt-channel: TheHonestCarpenter
+Woodworking, home improvement, and other DIY topics
+:::
+
+:::{profile-card} Scott Walsh
+:yt-channel: ScottWalshWoodworking
+Woodworking, shop projects, and tool reviews
+:::
+
+:::{profile-card} Worst Workshop
+:yt-channel: worstworkshop
+Premise of "Learn from my dumb woodworking mistakes" but actually fun and informative
+:::
+
+::::
+
+### {fas}`screwdriver-wrench` DIY: General
 ::::{grid} 1 2 2 2
 :gutter: 2
 
@@ -166,19 +212,19 @@ Expertly filmed & edited retro tech deep dives
 Basically what I want to be when I grow up
 :::
 
+:::{profile-card} Laura Kampf
+:yt-channel: laurakampf
+A fun and engaging maker, designer, and home renovator
+:::
+
+:::{profile-card} LRN2DIY
+:yt-channel: LRN2DIY
+Tutorials on home improvement, 3D printing, and other DIY topics
+:::
+
 :::{profile-card} Project Farm
 :yt-channel: ProjectFarm
 Thorough and methodical tool reviews and testing
-:::
-
-:::{profile-card} Honest Carpenter
-:yt-channel: TheHonestCarpenter
-Woodworking, home improvement, and other DIY topics
-:::
-
-:::{profile-card} Worst Workshop
-:yt-channel: worstworkshop
-Premise of "Learn from my dumb woodworking mistakes" but actually fun and informative
 :::
 
 ::::
@@ -209,6 +255,58 @@ Video game music history and composer spotlights
 
 ::::
 
+### {fas}`book-atlas` History and culture
+::::{grid} 1 2 2 2
+:gutter: 2
+
+:::{profile-card} Bible Project
+:yt-channel: bibleproject
+Thoughtful, artistic commentary on Bible topics in historical context
+:::
+
+:::{profile-card} Defunctland
+:yt-channel: Defunctland
+Fascinating tales of theme park and entertainment business history
+:::
+
+:::{profile-card} Made In History
+:yt-channel: MadeInHistory
+Long-form world history documentaries
+:::
+
+:::{profile-card} Townsends
+:yt-channel: townsends
+Warm and wholesome 18th-century cooking, crafting, history, and reenactment
+:::
+
+::::
+
+### {fas}`compass` Travel
+::::{grid} 1 2 2 2
+:gutter: 2
+
+:::{profile-card} Iohan Gueorguiev
+:yt-channel: IohanGueorguiev
+Bikepacking and adventure travel
+:::
+
+:::{profile-card} DancingBacons
+:yt-channel: DancingBacons
+Non-narrated food travel in East and Southeast Asia
+:::
+
+:::{profile-card} Peter Santenello
+:yt-channel: PeterSantenello
+Travel and cultural documentaries with a focus on lesser-known communities
+:::
+
+:::{profile-card} Solo Solo Travel
+:yt-channel: SoloSoloTravel
+Non-narrated travel vlogs exploring Japan by train, bus, and boat
+:::
+
+::::
+
 ### {fab}`youtube` Misc
 ::::{grid} 1 2 2 2
 :gutter: 2
@@ -220,30 +318,54 @@ Car mods, builds, and cross-country road trips
 
 :::{profile-card} Joe Pera
 :yt-channel: JoePeraComedy
-If Fred Rogers were a stand-up comedian
-:::
-
-:::{profile-card} Programmers are also human
-:yt-channel: programmersarealsohuman5909
-Completely normal interviews with the greatest minds in tech
-:::
-
-:::{profile-card} Solo Solo Travel
-:yt-channel: SoloSoloTravel
-Unnarrated travel vlogs exploring Japan by train, bus, and boat
+If Fred Rogers were a stand-up comedian and had strong opinions about breakfast foods
 :::
 
 ::::
 
+<!--
+Other potential categories:
+* {fas}`sun-plant-wilt` Plants/gardening
+  * Cerriscapades: Succulent gardening in Australia
+* {fas}`bowl-food` Food
+  * EthanChlebowski
+  * DancingBacons
+* {fas}`car-on` Automotive
+  * Gears and Gasoline
+  * Big Time
+* {fas}`face-grin-tears` Comedy
+  *  Joe Pera
+* Hardware sub-category:
+  * HardwareHaven
+* Gaming sub-category
+  * FanTheDeck
+  * Gamers Nexus
+-->
 
 <!--
-Unsorted:
-* [Cerriscapades](https://www.youtube.com/@Cerriscapades): Succulent gardening in Australia
-* [Laura Kampf](https://www.youtube.com/@laurakampf): A fun and engaging maker, designer, and home renovator
-* [Technology Connections](https://www.youtube.com/@TechnologyConnections): Deep dives into the history and workings of everyday technology
+# Card grid template
+::::{grid} 1 2 2 2
+:gutter: 2
 
-### Tech: Software development
-* [Talk Python](https://www.youtube.com/@talkpython): Python dev podcast with news and interviews
+:::{profile-card}
+:yt-channel:
 
-### Tech: Retro computing and electronics
-* -->
+:::
+
+:::{profile-card}
+:yt-channel:
+
+:::
+
+:::{profile-card}
+:yt-channel:
+
+:::
+
+:::{profile-card}
+:yt-channel:
+
+:::
+
+::::
+-->
