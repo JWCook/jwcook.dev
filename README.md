@@ -1,5 +1,6 @@
-# jwcook's tilde.team page
-https://tilde.team/~jwcook
+# jwcook's home page
+* Main site: https://jwcook.dev
+* Tilde site: https://tilde.team/~jwcook
 
 Markdown-based static site generated with [Sphinx](docs.readthedocs.io) and [MyST](https://myst-parser.readthedocs.io).
 
@@ -7,9 +8,11 @@ Markdown-based static site generated with [Sphinx](docs.readthedocs.io) and [MyS
 Prerequisites:
 * python 3.10+
 * [`just`](https://github.com/casey/just#packages)
+* [`npm`](https://docs.npmjs.com/cli/v10/configuring-npm/install)
 * Install dependencies:
 ```bash
 pip install -Ue "."
+npm install
 ```
 
 ## Usage
@@ -23,7 +26,7 @@ Build with live browser reload:
 just live
 ```
 
-Publish to tilde.team:
+Publish:
 ```bash
 just publish
 ```

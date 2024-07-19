@@ -24,4 +24,4 @@ Disallow: /
 
 User-agent: *
 Allow: /
-Sitemap: https://jwcook.tilde.team/sitemap.xml
+Sitemap: https://jwcook.dev/sitemap.xml

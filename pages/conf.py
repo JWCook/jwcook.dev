@@ -8,7 +8,7 @@ ROOT_DIR = Path('.').resolve().parent
 HTML_DIR = ROOT_DIR / 'build' / 'html'
 PAGES_DIR = ROOT_DIR / 'pages'
 TAGS_DIR = ROOT_DIR / 'pages' / 'tags'
-BASE_URL = 'https://jwcook.tilde.team'
+BASE_URL = 'https://jwcook.dev'
 
 # General information about the project.
 project = '~jwcook'
@@ -110,7 +110,7 @@ rediraffe_redirects = {
 }
 
 # HTML general settings
-# html_favicon = join('../assets', 'favicon.ico')
+html_favicon = '../assets/images/favicon.png'
 # html_context = {}
 html_css_files = [
     'fonts.css',

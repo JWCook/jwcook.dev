@@ -19,3 +19,5 @@ downloads/
 test-reports/
 pages/tags/
 assets/images/cache/
+node_modules/
+tmp/
