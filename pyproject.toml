@@ -3,19 +3,20 @@ name = 'jwcook.tilde.team'
 requires-python = '>=3.10'
 version = "0.1.0"
 dependencies = [
+    'beautifulsoup4>=4.12',
     'furo~=2024.5',
     'linkify-it-py>=2.0',
     'matplotlib>=3.9',
     'myst-parser~=3.0',
     'pre-commit~=3.7',
     'pytidylib>=0.3',
+    'requests>=2.26',
     'sphinx~=7.2',
     'sphinx-autobuild>=2024',
     'sphinx-copybutton>=0.5',
     'sphinx-design>=0.6',
     'sphinx-notfound-page>=1.0',
     'sphinx-sitemap>=2.6',
-    # 'sphinx-tags>=0.4',
     'sphinx-tags @ git+https://github.com/JWCook/sphinx-tags@mods',
     'sphinxfeed @ git+https://github.com/JWCook/sphinxfeed@main',
     'sphinxext-opengraph>=0.9',
