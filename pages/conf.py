@@ -110,7 +110,7 @@ rediraffe_redirects = {
 }
 
 # HTML general settings
-# html_favicon = join('../assets', 'favicon.ico')
+html_favicon = '../assets/images/favicon.png'
 # html_context = {}
 html_css_files = [
     'fonts.css',
