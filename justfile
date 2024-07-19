@@ -38,28 +38,29 @@ live:
         --ignore '*.tmp' \
         --ignore '**/tags/*' \
         --port {{LIVE_PORT}} \
-        --open-browser \
-        --delay 1 \
         -v
 
 # Publish all files
 publish:
-    just publish-site publish-tilde
+    just cf-login
+    just publish-cf
+
+# Publish site to Cloudflare Pages
+publish-cf:
+    wrangler pages deploy {{BUILD_DIR}}/html/
+
+# Login to Cloudflare Pages, if needed
+cf-login:
+    wrangler whoami | grep -q 'not authenticated' && wrangler login || echo "✅ Logged in"
 
 # Publish site to tilde.team
-publish-site:
+publish-tilde:
     rsync -r \
         --perms --times \
         --copy-links \
         --delete \
         --progress \
         {{BUILD_DIR}}/html/* \
-        tilde.team:~/public_html/
-
-# Publish tilde-specific files
-publish-tilde:
-    rsync \
-        --perms --times \
         assets/dotfiles/tagline.txt \
         assets/images/avatar.png \
         tilde.team:~/public_html/
@@ -69,7 +70,6 @@ publish-tilde:
         tilde.team:~/
     ssh tilde.team 'cp ~/public_html/tagline.txt ~/.ring'
     ssh tilde.team 'touch ~/public_html/index.html'
-
 
 # Get total site size
 size:

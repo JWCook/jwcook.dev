@@ -8,7 +8,7 @@ ROOT_DIR = Path('.').resolve().parent
 HTML_DIR = ROOT_DIR / 'build' / 'html'
 PAGES_DIR = ROOT_DIR / 'pages'
 TAGS_DIR = ROOT_DIR / 'pages' / 'tags'
-BASE_URL = 'https://jwcook.tilde.team'
+BASE_URL = 'https://jwcook.dev'
 
 # General information about the project.
 project = '~jwcook'
