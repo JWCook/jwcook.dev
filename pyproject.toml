@@ -18,7 +18,7 @@ dependencies = [
     'sphinx-notfound-page>=1.0',
     'sphinx-sitemap>=2.6',
     'sphinx-tags @ git+https://github.com/JWCook/sphinx-tags@mods',
-    'sphinxfeed @ git+https://github.com/JWCook/sphinxfeed@main',
+    'sphinxfeed-lsaffre @ git+https://github.com/JWCook/sphinxfeed@master',
     'sphinxext-opengraph>=0.9',
     'sphinxext-rediraffe>=0.2',
 ]

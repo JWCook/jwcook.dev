@@ -42,7 +42,7 @@ live:
 
 # Publish all files
 publish:
-    just cf-login
+    just login-cf
     just publish-cf
 
 # Publish site to Cloudflare Pages
@@ -50,7 +50,7 @@ publish-cf:
     wrangler pages deploy {{BUILD_DIR}}/html/
 
 # Login to Cloudflare Pages, if needed
-cf-login:
+login-cf:
     wrangler whoami | grep -q 'not authenticated' && wrangler login || echo "✅ Logged in"
 
 # Publish site to tilde.team
