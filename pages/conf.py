@@ -1,4 +1,5 @@
 # Config for Sphinx and its extensions
+from os import environ
 from pathlib import Path
 from shutil import rmtree
 
@@ -9,6 +10,9 @@ HTML_DIR = ROOT_DIR / 'build' / 'html'
 PAGES_DIR = ROOT_DIR / 'pages'
 TAGS_DIR = ROOT_DIR / 'pages' / 'tags'
 BASE_URL = 'https://jwcook.dev'
+
+# Should be 'local', 'dev', or 'prod'
+PUBLISH_ENV = environ.get('PUBLISH_ENV', 'local')
 
 # General information about the project.
 project = '~jwcook'
@@ -111,7 +115,9 @@ rediraffe_redirects = {
 
 # HTML general settings
 html_favicon = '../assets/images/favicon.png'
-# html_context = {}
+html_context = {
+    'publish_env': PUBLISH_ENV,
+}
 html_css_files = [
     'fonts.css',
     'style.css',

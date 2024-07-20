@@ -9,7 +9,8 @@ default:
 
 # Run all steps
 all:
-    just clean lint build linkcheck size publish-site publish-tilde
+    just clean lint build-dev linkcheck size publish-tilde
+    just build-prod publish
 
 # Clean build and tags directories
 clean:
@@ -18,6 +19,12 @@ clean:
 # Build documentation
 build:
     sphinx-build -v --doctree-dir {{BUILD_DIR}}/doctrees {{SOURCE_DIR}} {{BUILD_DIR}}/html
+
+build-dev:
+    PUBLISH_ENV='dev' just build
+
+build-prod:
+    PUBLISH_ENV='prod' just build
 
 # Run linters
 lint:
@@ -47,6 +54,7 @@ publish:
 
 # Publish site to Cloudflare Pages
 publish-cf:
+    export PUBLISH_ENV='prod'
     wrangler pages deploy {{BUILD_DIR}}/html/
 
 # Login to Cloudflare Pages, if needed
