@@ -16,7 +16,7 @@ dependencies = [
     'sphinx-copybutton>=0.5',
     'sphinx-design>=0.6',
     'sphinx-git>=11.0',
-    'sphinx-last-updated-by-git>=0.3',
+    'sphinx-gitstamp>=0.4',
     'sphinx-notfound-page>=1.0',
     'sphinx-sitemap>=2.6',
     'sphinx-tags @ git+https://github.com/JWCook/sphinx-tags@mods',

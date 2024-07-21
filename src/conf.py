@@ -26,7 +26,7 @@ extensions = [
     'sphinx_copybutton',
     'sphinx_design',
     'sphinx_git',
-    'sphinx_last_updated_by_git',
+    'sphinx_gitstamp',
     'sphinx_sitemap',
     'sphinx_tags',
     'sphinxext.opengraph',
@@ -120,7 +120,7 @@ html_extra_path = ['robots.txt']
 html_js_files = ['style.js']
 html_title = '~jwcook'
 html_logo = '../assets/images/avatar.png'
-html_last_updated_fmt = '%Y-%m-%d'
+html_last_updated_fmt = gitstamp_fmt =  '%Y-%m-%d'
 html_show_copyright = False
 html_show_sphinx = False
 
