@@ -19,4 +19,5 @@ slashpages
 
 posts
 tags
+sitemap
 ```
