@@ -36,7 +36,7 @@ live:
         --doctree-dir {{BUILD_DIR}}/doctrees \
         --watch assets \
         --watch templates \
-        --watch pages/conf.py \
+        --watch src/conf.py \
         --ignore '*.tmp' \
         --ignore '**/tags/*' \
         --port {{LIVE_PORT}} \

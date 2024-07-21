@@ -27,7 +27,7 @@ dependencies = [
 
 # Placeholder to allow installing dependencies as if it were a package
 [tool.setuptools]
-packages = ['pages']
+packages = ['src']
 
 [tool.ruff]
 fix = true
