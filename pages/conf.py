@@ -34,6 +34,7 @@ extensions = [
     'sphinx.ext.extlinks',
     'sphinx_copybutton',
     'sphinx_design',
+    'sphinx_git',
     'sphinx_sitemap',
     'sphinx_tags',
     'sphinxext.opengraph',

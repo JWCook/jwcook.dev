@@ -38,6 +38,7 @@ orphan: true
 * /blogroll
 * 〰️ /links
 * 〰️ /uses
+* 〰️ /log (auto-generated from git commits)
 * Some small articles about tech topics, nature, maybe photography
     * Blog-style, in chronological order?
     * Or periodically updated by topic, like wiki pages or [evergreen notes](https://notes.andymatuschak.org)?
