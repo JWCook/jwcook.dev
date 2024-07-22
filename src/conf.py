@@ -137,7 +137,7 @@ html_extra_path = ['robots.txt']
 html_js_files = ['style.js']
 html_title = '~jwcook'
 html_logo = '../assets/images/avatar.png'
-html_last_updated_fmt = gitstamp_fmt =  '%Y-%m-%d'
+html_last_updated_fmt = gitstamp_fmt = '%Y-%m-%d'
 html_show_copyright = False
 html_show_sphinx = False
 

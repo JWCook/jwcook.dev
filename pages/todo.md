@@ -13,17 +13,17 @@ orphan: true
     * ✅ tag badges
     * ✅ Embed tag list in home page without redundant toctrees in sidebar
 * ✅ RSS feed
+* 〰️Guestbook or comments
 
 ## Minor features:
 * ✅ 404 page
 * ✅ Sitemap (XML)
-* Sitemap (HTML)
+* 〰️Sitemap (HTML)
 * 〰️Make link previews look decent (OpenGraph config)
 * Define/display structured metadata for posts (e.g. YAML front matter)
 * ✅ tooltips
 
 ## Research/nice-to-have
-* Guestbook or comments
 * Generate minimal gemini site with [gemgen](https://sr.ht/~kota/gemgen)
 * [Webmentions](https://indieweb.org/Webmention)
 * [Microformats](https://indieweb.org/microformats2)

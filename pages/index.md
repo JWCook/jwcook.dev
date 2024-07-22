@@ -18,6 +18,7 @@ slashpages
 :maxdepth: 1
 
 posts
+comments
 tags
 sitemap
 ```

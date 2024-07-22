@@ -38,6 +38,9 @@ def tidy_html(app, pagename, templatename, context, doctree):
         if errors:
             logger.warning('Tidy errors: %s', errors)
         context['body'] = html
+    # for k in sorted(context.keys()):
+    #     print(f'{k}: {context[k]}')
+    # breakpoint()
 
 
 def _merge_options(app) -> dict:
