@@ -1,4 +1,10 @@
 main{
+  --color-btn-primary-bg:#fabd2f;
+  --color-btn-primary-hover-bg:#facb5d;
+  --color-btn-primary-disabled-bg:#d79921;
+  --color-canvas-default:#3c3836;
+  --color-canvas-subtle:#665c54;
+  --color-canvas-inset:#282828;
   --color-accent-emphasis:#316dca;
   --color-accent-fg:#539bf5;
   --color-accent-muted:#4184e466;
@@ -15,12 +21,9 @@ main{
   --color-btn-hover-bg:#444c56;
   --color-btn-hover-border:#768390;
   --color-btn-inset-shadow:0 0 #0000;
-  --color-btn-primary-bg:#347d39;
   --color-btn-primary-border:#cdd9e51a;
-  --color-btn-primary-disabled-bg:#347d3999;
   --color-btn-primary-disabled-border:#cdd9e51a;
   --color-btn-primary-disabled-text:#cdd9e580;
-  --color-btn-primary-hover-bg:#46954a;
   --color-btn-primary-hover-border:#cdd9e51a;
   --color-btn-primary-inset-shadow:0 0 #0000;
   --color-btn-primary-selected-bg:#347d39;
@@ -30,10 +33,7 @@ main{
   --color-btn-selected-bg:#2d333b;
   --color-btn-shadow:0 0 #0000;
   --color-btn-text:#adbac7;--color-btn-bg:#373e47;
-  --color-canvas-default:#192734;
-  --color-canvas-inset:#15202b;
   --color-canvas-overlay:#161b22;
-  --color-canvas-subtle:#253341;
   --color-danger-fg:#e5534b;
   --color-danger-muted:#e5534b66;
   --color-danger-subtle:#e5534b1a;

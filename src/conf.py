@@ -129,6 +129,7 @@ html_context = {
 }
 html_css_files = [
     'fonts.css',
+    'giscus.css',
     'style.css',
     'tippy.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css',
