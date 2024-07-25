@@ -20,6 +20,7 @@ orphan: true
 * Sitemap (HTML)
 * 〰️Make link previews look decent (OpenGraph config)
 * Define/display structured metadata for posts (e.g. YAML front matter)
+* ✅ tooltips
 
 ## Research/nice-to-have
 * Guestbook or comments

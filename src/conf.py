@@ -29,6 +29,7 @@ extensions = [
     'sphinx_gitstamp',
     'sphinx_sitemap',
     'sphinx_tags',
+    'sphinx_tippy',
     'sphinxext.opengraph',
     'sphinxext.rediraffe',
     'sphinxfeed',
@@ -82,6 +83,21 @@ tags_badge_colors = {
     '*': 'dark',
 }
 
+# Tooltip (tippy.js) settings
+tippy_props = {
+    'placement': 'auto-start',
+    'maxWidth': 500,
+    'interactive': False,
+    'theme': 'material',
+    'duration': [200, 100],
+    'delay': [300, 100],
+}
+tippy_add_class = 'has-tippy'
+tippy_enable_wikitips = True
+tippy_skip_urls = [
+    'https://jwcook.dev/index.html',
+]
+
 tidy_options = {'wrap': True}
 
 # Since we're not on readthedocs, don't insert `/<language>/<version>/`
@@ -114,6 +130,7 @@ html_context = {
 html_css_files = [
     'fonts.css',
     'style.css',
+    'tippy.css',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
 ]
 html_extra_path = ['robots.txt']
