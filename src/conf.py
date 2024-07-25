@@ -131,7 +131,7 @@ html_css_files = [
     'fonts.css',
     'style.css',
     'tippy.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css',
 ]
 html_extra_path = ['robots.txt']
 html_js_files = ['style.js']
