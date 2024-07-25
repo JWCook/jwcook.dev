@@ -3,6 +3,7 @@
 {%- block linktags %}
 {{ super() }}
 <link rel="alternate" type="application/rss+xml" title="~jwcook" href="/rss.xml">
+<meta name="giscus:backlink" content="{{ pageurl }}">
 {%- endblock %}
 
 {% block body -%}
@@ -77,6 +78,26 @@
         <article role="main">
           {% block content %}{{ body }}{% endblock %}
         </article>
+        {%- if current_page_name == "guestbook" -%}
+        <script src="https://giscus.app/client.js"
+          data-repo="JWCook/jwcook.dev"
+          data-repo-id="R_kgDOIYnR_w"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOIYnR_84ChEWi"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="https://jwcook.dev/_static/giscus.css"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+        </script>
+        <!-- data-theme="https://jwcook.dev/_static/giscus.css" -->
+        <!-- data-theme="transparent_dark" -->
+        {%- endif -%}
       </div>
 
       <!-- Footer: Webring links / rss feed / last updated / view counter -->
@@ -101,9 +122,14 @@
 
             <div align="right">
             {%- if last_updated -%}
-            <div class="last-updated">Last updated on {{ last_updated }}</div>
+            <div class="last-updated">Site last updated: {{ last_updated }}</div>
             {%- endif %}
+            {%- if gitstamp -%}
+            <div class="last-updated">Page last updated: {{ gitstamp }}</div>
+            {%- endif %}
+            {%- if publish_env != "local" -%}
             <img alt="Page views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftilde.team%2F%7Ejwcook%2F&title=views&count_bg=%2383A598&title_bg=%23504945&title=hits&edge_flat=false"/>
+            {%- endif %}
           </div>
         </div>
         {% endblock footer %}

@@ -9,7 +9,9 @@ default:
 
 # Run all steps
 all:
-    just clean lint build linkcheck size publish-site publish-tilde
+    just clean lint build linkcheck size
+    just publish-tilde
+    just publish
 
 # Clean build and tags directories
 clean:
@@ -34,27 +36,23 @@ live:
         --doctree-dir {{BUILD_DIR}}/doctrees \
         --watch assets \
         --watch templates \
-        --watch pages/conf.py \
+        --watch src/conf.py \
         --ignore '*.tmp' \
         --ignore '**/tags/*' \
         --port {{LIVE_PORT}} \
         -v
 
-# Publish all files
+# Publish site to Cloudflare Pages (and login first, if needed)
 publish:
-    just login-cf
-    just publish-cf
-
-# Publish site to Cloudflare Pages
-publish-cf:
-    wrangler pages deploy {{BUILD_DIR}}/html/
-
-# Login to Cloudflare Pages, if needed
-login-cf:
+    just clean
+    PUBLISH_ENV='prod' just build
     wrangler whoami | grep -q 'not authenticated' && wrangler login || echo "✅ Logged in"
+    wrangler pages deploy {{BUILD_DIR}}/html/
 
 # Publish site to tilde.team
 publish-tilde:
+    just clean
+    PUBLISH_ENV='dev' just build
     rsync -r \
         --perms --times \
         --copy-links \

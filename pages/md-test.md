@@ -2,8 +2,6 @@
 orphan: true
 ---
 # Markdown test
-```{tags} status:hidden
-```
 
 * plain text
 * `inline code`
