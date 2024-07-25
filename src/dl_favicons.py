@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 """Script to download favicons for links"""
+
 import re
 from logging import getLogger
 from urllib.parse import urlparse
 
-import requests
 from bs4 import BeautifulSoup
 from requests import Response
 
-from . import ROOT_DIR
+from . import ROOT_DIR, SESSION
 
 logger = getLogger(__name__)
 BLOGROLL_PAGE = ROOT_DIR / 'pages' / 'blogroll.md'
@@ -19,7 +19,7 @@ def download_favicon(url: str):
     """Download the favicon for a given URL"""
 
     logger.debug(f'Finding favicon for {url}')
-    response = requests.get(url)
+    response = SESSION.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
 
@@ -37,7 +37,7 @@ def download_favicon(url: str):
         favicon_url = f'{parsed_url.scheme}://{parsed_url.netloc}/{favicon_url.lstrip("/")}'
 
     # Download favicon
-    response = requests.get(favicon_url)
+    response = SESSION.get(favicon_url)
     response.raise_for_status()
 
     out_file = OUTPUT_DIR / _get_filename(response, url)
@@ -46,12 +46,11 @@ def download_favicon(url: str):
     logger.info(f'Favicon for {url} downloaded to {out_file}')
 
 
-def _get_filename(response: Response, parent_url:str) -> str:
-    """Get base filename from original site URL, and extension from response headers """
+def _get_filename(response: Response, parent_url: str) -> str:
+    """Get base filename from original site URL, and extension from response headers"""
     base_name = urlparse(parent_url).netloc.replace('www.', '')
-    if (
-        (content_disposition := response.headers.get('content-disposition')) and
-        (match := re.match(r'.*filename="(.+?)".*', content_disposition))
+    if (content_disposition := response.headers.get('content-disposition')) and (
+        match := re.match(r'.*filename="(.+?)".*', content_disposition)
     ):
         file_ext = match.group(1).split('.')[-1]
     else:
@@ -68,9 +67,7 @@ def get_links():
             parsed_url = urlparse(match.group(2))
             yield f'{parsed_url.scheme}://{parsed_url.netloc}'
 
-def main():
-    for link in set(get_links()):
-        download_favicon(link)
 
 if __name__ == '__main__':
-    main()
+    for link in set(get_links()):
+        download_favicon(link)

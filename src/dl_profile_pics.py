@@ -4,14 +4,12 @@ This allows serving smaller compressed images along with the site, to limit exte
 """
 
 import re
-from argparse import ArgumentParser
 from logging import getLogger
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
 
-from . import ROOT_DIR
+from . import ROOT_DIR, SESSION
 from .dither import dither
 
 logger = getLogger(__name__)
@@ -22,15 +20,11 @@ OUTPUT_DIR_PROCESSED = ROOT_DIR / 'assets' / 'images' / 'profile_pics'
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
 
-def dl_profile_pic(channel_name: str, overwrite: bool = False) -> Path:
+def dl_profile_pic(channel_name: str) -> Path:
     url = f'https://www.youtube.com/@{channel_name}'
-    out_file = OUTPUT_DIR / f'{channel_name.lower()}.jpg'
-    if out_file.exists() and not overwrite:
-        logger.info(f'Image for {channel_name} already exists')
-        return out_file
-
     logger.debug(f'Finding image for {channel_name}')
-    response = requests.get(url)
+
+    response = SESSION.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
     og_image = soup.find('meta', {'property': 'og:image'})
@@ -39,8 +33,10 @@ def dl_profile_pic(channel_name: str, overwrite: bool = False) -> Path:
         return None
 
     image_url = og_image['content']
-    image_response = requests.get(image_url)
+    image_response = SESSION.get(image_url)
     image_response.raise_for_status()
+
+    out_file = OUTPUT_DIR / f'{channel_name.lower()}.jpg'
     with out_file.open('wb') as f:
         f.write(image_response.content)
         logger.info(f'Downloaded image for {channel_name} to: {out_file}')
@@ -57,16 +53,8 @@ def get_channel_names():
             yield match.group(1)
 
 
-def main():
-    parser = ArgumentParser(description='Download and process external thumbnails')
-    parser.add_argument('--force', '-f', action='store_true', help='Overwrite download images')
-    args = parser.parse_args()
-
+if __name__ == '__main__':
     for channel_name in get_channel_names():
-        path = dl_profile_pic(channel_name, overwrite=args.force)
+        path = dl_profile_pic(channel_name)
         if path:
             dither(path, OUTPUT_DIR_PROCESSED, colors=32, width=128)
-
-
-if __name__ == '__main__':
-    main()
