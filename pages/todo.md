@@ -13,7 +13,7 @@ orphan: true
     * ✅ tag badges
     * ✅ Embed tag list in home page without redundant toctrees in sidebar
 * ✅ RSS feed
-* 〰️Guestbook or comments
+* 〰✅Guestbook or comments
 
 ## Minor features:
 * ✅ 404 page

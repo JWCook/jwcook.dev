@@ -18,7 +18,7 @@ slashpages
 :maxdepth: 1
 
 posts
-comments
+guestbook
 tags
 sitemap
 ```
