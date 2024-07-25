@@ -9,8 +9,9 @@ default:
 
 # Run all steps
 all:
-    just clean lint build-dev linkcheck size publish-tilde
-    just build-prod publish
+    just clean lint build linkcheck size
+    just publish-tilde
+    just publish
 
 # Clean build and tags directories
 clean:
@@ -19,12 +20,6 @@ clean:
 # Build documentation
 build:
     sphinx-build -v --doctree-dir {{BUILD_DIR}}/doctrees {{SOURCE_DIR}} {{BUILD_DIR}}/html
-
-build-dev:
-    PUBLISH_ENV='dev' just build
-
-build-prod:
-    PUBLISH_ENV='prod' just build
 
 # Run linters
 lint:
@@ -47,22 +42,17 @@ live:
         --port {{LIVE_PORT}} \
         -v
 
-# Publish all files
+# Publish site to Cloudflare Pages (and login first, if needed)
 publish:
-    just login-cf
-    just publish-cf
-
-# Publish site to Cloudflare Pages
-publish-cf:
-    export PUBLISH_ENV='prod'
-    wrangler pages deploy {{BUILD_DIR}}/html/
-
-# Login to Cloudflare Pages, if needed
-login-cf:
+    just clean
+    PUBLISH_ENV='prod' just build
     wrangler whoami | grep -q 'not authenticated' && wrangler login || echo "✅ Logged in"
+    wrangler pages deploy {{BUILD_DIR}}/html/
 
 # Publish site to tilde.team
 publish-tilde:
+    just clean
+    PUBLISH_ENV='dev' just build
     rsync -r \
         --perms --times \
         --copy-links \
