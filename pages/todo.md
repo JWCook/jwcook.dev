@@ -2,8 +2,6 @@
 orphan: true
 ---
 # {fas}`list` TODO
-```{tags} status:hidden
-```
 
 ## Main features:
 * ✅ Search
