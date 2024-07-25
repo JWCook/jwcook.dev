@@ -1,19 +1,24 @@
+(blogroll)=
 # {fas}`newspaper` Blogroll
-```{tags} status:draft
-```
 ```{image} ../assets/images/blogroll.png
 :width: 900px
 ```
 <br/><br/>
-
+Links to independent websites, blogs, and articles that are relevant to my interests.
 
 ## Interesting blogs by clever people
 
 ::::{grid} 1 2 2 3
+:gutter: 2
 
 :::{favicon-card} Anže Pečar
 :link: https://blog.pecar.me
 Python and web development
+:::
+
+:::{favicon-card} Austin Kleon
+:link: https://austinkleon.com
+Writing, creativity, and productivity
 :::
 
 :::{favicon-card} brr.fyi
@@ -34,6 +39,11 @@ Web development, hardware, and other tech topics
 :::{favicon-card} Juha-Matti Santala
 :link: https://hamatti.org
 Technology, community, and the indie web
+:::
+
+:::{favicon-card} Low←Tech Magazine
+:link: https://solar.lowtechmagazine.com
+Solar-powered website about the potential of old and forgotten tech
 :::
 
 :::{favicon-card} Maggie Appleton
@@ -66,6 +76,7 @@ Data journalism, python development, and wrangling LLMs into being useful and/or
 ## Favorite articles
 
 ::::{grid} 1
+:gutter: 2
 
 :::{favicon-card} USB-C hubs and my slow descent into madness
 :link: https://overengineer.dev/blog/2021/04/25/usb-c-hub-madness
@@ -87,9 +98,19 @@ by John Salvatier
 by Robin Sloan
 :::
 
+:::{favicon-card} Learn in Public
+:link: https://www.swyx.io/learn-in-public
+by swyx
+:::
+
+:::{favicon-card} The Monster Footprint of Digital Technology
+:link: https://solar.lowtechmagazine.com/2009/06/the-monster-footprint-of-digital-technology/
+by Kris De Decker (Low←Tech Magazine)
+:::
+
 :::{favicon-card} How To Make Your Text Look Futuristic
 :link: https://typesetinthefuture.com/2016/02/18/futuristic
-by Typeset in the Future
+by Dave Addey (Typeset in the Future)
 :::
 
 ::::
