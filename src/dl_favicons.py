@@ -3,6 +3,8 @@
 
 import re
 from logging import getLogger
+from pathlib import Path
+from typing import Optional
 from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
@@ -15,10 +17,10 @@ BLOGROLL_PAGE = ROOT_DIR / 'pages' / 'blogroll.md'
 OUTPUT_DIR = ROOT_DIR / 'assets' / 'images' / 'favicons'
 
 
-def download_favicon(url: str):
+def download_favicon(url: str) -> Optional[Path]:
     """Download the favicon for a given URL"""
 
-    logger.debug(f'Finding favicon for {url}')
+    logger.info(f'Finding favicon for {url}')
     response = SESSION.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -28,7 +30,7 @@ def download_favicon(url: str):
         favicon = soup.find('link', rel='shortcut icon')
     if not favicon:
         logger.warning(f'Could not find favicon for {url}')
-        return
+        return None
 
     # Handle relative URLs
     favicon_url = favicon.get('href')
@@ -44,6 +46,7 @@ def download_favicon(url: str):
     with out_file.open('wb') as f:
         f.write(response.content)
     logger.info(f'Favicon for {url} downloaded to {out_file}')
+    return out_file
 
 
 def _get_filename(response: Response, parent_url: str) -> str:
