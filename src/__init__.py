@@ -12,7 +12,11 @@ HTML_DIR = ROOT_DIR / 'build' / 'html'
 PAGES_DIR = ROOT_DIR / 'pages'
 BASE_URL = 'https://jwcook.dev'
 
-SESSION = CachedSession(ROOT_DIR / 'requests.db', expire_after=timedelta(days=7))
+SESSION = CachedSession(
+    ROOT_DIR / 'requests.db',
+    expire_after=timedelta(days=7),
+    stale_if_error=True,
+)
 
 # Should be 'local', 'dev', or 'prod'
 PUBLISH_ENV = environ.get('PUBLISH_ENV', 'local')
