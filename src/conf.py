@@ -121,6 +121,7 @@ ogp_custom_meta_tags = []
 rediraffe_redirects = {
     'open_source.md': 'open-source.md',
     'about_site.md': 'about-site.md',
+    'colophon.md': 'about-site.md',
 }
 
 # HTML general settings

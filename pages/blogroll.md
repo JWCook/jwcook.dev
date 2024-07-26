@@ -1,10 +1,11 @@
 (blogroll)=
 # {fas}`newspaper` Blogroll
+Links to independent websites, blogs, and articles that are relevant to my interests.
+
 ```{image} ../assets/images/blogroll.png
 :width: 900px
 ```
 <br/><br/>
-Links to independent websites, blogs, and articles that are relevant to my interests.
 
 ## Interesting blogs by clever people
 
