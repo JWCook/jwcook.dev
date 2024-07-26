@@ -12,16 +12,19 @@ orphan: true
     * ✅ tag index
     * ✅ tag badges
     * ✅ Embed tag list in home page without redundant toctrees in sidebar
+    * customize tag index pages (at least add a brief description)
+      * requires more sphinx-tags changes
 * ✅ RSS feed
-* 〰✅Guestbook or comments
+* ✅ Guestbook or comments
 
 ## Minor features:
 * ✅ 404 page
 * ✅ Sitemap (XML)
 * 〰️Sitemap (HTML)
 * 〰️Make link previews look decent (OpenGraph config)
-* Define/display structured metadata for posts (e.g. YAML front matter)
 * ✅ tooltips
+* Define/display structured metadata for posts (e.g. YAML front matter)
+  * custom directive to display article metadata
 
 ## Research/nice-to-have
 * Generate minimal gemini site with [gemgen](https://sr.ht/~kota/gemgen)
@@ -34,7 +37,7 @@ orphan: true
 * ✅ Basic interests/projects pages
 * ✅ /about
 * ✅ /about-site
-* /blogroll
+* ✅ /blogroll
 * 〰️ /links
 * 〰️ /uses
 * 〰️ /log (auto-generated from git commits)

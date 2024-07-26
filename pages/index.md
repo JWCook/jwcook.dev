@@ -1,9 +1,10 @@
 # ~jwcook
 
-Hi there! My name is Jordan, and this is where I plan to write about some of my projects and serial obsessions.
-My main purpose is organizing my thoughts on things I'm learning about, and sharing info about some
-fun niches I'm into.
-I'm also interested in exploring the indie web as a more fun alternative to social media.
+Hi there! My name is Jordan, and this is where I plan to write about some of my projects and things I'm learning about. My purposes for this site are to:
+* Practice writing as a tool for organizing my thoughts
+* Share info about some things I'm passionate about
+* Participate in the indie web as a more pleasant alternative to social media
+* Just build a website for the fun of it!
 
 I don't have any articles up yet, but on the pages below I've summarized a few of my main hobbies
 and favorite things:
@@ -11,14 +12,13 @@ and favorite things:
 
 ```{toctree}
 :maxdepth: 2
-projects
 slashpages
+projects
 ```
 ```{toctree}
 :maxdepth: 1
-
 posts
-guestbook
 tags
+guestbook
 sitemap
 ```

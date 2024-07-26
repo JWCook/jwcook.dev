@@ -44,15 +44,13 @@ live:
 
 # Publish site to Cloudflare Pages (and login first, if needed)
 publish:
-    just clean
-    PUBLISH_ENV='prod' just build
+    PUBLISH_ENV='prod' just clean build
     wrangler whoami | grep -q 'not authenticated' && wrangler login || echo "✅ Logged in"
     wrangler pages deploy {{BUILD_DIR}}/html/
 
 # Publish site to tilde.team
 publish-tilde:
-    just clean
-    PUBLISH_ENV='dev' just build
+    PUBLISH_ENV='dev' just clean build
     rsync -r \
         --perms --times \
         --copy-links \

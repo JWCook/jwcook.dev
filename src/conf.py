@@ -7,7 +7,6 @@ from . import BASE_URL, HTML_DIR, PUBLISH_ENV
 
 # General information about the project.
 project = '~jwcook'
-needs_sphinx = '4.0'
 master_doc = 'index'
 source_suffix = ['.md', '.rst']
 version = release = '0.1.0'
@@ -35,8 +34,8 @@ extensions = [
     'sphinxfeed',
     'myst_parser',
     'notfound.extension',
-    'src.sphinx_tidy',
     'src.grid_cards',
+    'src.sphinx_tidy',
 ]
 
 # MyST extensions
@@ -74,8 +73,9 @@ tags_create_badges = True
 # Reference: https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html
 tags_badge_colors = {
     'python': 'primary',
-    'code': 'secondary',
-    'docs': 'secondary',
+    'code': 'primary',
+    'docs': 'warning',
+    'web': 'warning',
     'plants': 'success',
     'nature': 'success',
     'photography': 'warning',
@@ -93,6 +93,7 @@ tippy_props = {
     'delay': [300, 100],
 }
 tippy_add_class = 'has-tippy'
+tippy_anchor_parent_selector = 'div.content'
 tippy_enable_wikitips = True
 tippy_skip_urls = [
     'https://jwcook.dev/index.html',
@@ -183,6 +184,8 @@ html_theme_options = {
         # 'color-foreground-border': '#666666',  # for content borders
         'color-background-primary': '#504945',  # for content
         'color-background-secondary': '#3c3836',  # for navigation + ToC
+        'color-admonition-title--note': '#fabd2f',
+        'color-admonition-title-background--note': '#282828',
         # 'color-background-hover': '#1e2124ff',  # for navigation-item hover
         # 'color-background-hover--transparent': '#1e212400',
         # 'color-background-border': '#3c3836',  # for UI borders

@@ -4,9 +4,9 @@ I'm a software engineer with a whole lot of hobbies and interests that I rotate 
 * {fas}`spider` nature photography (especially macro)
 * {fas}`crow` biodiversity
 * {fas}`seedling` cactus and succulent plants
-* {fas}`gamepad` video games
 * {fas}`terminal` command line tools
 * {fas}`server` self-hosted/home server projects
+* {fas}`gamepad` video games
 * {fas}`microchip` hobby electronics
 * {fas}`chair` woodworking
 * {fas}`wrench` automotive
