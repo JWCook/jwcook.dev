@@ -1,3 +1,6 @@
 .has-tippy:hover {
     cursor: help;
 }
+.tooltip-only {
+    pointer-events: none;
+ }

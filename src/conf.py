@@ -35,8 +35,9 @@ extensions = [
     'sphinxfeed',
     'myst_parser',
     'notfound.extension',
-    'src.sphinx_tidy',
+    'src.fa_ref',
     'src.grid_cards',
+    'src.sphinx_tidy',
 ]
 
 # MyST extensions

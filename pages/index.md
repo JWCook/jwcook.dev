@@ -8,6 +8,12 @@ I'm also interested in exploring the indie web as a more fun alternative to soci
 I don't have any articles up yet, but on the pages below I've summarized a few of my main hobbies
 and favorite things:
 
+* {ref}`asdf <admonition-name>`
+* {ref}`ℹ️ <admonition-name>`
+* {fas}`circle-info`
+* {any}`AnyXRefRole <admonition-name>`
+* {fa-ref}`asff <admonition-name>`
+* [{fas}`circle-info`](#admonition-name)
 
 ```{toctree}
 :maxdepth: 2
