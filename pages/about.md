@@ -1,4 +1,4 @@
-# {fas}`user-astronaut` About me
+# {fas}`user-ninja` About me
 I'm a software engineer with a whole lot of hobbies and interests that I rotate between, including:
 * {fas}`code` open source software
 * {fas}`spider` nature photography (especially macro)
@@ -17,5 +17,5 @@ Other places you can find me:
 * [{fab}`github` GitHub](https://github.com/JWCook)
 * [{fab}`flickr` Flickr](https://flickr.com/photos/jcook83)
 * [{fas}`dove` iNaturalist](https://www.inaturalist.org/observations?user_id=jkcook&place_id=any&subview=grid)
-* [{fas}`envelope` Contact](mailto:jwcook@tilde.team)
+* [{fas}`envelope` Contact](mailto:jwcook@jwcook.dev)
 <!-- * <a rel="me" href="https://tilde.zone/@jwcook"><i class="fa-brands fa-mastodon"></i> Mastodon</a> (maybe?) -->
