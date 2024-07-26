@@ -26,6 +26,7 @@ dependencies = [
     'beautifulsoup4>=4.12',
     'pre-commit~=3.7',
     'requests>=2.26',
+    'requests_cache>=1.2',
     'sphinx-autobuild>=2024',
 ]
 

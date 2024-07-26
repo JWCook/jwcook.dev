@@ -12,6 +12,8 @@
 .vim/
 .vscode/
 .~*
+requests.db
+
 __pycache__/
 build/
 dist/
