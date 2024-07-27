@@ -22,11 +22,13 @@ orphan: true
 * ✅ Sitemap (XML)
 * 〰️Sitemap (HTML)
 * 〰️Make link previews look decent (OpenGraph config)
+* ✅ Format link lists as card grids
 * ✅ tooltips
 * Define/display structured metadata for posts (e.g. YAML front matter)
   * custom directive to display article metadata
 
 ## Research/nice-to-have
+* Use Mastodon instead of GitHub as a backend for comments?
 * Generate minimal gemini site with [gemgen](https://sr.ht/~kota/gemgen)
 * [Webmentions](https://indieweb.org/Webmention)
 * [Microformats](https://indieweb.org/microformats2)

@@ -6,16 +6,54 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 
 ## Software
 
+### General
+* **OS:** Debian + KDE
+* **Backup:** [Duplicati](https://duplicati.com)
+* **Sync:** [Nextcloud](https://nextcloud.com)
+* **LAN fileshare:** [Localsend](https://github.com/localsend/localsend?)
+* **Browser:** [Vivaldi](https://vivaldi.com), [LibreWolf](https://librewolf.net), [Lagrange](https://github.com/skyjake/lagrange)
+* **Password manager:** [KeepassXC](https://keepassxc.org)
+* **Task management:** [Vikunja](https://vikunja.io)
+* **Wiki:** [WikiJS](https://js.wiki)
+
 ### Editors
 * [Neovim](https://neovim.io)
 * [Sublime Text](https://www.sublimetext.com)
 * [Obsidian](https://obsidian.md)
 * [Nextcloud Notes](https://github.com/nextcloud/notes)
 
-### Web
-* [Sphinx](https://www.sphinx-doc.org) + [MyST](https://myst-parser.readthedocs.io)
-* [htmx](https://htmx.org)
-* Plain old HTML + CSS + JS
+### CLI
+* **Terminal emulators:** [`kitty`](https://github.com/kovidgoyal/kitty), [`guake`](https://github.com/Guake/guake)
+* **Shell:** [`fish`](https://fishshell.com)
+* [`ag`](https://github.com/ggreer/the_silver_searcher): faster `grep`
+* [`difftastic`](https://github.com/Wilfred/difftastic): syntax-aware diffs
+* [`eza`](https://github.com/eza-community/eza): shinier `ls`
+* [`fzf`](https://junegunn.github.io/fzf/): fabulous, first-class fuzzy finder
+* [`just`](https://github.com/casey/just): like `make`, but less compiling and more task-running
+* [`harlequin`](https://github.com/tconbeer/harlequin): SQL TUI
+* [`mosh`](https://github.com/mobile-shell/mosh): SSH with some modern niceties
+* [`ranger`](https://github.com/ranger/ranger): file browser TUI
+* [`rsync`](https://github.com/RsyncProject/rsync): What you wish `cp -R` was
+* [`tig`](https://github.com/jonas/tig): git TUI
+* [`tmux`](https://github.com/tmux/tmux/wiki): more terminal per terminal!
+* [`zoxide`](https://github.com/ajeetdsouza/zoxide): smarter `cd`
+
+### Python libraries & frameworks
+* [`attrs`](https://attrs.org): fancier `dataclasses`
+* [`cattrs`](https://catt.rs): serialization for `attrs` classes
+* [`click`](https://click.palletsprojects.com): CLI framework
+* [`pandas`](https://pandas.pydata.org): data wranglin'
+* [`pillow`](https://pillow.readthedocs.io): image processing
+* [`pyexiv2`](https://exiv2.org): image metadata manipulation
+* [`pyside6`](https://doc.qt.io/qtforpython-6): python bindings for the Qt6 GUI framework
+* [`sqlalchemy`](https://www.sqlalchemy.org): still my favorite python ORM
+
+<!--
+### Dev tools
+* pre-commit
+* nox
+* ...
+-->
 
 ### Storage
 * [PostgreSQL](https://postgresql.org)
@@ -25,29 +63,12 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
   * [FTS5](https://www.sqlite.org/fts5.html)
 * [InfluxDB](https://influxdata.com)
 
-### CLI
-* Terminal emulators: [`kitty`](https://github.com/kovidgoyal/kitty), [`guake`](https://github.com/Guake/guake)
-* Shell: [`fish`](https://fishshell.com)
-* [`ag`](https://github.com/ggreer/the_silver_searcher)
-* [`difftastic`](https://github.com/Wilfred/difftastic)
-* [`just`](https://github.com/casey/just)
-* [`harlequin`](https://github.com/tconbeer/harlequin)
-* [`mosh`](https://github.com/mobile-shell/mosh)
-* [`ranger`](https://github.com/ranger/ranger)
-* [`rsync`](https://github.com/RsyncProject/rsync)
-* [`tig`](https://github.com/jonas/tig)
-* [`tmux`](https://github.com/tmux/tmux/wiki)
-* [`zoxide`](https://github.com/ajeetdsouza/zoxide)
-
-### Python libraries & frameworks
-* [`attrs`](https://attrs.org)
-* [`click`](https://click.palletsprojects.com)
-* [`litestar`](https://litestar.dev)
-* [`pandas`](https://pandas.pydata.org)
-* [`pillow`](https://pillow.readthedocs.io)
-* [`pyexiv2`](https://exiv2.org)
-* [`pyside6`](https://doc.qt.io/qtforpython-6)
-* [`sqlalchemy`](https://www.sqlalchemy.org)
+### Web development
+For static sites and smaller-scale projects:
+* [Sphinx](https://www.sphinx-doc.org) + [MyST](https://myst-parser.readthedocs.io)
+* Plain old HTML + CSS + JS
+* [litestar](https://github.com/litestar-org/litestar)
+* [htmx](https://htmx.org)
 
 ### Media
 * [GIMP](https://www.gimp.org)
@@ -57,16 +78,26 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * [`exiftool`](https://exiftool.org)
 * [`ffmpeg`](https://ffmpeg.org)
 
+### CAD
+* [QCAD](https://qcad.org)
+* [KiCad](https://www.kicad.org)
+
 ## Hardware
 
 ### Computing
-* ESP32
-* Raspberry, Orange, and other flavors of Pi
 * MiniPCs
+* Raspberry, Orange, and other flavors of Pi
+* ESP32
+* Steam Deck
+* A magnetized needle and a steady hand [](https://xkcd.com/378)
 
 ### Input devices
 * Mechanical keyboards
-* Trackballs
+  * Daily driver: Keychron Q3 + Kailh Jade switches
+* Logitech MX Ergo trackball mouse
+* Logitech G920
+* Saitek X52
+* Rotary encoders
 * Extra crunchy toggle switches
 
 ### Photography
@@ -75,10 +106,23 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * M.Zuiko 60mm macro lens
 
 ### Physical tools
-* Rotary tool
+Again, just the favorites:
+
+* Dremel rotary tool
 * Impact driver
+* Random orbital sander
 * Reciprocating saw
+* 4.5" mini circular saw
+* Heat gun
 * Soldering iron
 * Multimeter
 * Digital calipers
+* All of the clamps
 * Every conceivable variety of tweezers and pliers
+<!--
+* A small squiggly pick tool, whose proper name and intended purpose are unknown to me, but has been used for all manner of random prying and poking tasks
+* -->
+
+<!--
+TODO: Maybe add {fas}`crown` to favorite items?
+-->
