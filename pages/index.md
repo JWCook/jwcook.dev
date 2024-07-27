@@ -20,5 +20,4 @@ projects
 posts
 tags
 guestbook
-sitemap
 ```

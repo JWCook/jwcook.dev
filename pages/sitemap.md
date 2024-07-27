@@ -1,3 +1,6 @@
+---
+orphan: true
+---
 # {fas}`sitemap` Sitemap
 
 * [/](/index)
@@ -12,8 +15,9 @@
   * [/photography](/photography)
   * [/succulents](/succulents)
 * [/posts](/posts)
-* [/sitemap](/sitemap)
 * [/tags](/tags)
+* [/guestbook](/guestbook)
+* [/sitemap](/sitemap)
 * [/todo](/todo)
 * [/md-test](/md-test)
 * [/log](/log)
