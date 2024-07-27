@@ -16,8 +16,8 @@
     color: var(--color-brand-content);
 }
 
-article a[href^="http"]::after,
-article a[href^="https://"]::after
+article a[href^="http"]:not(.sd-hide-link-text)::after,
+article a[href^="https://"]:not(.sd-hide-link-text)::after
 {
   content: "";
   width: 11px;
