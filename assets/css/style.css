@@ -15,6 +15,11 @@
 .md-secondary {
     color: var(--color-brand-content);
 }
+.hr-dark {
+    background-color: var(--color-background-secondary);
+    border: 0;
+    height: 1px;
+}
 
 article a[href^="http"]:not(.sd-hide-link-text)::after,
 article a[href^="https://"]:not(.sd-hide-link-text)::after
