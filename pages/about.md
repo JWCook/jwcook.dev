@@ -1,5 +1,8 @@
 # {fas}`user-ninja` About me
-I'm a software engineer with a whole lot of hobbies and interests that I rotate between, including:
+```{tags} status:draft
+```
+
+I am a software developer and data engineer with a profusion of hobbies and interests that I rotate between, including:
 * {fas}`code` open source software
 * {fas}`spider` nature photography (especially macro)
 * {fas}`crow` biodiversity
@@ -19,3 +22,24 @@ Other places you can find me:
 * [{fas}`dove` iNaturalist](https://www.inaturalist.org/observations?user_id=jkcook&place_id=any&subview=grid)
 * [{fas}`envelope` Contact](mailto:jwcook@jwcook.dev)
 <!-- * <a rel="me" href="https://tilde.zone/@jwcook"><i class="fa-brands fa-mastodon"></i> Mastodon</a> (maybe?) -->
+
+
+<!--
+oh no how did this get here i am not good with computer
+
+       _
+       \`*-.
+        )  _`-.
+       .  : `. .
+       : _   '  \
+       ; *` _.   `*-._
+       `-.-'          `-.
+         ;       `       `.
+         :.       .        \
+         . \  .   :   .-'   .
+         '  `+.;  ;  '      :
+         :  '  |    ;       ;-.
+         ; '   : :`-:     _.`* ;
+      .*' /  .*' ; .*`- +'  `*'
+      `*-*   `*-*  `*-*'
+-->

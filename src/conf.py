@@ -40,6 +40,7 @@ extensions = [
 
 # MyST extensions
 myst_enable_extensions = [
+    'attrs_inline',
     'colon_fence',
     'html_image',
     'linkify',
@@ -80,6 +81,8 @@ tags_badge_colors = {
     'nature': 'success',
     'photography': 'warning',
     'status:*': 'info',
+    'tools': 'primary',
+    'links': 'warning',
     '*': 'dark',
 }
 
@@ -164,21 +167,6 @@ html_theme_options = {
     # 'light_logo': 'logo-light.webp',
     # 'dark_logo': 'logo-dark.webp',
     'sidebar_hide_name': True,
-    'light_css_variables': {
-        'font-stack': 'JetBrainsMono',
-        'color-brand-primary': '#b57614',
-        'color-brand-content': '#076678',
-        # 'color-foreground-primary': 'black',
-        # 'color-foreground-secondary': '#5a5c63',
-        # 'color-foreground-muted': '#646776',
-        # 'color-foreground-border': '#878787',
-        'color-background-primary': '#d5c4a1',
-        'color-background-secondary': '#ebdbb2',
-        # 'color-background-hover': '#efeff4ff',
-        # 'color-background-hover--transparent': '#efeff400',
-        # 'color-background-border': '#eeebee',
-        # 'color-background-item': '#ccc',
-    },
     'dark_css_variables': {
         'font-stack': 'JetBrainsMono',
         'color-brand-primary': '#fabd2f',
@@ -199,6 +187,13 @@ html_theme_options = {
         # 'color-background-border': '#3c3836',  # for UI borders
         # 'color-background-item': '#444',  # for 'background' items (eg': ' copybutton)
         # 'sd-color-card-text': '',
+    },
+    'light_css_variables': {
+        'font-stack': 'JetBrainsMono',
+        'color-brand-primary': '#b57614',
+        'color-brand-content': '#076678',
+        'color-background-primary': '#d5c4a1',
+        'color-background-secondary': '#ebdbb2',
     },
 }
 # Gruvbox colors:

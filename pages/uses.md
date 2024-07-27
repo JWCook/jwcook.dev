@@ -1,5 +1,5 @@
 # {fas}`toolbox` Tools
-```{tags} status:draft
+```{tags} links, tools
 ```
 
 Here are some favorite tools I use on a regular basis! I love tools of all kinds, so a full list would be much too long, so this is limited to things I find especially fun or noteworthy.

@@ -1,10 +1,9 @@
 (blogroll)=
 # {fas}`newspaper` Blogroll
-Links to independent websites, blogs, and articles that are relevant to my interests.
-
-```{image} ../assets/images/blogroll.png
-:width: 900px
+```{tags} links
 ```
+Links to independent websites, blogs, and articles that are relevant to my interests.
+![](../assets/images/blogroll.png)
 <br/><br/>
 
 ## Interesting blogs by clever people
@@ -73,6 +72,14 @@ Data journalism, python development, and wrangling LLMs into being useful and/or
 :::
 
 ::::
+
+<!--
+nitpicky TODO: need 2 more so total is divisible by 3 for grid layout
+:::{favicon-card} computers are bad
+:link: https://computer.rip
+Cautionary tales about tech gone awry
+:::
+-->
 
 ## Favorite articles
 

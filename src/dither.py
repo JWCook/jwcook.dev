@@ -15,7 +15,8 @@ logger = getLogger(__name__)
 OUTPUT_DIR = ROOT_DIR / 'assets' / 'images'
 PALETTE_MONOCHROME = ['#3c3836', '#fabd2f']
 PALETTE_4 = ['#3c3836', '#fabd2f', '#d79921', '#928374']
-PALETTE_8 = ['#3c3836', '#fabd2f', '#d79921', '#928374', '#83a598', '#d3869b', '#fb4934', '#fe8019']
+PALETTE_6 = ['#3c3836', '#fabd2f', '#d79921', '#928374', '#504945', '#665c54']
+PALETTE_8 = ['#3c3836', '#fabd2f', '#d79921', '#928374', '#504945', '#83a598', '#fb4934', '#fe8019']
 PALETTE_16 = [
     '#3c3836',
     '#fabd2f',
@@ -70,6 +71,7 @@ PALETTE_32 = [
 PALETTES = {
     2: PALETTE_MONOCHROME,
     4: PALETTE_4,
+    6: PALETTE_6,
     8: PALETTE_8,
     16: PALETTE_16,
     32: PALETTE_32,

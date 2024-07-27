@@ -3,6 +3,8 @@
 ```{tags} code, docs
 ```
 A summary of how this site is built.
+![](../assets/images/about-site.png)
+<br/><br/>
 
 ```{admonition} TL;DR
 :class: note
