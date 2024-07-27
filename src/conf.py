@@ -99,8 +99,6 @@ tippy_skip_urls = [
     'https://jwcook.dev/index.html',
 ]
 
-tidy_options = {'wrap': True}
-
 # Since we're not on readthedocs, don't insert `/<language>/<version>/`
 notfound_urls_prefix = ''
 
@@ -122,6 +120,15 @@ rediraffe_redirects = {
     'open_source.md': 'open-source.md',
     'about_site.md': 'about-site.md',
     'colophon.md': 'about-site.md',
+}
+
+# HTML tidy settings
+tidy_options = {
+    # 'escape-cdata': True,
+    # 'output-xhtml': True,
+    'vertical-space': True,
+    'wrap-attributes': True,
+    'wrap': 100,
 }
 
 # HTML general settings
