@@ -1,14 +1,17 @@
 ---
+orphan: true
 revision: 3
 status: placeholder
-date: 2024-04-04
-updated-date: 2024-07-07
+date: 3024-04-04
+updated-date: 3024-07-07
 ---
-# [2024-04-04] Lorem Ipsum
+# Lorem Ipsum
 ```{tags} status:placeholder
 ```
-
-![](../../assets/images/lorem_ipsum.gif)
+such lorem<br/>
+very ipsum<br/>
+wow<br/>
+![](../assets/images/lorem_ipsum.gif)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae aliquet nec ullamcorper sit amet risus nullam. Pretium fusce id velit ut tortor pretium viverra. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Morbi non arcu risus quis varius quam quisque id. Turpis massa tincidunt dui ut ornare lectus sit amet. Congue eu consequat ac felis donec. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Ipsum a arcu cursus vitae congue mauris rhoncus. Egestas dui id ornare arcu odio ut sem. Vel pharetra vel turpis nunc eget lorem dolor. Congue eu consequat ac felis.
 

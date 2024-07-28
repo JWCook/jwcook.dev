@@ -6,7 +6,7 @@ Hi there! My name is Jordan, and this is where I plan to write about some of my 
 * Participate in the indie web as a more pleasant alternative to social media
 * Just build a website for the fun of it!
 
-I don't have any articles up yet, but on the pages below I've summarized a few of my main hobbies
+I don't have many articles up yet, but on the pages below I've summarized a few of my main hobbies
 and favorite things:
 
 
@@ -14,10 +14,10 @@ and favorite things:
 :maxdepth: 2
 slashpages
 projects
+posts
 ```
 ```{toctree}
 :maxdepth: 1
-posts
 tags
 guestbook
 ```
