@@ -36,6 +36,7 @@ extensions = [
     'notfound.extension',
     'src.grid_cards',
     'src.sphinx_tidy',
+    # 'src.debug',
 ]
 
 # MyST extensions
