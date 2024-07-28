@@ -46,7 +46,7 @@ kubectl run blog --attach
 
 ...!!! OH HI THERE.
 
-`surprised-cat.jpg`
+![](../../assets/images/cat-surprised-laptop.png){.pixelated w=400px}
 
 I didn't notice you. Been standing there awhile? Oh, that? It's noth-<br />
 `Ctrl-Alt-F2` `sudo shutdown -h now`<br />
@@ -61,7 +61,8 @@ _Overengineered_, you say‽ \*snort\* Well maybe where you come from, but-
 
 
 ## Let's make a website!
-`construction.gif`
+![](../../assets/images/construction-2.gif)<br/>
+![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif)
 
 For some time I've been interested in making a personal website. And as part of that, I've been wanting to start a blog, essentially as a higher-effort form of the notetaking I already do on a regular basis. I want to practice writing, spend a bit more time organizing my thoughts, and share some things that might be useful or interesting to others.
 
