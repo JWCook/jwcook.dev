@@ -1,7 +1,7 @@
 ---
 orphan: true
 ---
-# Markdown test
+# MyST Markdown test
 
 * plain text
 * `inline code`

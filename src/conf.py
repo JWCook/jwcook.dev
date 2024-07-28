@@ -7,7 +7,6 @@ from . import BASE_URL, HTML_DIR, PUBLISH_ENV
 
 # General information about the project.
 project = '~jwcook'
-needs_sphinx = '4.0'
 master_doc = 'index'
 source_suffix = ['.md', '.rst']
 version = release = '0.1.0'
@@ -35,12 +34,13 @@ extensions = [
     'sphinxfeed',
     'myst_parser',
     'notfound.extension',
-    'src.sphinx_tidy',
     'src.grid_cards',
+    'src.sphinx_tidy',
 ]
 
 # MyST extensions
 myst_enable_extensions = [
+    'attrs_inline',
     'colon_fence',
     'html_image',
     'linkify',
@@ -74,12 +74,15 @@ tags_create_badges = True
 # Reference: https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html
 tags_badge_colors = {
     'python': 'primary',
-    'code': 'secondary',
-    'docs': 'secondary',
+    'code': 'primary',
+    'docs': 'warning',
+    'web': 'warning',
     'plants': 'success',
     'nature': 'success',
     'photography': 'warning',
     'status:*': 'info',
+    'tools': 'primary',
+    'links': 'warning',
     '*': 'dark',
 }
 
@@ -93,12 +96,11 @@ tippy_props = {
     'delay': [300, 100],
 }
 tippy_add_class = 'has-tippy'
+tippy_anchor_parent_selector = 'div.content'
 tippy_enable_wikitips = True
 tippy_skip_urls = [
     'https://jwcook.dev/index.html',
 ]
-
-tidy_options = {'wrap': True}
 
 # Since we're not on readthedocs, don't insert `/<language>/<version>/`
 notfound_urls_prefix = ''
@@ -120,6 +122,16 @@ ogp_custom_meta_tags = []
 rediraffe_redirects = {
     'open_source.md': 'open-source.md',
     'about_site.md': 'about-site.md',
+    'colophon.md': 'about-site.md',
+}
+
+# HTML tidy settings
+tidy_options = {
+    # 'escape-cdata': True,
+    # 'output-xhtml': True,
+    'vertical-space': True,
+    'wrap-attributes': True,
+    'wrap': 100,
 }
 
 # HTML general settings
@@ -155,21 +167,6 @@ html_theme_options = {
     # 'light_logo': 'logo-light.webp',
     # 'dark_logo': 'logo-dark.webp',
     'sidebar_hide_name': True,
-    'light_css_variables': {
-        'font-stack': 'JetBrainsMono',
-        'color-brand-primary': '#b57614',
-        'color-brand-content': '#076678',
-        # 'color-foreground-primary': 'black',
-        # 'color-foreground-secondary': '#5a5c63',
-        # 'color-foreground-muted': '#646776',
-        # 'color-foreground-border': '#878787',
-        'color-background-primary': '#d5c4a1',
-        'color-background-secondary': '#ebdbb2',
-        # 'color-background-hover': '#efeff4ff',
-        # 'color-background-hover--transparent': '#efeff400',
-        # 'color-background-border': '#eeebee',
-        # 'color-background-item': '#ccc',
-    },
     'dark_css_variables': {
         'font-stack': 'JetBrainsMono',
         'color-brand-primary': '#fabd2f',
@@ -183,11 +180,20 @@ html_theme_options = {
         # 'color-foreground-border': '#666666',  # for content borders
         'color-background-primary': '#504945',  # for content
         'color-background-secondary': '#3c3836',  # for navigation + ToC
+        'color-admonition-title--note': '#fabd2f',
+        'color-admonition-title-background--note': '#282828',
         # 'color-background-hover': '#1e2124ff',  # for navigation-item hover
         # 'color-background-hover--transparent': '#1e212400',
         # 'color-background-border': '#3c3836',  # for UI borders
         # 'color-background-item': '#444',  # for 'background' items (eg': ' copybutton)
         # 'sd-color-card-text': '',
+    },
+    'light_css_variables': {
+        'font-stack': 'JetBrainsMono',
+        'color-brand-primary': '#b57614',
+        'color-brand-content': '#076678',
+        'color-background-primary': '#d5c4a1',
+        'color-background-secondary': '#ebdbb2',
     },
 }
 # Gruvbox colors:

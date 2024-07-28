@@ -1,7 +1,8 @@
 
 # {fas}`link` Links
+```{tags} status:draft, links
+```
 Links to some things I enjoy and think you might enjoy too!
-Also see {ref}`blogroll`.
 
 ## {fab}`searchengin` Search
 Favorite general-purpose search engine:

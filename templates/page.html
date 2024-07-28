@@ -95,8 +95,6 @@
           crossorigin="anonymous"
           async>
         </script>
-        <!-- data-theme="https://jwcook.dev/_static/giscus.css" -->
-        <!-- data-theme="transparent_dark" -->
         {%- endif -%}
       </div>
 
@@ -104,31 +102,48 @@
       <footer>
         {% block footer %}
         <div class="bottom-of-page">
-            <div id="newring">
-              <div style="text-align: center;">
-                <a href="https://tilde.team/ring/">tilde.team webring</a>
-                <br>
-              <a title="previous tilde" href="https://tilde.team/ring/?action=prev&me=jwcook"><i class="fa-solid fa-arrow-left-long"></i> prev</a>
-              | <a title="random tilde" href="https://tilde.team/ring/?action=random&me=jwcook"><i class="fa-solid fa-shuffle"></i></a> |
-              <a title="next tilde" href="https://tilde.team/ring/?action=next&me=jwcook">next <i class="fa-solid fa-right-long"></i></a>
-              </div>
-            </div>
-            <div align="center">
-              <a title=" rss feed" href="/rss.xml">
-                <h2><i class="fa-solid fa-square-rss"></i></h1>
-              </a>
-              <br />
+          <div id="newring">
+
+            <!-- webring -->
+            <div style="text-align: center;">
+              <a href="https://tilde.team/ring/">tilde.team webring</a>
+              <br>
+            <a title="previous tilde" href="https://tilde.team/ring/?action=prev&me=jwcook"><i class="fa-solid fa-arrow-left-long"></i> prev</a>
+            | <a title="random tilde" href="https://tilde.team/ring/?action=random&me=jwcook"><i class="fa-solid fa-shuffle"></i></a> |
+            <a title="next tilde" href="https://tilde.team/ring/?action=next&me=jwcook">next <i class="fa-solid fa-right-long"></i></a>
             </div>
 
-            <div align="right">
+            <!-- sitemap -->
+            <hr class="hr-dark"/>
+            <div style="text-align: center;">
+            <a class="reference internal" href="sitemap.html"">
+              <i class="fa-solid fa-sitemap"></i> Sitemap
+            </a>
+            </div>
+          </div>
+
+          <!-- RSS -->
+          <div align="center">
+            <a title="RSS feed" href="https://jwcook.dev/rss.xml">
+              <h2><i class="fa-solid fa-square-rss"></i></h1>
+            </a>
+            <br />
+          </div>
+
+          <!-- Updated -->
+          <div>
             {%- if last_updated -%}
             <div class="last-updated">Site last updated: {{ last_updated }}</div>
             {%- endif %}
             {%- if gitstamp -%}
             <div class="last-updated">Page last updated: {{ gitstamp }}</div>
             {%- endif %}
+
+            <!-- view counter -->
+            <hr class="hr-dark"/>
             {%- if publish_env != "local" -%}
-            <img alt="Page views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftilde.team%2F%7Ejwcook%2F&title=views&count_bg=%2383A598&title_bg=%23504945&title=hits&edge_flat=false"/>
+            <img alt="Page views"
+            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftilde.team%2F%7Ejwcook%2F&title=views&count_bg=%2383A598&title_bg=%23504945&title=hits&edge_flat=false"/>
             {%- endif %}
           </div>
         </div>

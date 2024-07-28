@@ -1,46 +1,45 @@
 """
-Tiny sphinx extension that formats HTML output. Requires tidy to be installed.
+Tiny sphinx extension that formats HTML output. Requires `tidy` to be installed.
 Reference:
 * https://countergram.github.io/pytidylib
 * https://www.html-tidy.org/documentation
 * https://api.html-tidy.org/tidy/quickref_5.8.0.html
 
-Config example:
+Note: tidying adds about 10-20% to HTML file size.
+
+Config example in `conf.py`:
 ```python
-# conf.py
 extensions = ['sphinx-tidy']
-tidy_options = {'wrap': True}
+tidy_options = {'wrap': 80}
 ```
 """
 
 from logging import getLogger
 
-from sphinx.application import Sphinx
+import sphinx
 from tidylib.tidy import BASE_OPTIONS, tidy_document
 
 TIDY_OPTIONS = {
-    'output-xhtml': 1,
-    'show-body-only': 1,
-    'drop-empty-elements': 0,
+    'drop-empty-elements': False,
     **BASE_OPTIONS,
 }
 logger = getLogger(__name__)
 
 
-def setup(app: Sphinx):
+def setup(app: sphinx):
     app.add_config_value('tidy_options', {}, 'html')
-    app.connect('html-page-context', tidy_html)
+    app.connect('build-finished', tidy_html)
 
 
-def tidy_html(app, pagename, templatename, context, doctree):
-    if html := context.get('body'):
+def tidy_html(app, exception):
+    """Tidy all HTML files in the output directory"""
+    for html_file in app.outdir.rglob('*.html'):
+        logger.debug(f'Tidying {html_file}')
+        html = html_file.read_text()
         html, errors = tidy_document(html, options=_merge_options(app))
-        if errors:
-            logger.warning('Tidy errors: %s', errors)
-        context['body'] = html
-    # for k in sorted(context.keys()):
-    #     print(f'{k}: {context[k]}')
-    # breakpoint()
+        logger.debug(f'Tidy errors: {errors}')
+        with html_file.open('w') as f:
+            f.write(html)
 
 
 def _merge_options(app) -> dict:
@@ -51,5 +50,5 @@ def _merge_options(app) -> dict:
             options[k] = 1
         elif v is False:
             options[k] = 0
-    logger.debug('Tidying with options: %s', options)
+    logger.debug(f'Tidying with options: {options}')
     return options
