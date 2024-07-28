@@ -18,6 +18,7 @@ orphan: true
 * [/tags](/tags)
 * [/guestbook](/guestbook)
 * [/sitemap](/sitemap)
+* [/404](/404)
 * [/log](/log)
 * [/md-test](/md-test)
 * [/todo](/todo)
