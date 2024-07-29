@@ -16,7 +16,7 @@ Source code can be found [On GitHub](https://github.com/JWCook/jwcook.dev).
 This is a markdown-based static site generated with
 [Sphinx](https://www.sphinx-doc.org),
 [MyST](https://myst-parser.readthedocs.io),
-[Jinja templates](https://jinja.palletsprojects.com/en/3.1.x/), and other tools in the
+[Jinja templates](https://jinja.palletsprojects.com), and other tools in the
 [Executable Books](https://executablebooks.org) ecosystem. The theme is modified from
 [Furo](https://pradyunsg.me/furo) with a palette based on
 [gruvbox](https://github.com/morhetz/gruvbox).
