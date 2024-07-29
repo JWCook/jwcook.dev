@@ -27,6 +27,11 @@ orphan: true
 * Define/display structured metadata for posts (e.g. YAML front matter)
   * custom directive to display article metadata
 
+## Article features:
+* Sphinx directive to include giscus in page
+* Sphinx directive for article header; pull created/updated dates from metadata
+* Toctree article sort: custom directive to sort articles by date and append to link text, without manually adding it to titles or filenames
+
 ## Research/nice-to-have
 * Use Mastodon instead of GitHub as a backend for comments?
 * Generate minimal gemini site with [gemgen](https://sr.ht/~kota/gemgen)

@@ -38,9 +38,8 @@ how else will people know this is a work in progress
 
 oh man this is going to look so cool when it's done
 
-![](../assets/images/underconstruction_2.gif)
-
-![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif) ![](../assets/images/underconstruction_1.gif)
+![](../assets/images/construction-2.gif)<br/>
+![](../assets/images/construction-1.gif) ![](../assets/images/construction-1.gif) ![](../assets/images/construction-1.gif) ![](../assets/images/construction-1.gif) ![](../assets/images/construction-1.gif)
 
 ## Cards
 ::::{grid} 1 2 2 2

@@ -78,7 +78,10 @@
         <article role="main">
           {% block content %}{{ body }}{% endblock %}
         </article>
-        {%- if current_page_name == "guestbook" -%}
+        <!-- Giscus comments; TODO: replace with a Sphinx directive -->
+        {%- if current_page_name == "guestbook" or "posts/" in current_page_name -%}
+        <br /><br /><br /><br /><hr class="hr-dark"/>
+        <h2>Comments</h2>
         <script src="https://giscus.app/client.js"
           data-repo="JWCook/jwcook.dev"
           data-repo-id="R_kgDOIYnR_w"
@@ -116,7 +119,7 @@
             <!-- sitemap -->
             <hr class="hr-dark"/>
             <div style="text-align: center;">
-            <a class="reference internal" href="sitemap.html"">
+            <a class="reference internal" href="{{ html_baseurl }}/sitemap.html"">
               <i class="fa-solid fa-sitemap"></i> Sitemap
             </a>
             </div>

@@ -4,5 +4,9 @@
         "https://jwcook.tilde.team",
         "https://tilde.team"
     ],
+    "originsRegex": [
+        "http://localhost:[0-9]+",
+        "https://[a-zA-Z0-9]+.jwcook.pages.dev"
+    ],
     "defaultCommentOrder": "newest"
 }
