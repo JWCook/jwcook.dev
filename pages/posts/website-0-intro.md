@@ -2,6 +2,7 @@
 date: 2024-08-01
 ---
 # Website Setup Part 0: Intro
+
 % TODO: make a custom directive for article header
 ::::{grid} 1 1 3 3
 :::{grid-item}
@@ -14,6 +15,8 @@ Posted **2024-08-01**
 :::{grid-item}
 :::
 ::::
+Time to boot up this blog!
+![](../../assets/images/bios.png)
 
 ## *Furious typing noises*
 ```sh
@@ -61,8 +64,7 @@ _Overengineered_, you say‽ \*snort\* Well maybe where you come from, but-
 
 
 ## Let's make a website!
-![](../../assets/images/construction-2.gif)<br/>
-![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif) ![](../../assets/images/construction-1.gif)
+![](../../assets/images/construction-2.gif){w=800px}<br/>
 
 For some time I've been interested in making a personal website. And as part of that, I've been wanting to start a blog, essentially as a higher-effort form of the notetaking I already do on a regular basis. I want to practice writing, spend a bit more time organizing my thoughts, and share some things that might be useful or interesting to others.
 
@@ -77,6 +79,7 @@ git log --reverse --format="format:%aI" --all | head -n 1
 Wait, ***what***? A year and a half? Well then. A year and a half of occasional tinkering later, and I _think_ I _kind of maybe_ have enough of a site set up to get back to the writing part. At this cadence, my next post can be expected Q1 2026.
 
 ## Blog QC
+![](../../assets/images/qc.png){.pixelated w=800px}<br/><br/>
 
 It's hard to know what level of blog post effort and quality to aim for. For the sake of just getting something on paper(`.md`), here are a few sanity checks:
 * My primary audience is myself!

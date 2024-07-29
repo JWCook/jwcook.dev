@@ -10,3 +10,6 @@ This is just for reference, in addition to any attributions required by the orig
 * Project Moonbase MST3K poster - unknown artist
 * "suprised cat meme" - unknown origin
   * The oldest repost I could find was [posted in 2014](https://www.flickr.com/photos/54125007@N08/15634745431)
+* AMI BIOS POST from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:POST_P5KPL.jpg), public domain
+* "Under construction" gif by Rose@wanderers.com
+* "Apple processing" photo by [Arno Senoner on Unsplash](https://unsplash.com/photos/oLS6IxceVNs)
