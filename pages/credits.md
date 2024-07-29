@@ -1,4 +1,7 @@
-# Credits
+---
+orphan: true
+---
+# {fas}`bars-staggered` Credits
 Credits for some assets used in this project that I didn't create myself.
 This is just for reference, in addition to any attributions required by the original creators.
 

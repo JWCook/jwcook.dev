@@ -20,6 +20,7 @@ orphan: true
 * [/guestbook](/guestbook)
 * [/sitemap](/sitemap)
 * [/404](/404)
+* [/credits](/credits)
 * [/log](/log)
 * [/lorem-ipsum](/lorem-ipsum)
 * [/md-test](/md-test)
