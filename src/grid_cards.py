@@ -9,8 +9,8 @@ from sphinx_design.grids import GridItemCardDirective
 from . import ROOT_DIR
 from .dl_favicons import download_favicon
 
-PROFILE_PIC_DIR = '../assets/images/profile_pics'
-DEFAULT_FAVICON = '../assets/images/favicons/default_favicon.png'
+ICON_DIR = '../assets/images/icons'
+DEFAULT_FAVICON = f'{ICON_DIR}/default_favicon.png'
 
 
 class ProfileCardDirective(GridItemCardDirective):
@@ -27,11 +27,11 @@ class ProfileCardDirective(GridItemCardDirective):
         self.options.setdefault('class-title', ['md-secondary'])
         if yt_channel := self.options.get('yt-channel'):
             self.options.setdefault('link', f'https://youtube.com/@{yt_channel}')
-            self.options.setdefault('img-top', f'{PROFILE_PIC_DIR}/{yt_channel.lower()}.png')
+            self.options.setdefault('img-top', f'{ICON_DIR}/{yt_channel.lower()}.png')
             self.options.pop('yt-channel')
         if tw_channel := self.options.get('tw-channel'):
             self.options.setdefault('link', f'https://twitch.tv/{tw_channel}')
-            self.options.setdefault('img-top', f'{PROFILE_PIC_DIR}/{tw_channel.lower()}.png')
+            self.options.setdefault('img-top', f'{ICON_DIR}/{tw_channel.lower()}.png')
             self.options.pop('tw-channel')
         return super().run()
 

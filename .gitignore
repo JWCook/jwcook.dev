@@ -1,7 +1,6 @@
 *$py.class
 *.py[cod]
 *.egg-info
-.cache
 *.egg
 *.egg-info
 .idea/
@@ -12,10 +11,10 @@
 .vim/
 .vscode/
 .~*
-requests.db
 
 __pycache__/
 build/
+cache/
 dist/
 downloads/
 test-reports/

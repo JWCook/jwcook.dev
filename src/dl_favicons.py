@@ -10,11 +10,10 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from requests import RequestException, Response
 
-from . import ROOT_DIR, SESSION
+from . import ROOT_DIR, SESSION, ICON_DIR
 
 logger = getLogger(__name__)
 BLOGROLL_PAGE = ROOT_DIR / 'pages' / 'blogroll.md'
-OUTPUT_DIR = ROOT_DIR / 'assets' / 'images' / 'favicons'
 
 
 def download_favicon(url: str) -> Optional[Path]:
@@ -28,7 +27,7 @@ def download_favicon(url: str) -> Optional[Path]:
     if out_file:
         return out_file
 
-    out_file = OUTPUT_DIR / _get_filename(url)
+    out_file = ICON_DIR / _get_filename(url)
     if out_file.exists():
         logger.info(f'Found default favicon for {url}: {out_file}')
         return out_file
@@ -61,7 +60,7 @@ def _download_favicon(url: str) -> Optional[Path]:
     response = SESSION.get(favicon_url)
     response.raise_for_status()
 
-    out_file = OUTPUT_DIR / _get_filename(url, response)
+    out_file = ICON_DIR / _get_filename(url, response)
     with out_file.open('wb') as f:
         f.write(response.content)
     logger.info(f'Favicon for {url} downloaded to {out_file}')

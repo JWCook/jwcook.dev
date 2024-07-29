@@ -9,15 +9,12 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-from . import ROOT_DIR, SESSION
+from . import ROOT_DIR, SESSION, ICON_DIR, CACHE_DIR
 from .dither import dither
 
 logger = getLogger(__name__)
 
 LINKS_PAGE = ROOT_DIR / 'pages' / 'links.md'
-OUTPUT_DIR = ROOT_DIR / 'assets' / 'images' / 'cache'
-OUTPUT_DIR_PROCESSED = ROOT_DIR / 'assets' / 'images' / 'profile_pics'
-OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
 
 def dl_profile_pic(channel_name: str) -> Path:
@@ -36,7 +33,7 @@ def dl_profile_pic(channel_name: str) -> Path:
     image_response = SESSION.get(image_url)
     image_response.raise_for_status()
 
-    out_file = OUTPUT_DIR / f'{channel_name.lower()}.jpg'
+    out_file = CACHE_DIR / f'{channel_name.lower()}.jpg'
     with out_file.open('wb') as f:
         f.write(image_response.content)
         logger.info(f'Downloaded image for {channel_name} to: {out_file}')
@@ -57,4 +54,4 @@ if __name__ == '__main__':
     for channel_name in get_channel_names():
         path = dl_profile_pic(channel_name)
         if path:
-            dither(path, OUTPUT_DIR_PROCESSED, colors=32, width=128)
+            dither(path, ICON_DIR, colors=32, width=128)
