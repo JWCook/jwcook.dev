@@ -80,7 +80,7 @@ into other useful formats.
 * **Inputs:** Its reference implementation is built around the
   [reStructuredText](https://docutils.sourceforge.io/rst.html) (rST) markup language, but it can be extended to work
   with other formats.
-* **Outputs:** We're mainly interested in the HTML output right now, but also supports things like LaTeX and manpages.
+* **Outputs:** We're mainly interested in the HTML output right now, but it also supports things like LaTeX and manpages.
 
 ### Docutils rST conversion example
 Here is a simple example of an rST document:
@@ -93,7 +93,6 @@ This is a *paragraph* of **text** with ``inline markup``.
 
 Code block
 ==========
-
 .. code:: python
 
     def hello(name):
@@ -103,7 +102,6 @@ Code block
 
 Math block
 ==========
-
 .. math::
 
   α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
