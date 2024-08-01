@@ -22,4 +22,6 @@ test-reports/
 pages/tags/
 assets/images/cache/
 node_modules/
+scratch/
+scratch*
 tmp/

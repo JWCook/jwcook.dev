@@ -16,6 +16,7 @@ orphan: true
   * [/succulents](/succulents)
 * [/posts](/posts)
 * [/posts/website-0-intro](/posts/website-0-intro)
+* [/posts/website-1-basics](/posts/website-1-basics)
 * [/tags](/tags)
 * [/guestbook](/guestbook)
 * [/sitemap](/sitemap)
