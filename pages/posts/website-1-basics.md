@@ -1,5 +1,5 @@
 ---
-date: 2024-09-01
+date: 2024-08-16
 ---
 # Website Setup Part 1: Sphinx Building Blocks
 ::::{grid} 1 1 3 3
@@ -8,7 +8,7 @@ date: 2024-09-01
 ```
 :::
 :::{grid-item}
-Posted **2024-09-01**
+Posted **2024-08-16**
 :::
 :::{grid-item}
 :::

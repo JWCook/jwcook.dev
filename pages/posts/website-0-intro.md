@@ -1,5 +1,5 @@
 ---
-date: 2024-08-01
+date: 2024-08-02
 ---
 # Website Setup Part 0: Intro
 
@@ -10,7 +10,7 @@ date: 2024-08-01
 ```
 :::
 :::{grid-item}
-Posted **2024-08-01**
+Posted **2024-08-02**
 :::
 :::{grid-item}
 :::
