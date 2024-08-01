@@ -15,10 +15,13 @@
 __pycache__/
 build/
 cache/
+cache*
 dist/
 downloads/
 test-reports/
 pages/tags/
 assets/images/cache/
 node_modules/
+scratch/
+scratch*
 tmp/

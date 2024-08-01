@@ -6,7 +6,7 @@ date: 2024-08-01
 % TODO: make a custom directive for article header
 ::::{grid} 1 1 3 3
 :::{grid-item}
-```{tags} status:draft, web, ramble
+```{tags} web, ramble
 ```
 :::
 :::{grid-item}
@@ -60,8 +60,9 @@ just hurl some text files onto a web server like a _barbarian_ and then expe-
 
 _Overengineered_, you say‽ \*snort\* Well maybe where you come from, but-
 
-...**Web 1.0** is cool again, you say? You really can just throw a static site together without the insani- \*ahem\* _sophistication_ of modern web development? Okay, I'll bite. Pull up a chair, and I'll put on some tea. Let's hear some more about this.
-
+...**Web 1.0** is cool again, you say? You really can just throw a static site together, and get most of what you want
+without the insani- \*ahem\* _sophistication_ of modern web development?
+Okay, I'll bite. Pull up a chair, and I'll put on some tea. Let's hear some more about this.
 
 ## Let's make a website!
 ![](../../assets/images/construction-2.gif){w=800px}<br/>
@@ -76,19 +77,25 @@ A few months later, and... hmm, is that right? Just a sec.
 ```sh
 git log --reverse --format="format:%aI" --all | head -n 1
 ```
-Wait, ***what***? A year and a half? Well then. A year and a half of occasional tinkering later, and I _think_ I _kind of maybe_ have enough of a site set up to get back to the writing part. At this cadence, my next post can be expected Q1 2026.
+Wait, ***what***? A year and a half? Well then. A year and a half of occasional tinkering later, and I think I've run
+out of excuses to get back to the writing part. At this cadence, my next post can be expected Q1 2026.
 
 ## Blog QC
 ![](../../assets/images/qc.png){.pixelated w=800px}<br/><br/>
 
-It's hard to know what level of blog post effort and quality to aim for. For the sake of just getting something on paper(`.md`), here are a few sanity checks:
+It's hard to know what level of blog post effort and quality to aim for.
+Some fantastic writers and thinkers have inspired me to write in the first place, but using those
+same people as a frame of reference is intimidating.
+I keep throwing away ideas because they don't seem like Good Content™.
+
+For the sake of just getting something on paper(`.md`), here are a few sanity checks:
 * My primary audience is myself!
-* If I eventually reach an audience in the single, _maybe_ low double digits, that would be kinda neato.
+* If I eventually reach a few others with similar interests, that would be kinda neato.
 * ...but I'm deciding right now that I can't let that be my main motivator. I loathe the idea of self-promotion, SEO, and crafting a personal brand.
-* If, say, I write a terrible cringey low-effort post and a bunch of people see it, that's not actually the end of the world.
-* If I pour _oodles_ of thought and effort into an amazing article that I can be truly proud of, and not a single person besides myself sees it, it will probably still be worthwhile.
-* Nobody's forcing me to abide by International Blogging Law. I can get away with posting unfinished scribblings and then editing them incrementally, or not at all.
+* My first attempts probably won't be very good, and I'll just have to be okay with that or I'll never get started.
+* If, say, I write an embarrassingly bad post and a bunch of people somehow see it, that's not actually the end of the world.
+* If I pour _oodles_ of thought and effort into an amazing article that I can be truly proud of, and not a single person besides myself sees it, it would still be worthwhile.
+* Nobody's forcing me to abide by International Blogging Law. I can get away with posting unfinished scribblings and then editing them incrementally, our out of order, or not at all.
 
 ## Up next
-
 Next, I plan to write about how this site is built and some things I've learned along the way. But if you'll excuse me, I think I see some bits over there that need tinkering. I'll be _right_ back, I'm sure.

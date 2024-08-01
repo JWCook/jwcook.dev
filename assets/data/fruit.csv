@@ -1,0 +1,11 @@
+name,color,shape,avg_weight,species
+Apple,Red,Round,150,Malus domestica
+Banana,Yellow,Curved,120,Musa × paradisiaca
+Grapes,Green,Round,50,Vitis vinifera
+Kiwi,Green,Oval,80,Actinidia deliciosa
+Mango,Yellow,Oval,300,Mangifera indica
+Orange,Orange,Round,200,Citrus × sinensis
+Peach,Orange,Round,200,Prunus persica
+Pineapple,Yellow,Oval,1000,Ananas comosus
+Strawberry,Red,Oval,20,Fragaria × ananassa
+Watermelon,Green,Oval,500,Citrullus lanatus

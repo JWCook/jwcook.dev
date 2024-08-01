@@ -1,7 +1,8 @@
 # {fas}`pen-nib` Posts
-There's not much here yet! Check back later.
+
+% TODO: custom toctree glob that sorts by date (from page metadata)
 ```{toctree}
-:glob:
 :maxdepth: 1
-posts/*
+posts/website-0-intro
 ```
+<!-- posts/website-1-basics -->
