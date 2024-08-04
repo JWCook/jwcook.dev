@@ -59,8 +59,9 @@ autosectionlabel_prefix_document = True
 # RSS feed settings
 feed_base_url = BASE_URL
 feed_author = 'jwcook'
-feed_description = 'Personal site of jwcook'
+feed_description = 'jwcook - blog'
 feed_field_name = 'date'
+feed_entry_permalink = True
 
 # Sphinx-tags settings
 tags_create_tags = True

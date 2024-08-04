@@ -19,7 +19,7 @@ dependencies = [
     'sphinx-sitemap>=2.6',
     'sphinx-tippy>=0.4',
     'sphinx-tags @ git+https://github.com/JWCook/sphinx-tags@mods',
-    'sphinxfeed-lsaffre @ git+https://github.com/JWCook/sphinxfeed@master',
+    'sphinxfeed-lsaffre>=0.3.5',
     'sphinxext-opengraph>=0.9',
     'sphinxext-rediraffe>=0.2',
     # Dev tools & script dependencies
