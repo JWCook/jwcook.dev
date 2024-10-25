@@ -1,23 +1,19 @@
 ---
-date: 2024-09-06
+date: 2024-10-01
 ---
 # Website Setup Part 1: Sphinx Building Blocks
 ::::{grid} 1 1 3 3
 :::{grid-item}
-```{tags} status:draft, web, code
+```{tags} web, code
 ```
 :::
 :::{grid-item}
-Posted **2024-09-06**
+Posted **2024-10-01**
 :::
 :::{grid-item}
 :::
 ::::
 % TODO: header image
-
-:::{admonition} {fas}`warning`
-¡Draft!
-:::
 
 For my first few posts here, I'd like to write about the tools used to build this site.
 This won't be a tutorial, since there are plenty of great ones already out there!
