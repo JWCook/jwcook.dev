@@ -7,7 +7,7 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 ## Software
 
 ### General
-* **OS:** Debian + KDE
+* **OS/DE:** Debian + KDE
 * **Backup:** [Duplicati](https://duplicati.com)
 * **Sync:** [Nextcloud](https://nextcloud.com)
 * **LAN fileshare:** [Localsend](https://github.com/localsend/localsend?)
@@ -23,16 +23,19 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * [Nextcloud Notes](https://github.com/nextcloud/notes)
 
 ### CLI
-* **Terminal emulators:** [`kitty`](https://github.com/kovidgoyal/kitty), [`guake`](https://github.com/Guake/guake)
+* **Terminal emulators:** [`wezterm`](https://wezterm.org/features.html), [`guake`](https://github.com/Guake/guake)
 * **Shell:** [`fish`](https://fishshell.com)
-* [`ag`](https://github.com/ggreer/the_silver_searcher): faster `grep`
+* [`atuin`](https://atuin.sh): improved shell history with (self-hostable) sync
 * [`difftastic`](https://github.com/Wilfred/difftastic): syntax-aware diffs
 * [`eza`](https://github.com/eza-community/eza): shinier `ls`
+* [`fd`](https://github.com/sharkdp/fd): `find` but with sane syntax
 * [`fzf`](https://junegunn.github.io/fzf/): fabulous, first-class fuzzy finder
 * [`just`](https://github.com/casey/just): like `make`, but less compiling and more task-running
 * [`harlequin`](https://github.com/tconbeer/harlequin): SQL TUI
+* [`llm`](https://github.com/simonw/llm): CLI for interacting with LLMs
 * [`mosh`](https://github.com/mobile-shell/mosh): SSH with some modern niceties
 * [`ranger`](https://github.com/ranger/ranger): file browser TUI
+* [`ripgrep`](https://github.com/BurntSushi/ripgrep): faster `grep`
 * [`rsync`](https://github.com/RsyncProject/rsync): What you wish `cp -R` was
 * [`tig`](https://github.com/jonas/tig): git TUI
 * [`tmux`](https://github.com/tmux/tmux/wiki): more terminal per terminal!
@@ -52,6 +55,7 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 ### Dev tools
 * pre-commit
 * nox
+* uv
 * ...
 -->
 
