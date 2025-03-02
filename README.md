@@ -11,12 +11,28 @@ Markdown-based static site generated with [Sphinx](docs.readthedocs.io) and [MyS
 ## Setup
 Prerequisites:
 * python 3.10+
+* [`uv`](https://docs.astral.sh/uv/getting-started/installation)
 * [`just`](https://github.com/casey/just#packages)
 * [`npm`](https://docs.npmjs.com/cli/v10/configuring-npm/install)
 
+<details>
+<summary>Quick install</summary>
+```sh
+# Install uv, python, and just
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv python install 3.13
+uv tool install rust-just
+
+# Install node, nvm and npm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+source $HOME/.nvm/nvm.sh
+nvm install 22
+```
+</details>
+
 Install dependencies:
-```bash
-pip install -Ue "."
+```sh
+uv sync --frozen
 npm install
 ```
 

@@ -6,7 +6,7 @@ dependencies = [
     # Core dependencies
     'sphinx~=7.4',
     'sphinx-design>=0.6',
-    'furo~=2024.5',
+    'furo~=2024.8',
     'myst-parser~=3.0',
     # Site features
     'linkify-it-py>=2.0',

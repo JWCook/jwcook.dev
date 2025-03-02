@@ -19,11 +19,11 @@ clean:
 
 # Build documentation
 build:
-    sphinx-build -v --doctree-dir {{BUILD_DIR}}/doctrees {{SOURCE_DIR}} {{BUILD_DIR}}/html
+    uv run sphinx-build -v --doctree-dir {{BUILD_DIR}}/doctrees {{SOURCE_DIR}} {{BUILD_DIR}}/html
 
 # Run linters
 lint:
-    -pre-commit run --all
+    -uv run pre-commit run --all
 
 # Check for broken links
 linkcheck:
@@ -32,7 +32,7 @@ linkcheck:
 # Serve site with live reloading
 live:
     just clean
-    sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}}/html \
+    uv run sphinx-autobuild {{SOURCE_DIR}} {{BUILD_DIR}}/html \
         --doctree-dir {{BUILD_DIR}}/doctrees \
         --watch assets \
         --watch templates \
