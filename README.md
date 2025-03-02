@@ -17,6 +17,7 @@ Prerequisites:
 
 <details>
 <summary>Quick install</summary>
+
 ```sh
 # Install uv, python, and just
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -28,6 +29,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 source $HOME/.nvm/nvm.sh
 nvm install 22
 ```
+
 </details>
 
 Install dependencies:
