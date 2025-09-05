@@ -1,12 +1,12 @@
 [project]
 name = 'jwcook.dev'
-requires-python = '>=3.10'
-version = "0.1.0"
+requires-python = '>=3.13'
+version = '0.1.0'
 dependencies = [
     # Core dependencies
     'sphinx~=7.4',
     'sphinx-design>=0.6',
-    'furo~=2024.8',
+    'furo~=2025.7',
     'myst-parser~=3.0',
     # Site features
     'linkify-it-py>=2.0',
@@ -39,7 +39,7 @@ fix = true
 unsafe-fixes = true
 line-length = 100
 output-format = 'grouped'
-target-version = 'py310'
+target-version = 'py313'
 
 [tool.ruff.format]
 quote-style = 'single'
@@ -50,3 +50,7 @@ select = ['B', 'C4', 'E', 'F']
 # Wrap lines to 100 chars, but don't error on unwrappable lines until 120 chars
 [tool.ruff.lint.pycodestyle]
 max-line-length = 120
+
+[tool.typos]
+default.extend-ignore-identifiers-re = ['^[[:alpha:]]\-*']
+files.extend-exclude = ['pages/lorem-ipsum.md']

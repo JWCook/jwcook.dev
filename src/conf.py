@@ -72,7 +72,7 @@ tags_output_dir = 'tags'
 tags_overview_title = '{fas}`tags` Tags'
 tags_page_title = '{fas}`tag`'
 tags_page_header = 'Pages with this tag'
-tags_create_badges = True
+# tags_create_badges = True
 # Reference: https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html
 tags_badge_colors = {
     'python': 'primary',

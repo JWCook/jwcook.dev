@@ -11,7 +11,7 @@ This is just for reference, in addition to any attributions required by the orig
 * "Torn paper" photo by [David Maier on Unsplash]( https://unsplash.com/photos/nSHEKTHRm0U)
 * "Silver laptop" photo by [Dell on Unsplash](https://unsplash.com/photos/uWFFw7leQNI)
 * Cat ASCII art by Blazej Kozlowski
-* "suprised cat meme" - unknown origin
+* "surprised cat meme" - unknown origin
   * The oldest repost I could find was [posted in 2014](https://www.flickr.com/photos/54125007@N08/15634745431)
 * AMI BIOS POST from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:POST_P5KPL.jpg) - public domain
 * "Under construction" gif by Rose@wanderers.com
