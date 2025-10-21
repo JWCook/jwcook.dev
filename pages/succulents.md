@@ -4,7 +4,7 @@
 ```
 
 One of my interests is gardening, particularly cactus and succulents plants.
-I participate in the [Cactus and Succulent Society](https://cactusandsucculentsociety.org), and grow
+I participate in a local [Cactus & Succulent Society](https://micss.org), and grow
 and photograph some plants in a small indoor garden.
 
 <br /><br />
