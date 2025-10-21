@@ -46,7 +46,7 @@ live:
 publish:
     PUBLISH_ENV='prod' just clean build
     wrangler whoami | grep -q 'not authenticated' && wrangler login || echo "✅ Logged in"
-    wrangler pages deploy {{BUILD_DIR}}/html/
+    wrangler pages deploy --project-name jwcook {{BUILD_DIR}}/html/
 
 # Publish site to tilde.team
 publish-tilde:
