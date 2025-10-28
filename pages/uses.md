@@ -7,11 +7,11 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 ## Software
 
 ### General
-* **OS/DE:** Debian + KDE
-* **Backup:** [Duplicati](https://duplicati.com)
+* **OS/DE:** [EndeavourOS](https://endeavouros.com) + KDE
+* **Backup:** [Duplicati](https://duplicati.com), [Kopia](https://github.com/kopia/kopia)
 * **Sync:** [Nextcloud](https://nextcloud.com)
-* **LAN fileshare:** [Localsend](https://github.com/localsend/localsend?)
-* **Browser:** [Vivaldi](https://vivaldi.com), [LibreWolf](https://librewolf.net), [Lagrange](https://github.com/skyjake/lagrange)
+* **LAN fileshare:** [Localsend](https://github.com/localsend/localsend)
+* **Browser:** [LibreWolf](https://librewolf.net), [Lagrange](https://github.com/skyjake/lagrange)
 * **Password manager:** [KeepassXC](https://keepassxc.org)
 * **Task management:** [Vikunja](https://vikunja.io)
 * **Wiki:** [WikiJS](https://js.wiki)
@@ -34,11 +34,11 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * [`harlequin`](https://github.com/tconbeer/harlequin): SQL TUI
 * [`llm`](https://github.com/simonw/llm): CLI for interacting with LLMs
 * [`mosh`](https://github.com/mobile-shell/mosh): SSH with some modern niceties
-* [`ranger`](https://github.com/ranger/ranger): file browser TUI
 * [`ripgrep`](https://github.com/BurntSushi/ripgrep): faster `grep`
-* [`rsync`](https://github.com/RsyncProject/rsync): What you wish `cp -R` was
+* [`rsync`](https://github.com/RsyncProject/rsync): What you wish `cp -R` / `scp` were
 * [`tig`](https://github.com/jonas/tig): git TUI
 * [`tmux`](https://github.com/tmux/tmux/wiki): more terminal per terminal!
+* [`yazi`](https://github.com/sxyazi/yazi): file browser/manager TUI
 * [`zoxide`](https://github.com/ajeetdsouza/zoxide): smarter `cd`
 
 ### Python libraries & frameworks
@@ -71,6 +71,7 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 For static sites and smaller-scale projects:
 * [Sphinx](https://www.sphinx-doc.org) + [MyST](https://myst-parser.readthedocs.io)
 * Plain old HTML + CSS + JS
+* [Eleventy](https://www.11ty.dev)
 * [litestar](https://github.com/litestar-org/litestar)
 * [htmx](https://htmx.org)
 

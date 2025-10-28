@@ -39,6 +39,7 @@ live:
         --watch src/conf.py \
         --ignore '*.tmp' \
         --ignore '**/tags/*' \
+        --host '0.0.0.0' \
         --port {{LIVE_PORT}} \
         -v
 

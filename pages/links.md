@@ -17,33 +17,7 @@ Small web search engines and directories:
 * [Cloudhiker](https://cloudhiker.net)
 * [Sharkle](https://sharkle.com)
 
-## {fas}`video` Content creators
-
-### {fab}`twitch` Superbly talented and criminally underappreciated streamers
-::::{grid} 1 2 2 2
-:gutter: 2
-
-:::{profile-card} Cartoon Mess Live
-:tw-channel: tomthinks
-Unique combination of live animation, art, improv, music, digital puppetry, and talk show
-:::
-
-:::{profile-card} julieee22
-:tw-channel: julieee22
-Cozy art and talk show presented via live animated characters and environments
-:::
-
-:::{profile-card} OpenSet
-:tw-channel: openset
-Microscopy, live/improvised music, art, science, and pretty math
-:::
-
-:::{profile-card} SharpBalloons
-:tw-channel: sharpballoons
-Fun, high-energy art show mainly in the medium of balloons
-:::
-
-::::
+## {fas}`video` Video channels
 
 ### {fas}`frog` Science: Nature
 ::::{grid} 1 2 2 2
@@ -129,7 +103,7 @@ Broad range of science and engineering topics
 Software development, home networking, and retro computing
 :::
 
-:::{profile-card} Programmers are also human
+:::{profile-card} Kai Lentit
 :yt-channel: programmersarealsohuman5909
 Completely normal interviews with the greatest minds in software
 :::
@@ -298,6 +272,32 @@ Travel and cultural documentaries with a focus on lesser-known communities
 :::{profile-card} Solo Solo Travel
 :yt-channel: SoloSoloTravel
 Non-narrated travel vlogs exploring Japan by train, bus, and boat
+:::
+
+::::
+
+### {fab}`twitch` Superbly talented and criminally underappreciated streamers
+::::{grid} 1 2 2 2
+:gutter: 2
+
+:::{profile-card} Cartoon Mess Live
+:tw-channel: tomthinks
+Unique combination of live animation, art, improv, music, digital puppetry, and talk show
+:::
+
+:::{profile-card} julieee22
+:tw-channel: julieee22
+Cozy art and talk show presented via live animated characters and environments
+:::
+
+:::{profile-card} OpenSet
+:tw-channel: openset
+Microscopy, live/improvised music, art, science, and pretty math
+:::
+
+:::{profile-card} SharpBalloons
+:tw-channel: sharpballoons
+Fun, high-energy art show mainly in the medium of balloons
 :::
 
 ::::
