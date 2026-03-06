@@ -129,8 +129,7 @@ rediraffe_redirects = {
 
 # HTML tidy settings
 tidy_options = {
-    # 'escape-cdata': True,
-    # 'output-xhtml': True,
+    'doctype': 'html5',
     'vertical-space': True,
     'wrap-attributes': True,
     'wrap': 100,
