@@ -130,6 +130,13 @@ rediraffe_redirects = {
 # HTML tidy settings
 tidy_options = {
     'doctype': 'html5',
+    'output-html': True,
+    'indent': True,
+    'indent-spaces': 2,
+    'newline': 'LF',
+    'drop-empty-elements': False,
+    'quiet': True,
+    'show-warnings': False,
     'vertical-space': True,
     'wrap-attributes': True,
     'wrap': 100,
