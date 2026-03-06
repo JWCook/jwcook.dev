@@ -20,7 +20,6 @@ Here are some favorite tools I use on a regular basis! I love tools of all kinds
 * [Neovim](https://neovim.io)
 * [Sublime Text](https://www.sublimetext.com)
 * [Obsidian](https://obsidian.md)
-* [Nextcloud Notes](https://github.com/nextcloud/notes)
 
 ### CLI
 * **Terminal emulators:** [`wezterm`](https://wezterm.org/features.html), [`guake`](https://github.com/Guake/guake)
@@ -73,7 +72,6 @@ For static sites and smaller-scale projects:
 * Plain old HTML + CSS + JS
 * [Eleventy](https://www.11ty.dev)
 * [litestar](https://github.com/litestar-org/litestar)
-* [htmx](https://htmx.org)
 
 ### Media
 * [GIMP](https://www.gimp.org)
