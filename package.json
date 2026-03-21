@@ -3,6 +3,6 @@
     "version": "0.0.1",
     "author": "Jordan Cook",
     "devDependencies": {
-        "wrangler": "^3.65.0"
+        "wrangler": "^4.76.0"
     }
 }
